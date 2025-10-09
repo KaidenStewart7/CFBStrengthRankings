@@ -1,0 +1,21 @@
+CREATE TABLE CONFERENCE
+(   Name     VARCHAR(50) NOT NULL,
+    PRIMARY KEY(Name));
+
+CREATE TABLE TEAM
+(   Name    VARCHAR(50) NOT NULL,
+    Conference  VARCHAR(50)  NOT NULL,
+    Team_Composite_Rating   VARCHAR(50) NOT NULL,
+    PRIMARY KEY(Name),
+    FOREIGN KEY (Conference) REFERENCES CONFERENCE(Name));
+
+CREATE TABLE GAME
+(   Week    INT NOT NULL,
+    Home_Team   VARCHAR(50) NOT NULL,
+    Away_Team   VARCHAR(50) NOT NULL,
+    Neutral_Flag    BOOLEAN NOT NULL,
+    Home_Score  INT NOT NULL,
+    Away_Score  INT NOT NULL,
+    PRIMARY KEY(Week, Home_Team, Away_Team),
+    FOREIGN KEY(Home_Team) REFERENCES TEAM(Name),
+    FOREIGN KEY(Away_Team) REFERENCES TEAM(Name));
