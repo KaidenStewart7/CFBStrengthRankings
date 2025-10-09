@@ -5,7 +5,7 @@ CREATE TABLE CONFERENCE
 CREATE TABLE TEAM
 (   Name    VARCHAR(50) NOT NULL,
     Conference  VARCHAR(50)  NOT NULL,
-    Team_Composite_Rating   VARCHAR(50) NOT NULL,
+    Team_Composite_Rating   DECIMAL NOT NULL,
     PRIMARY KEY(Name),
     FOREIGN KEY (Conference) REFERENCES CONFERENCE(Name));
 
