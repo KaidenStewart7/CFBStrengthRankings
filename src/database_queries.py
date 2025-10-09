@@ -26,19 +26,25 @@ class DatabaseQueries:
         connection.commit()
         connection.close()
 
-    # # Method to insert teams into the database from the teams_list.txt file
-    # def insert_teams(self):
-    #     connection = sqlite3.connect(db_path)
-    #     cursor = connection.cursor()
+    # Method to insert teams into the database from the teams_list.txt file
+    def insert_teams(self):
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
 
-    #     with open(team_list_path, "r") as file:
-    #         for line in file:
-    #             school = "hi:"
+        with open(team_list_path, "r") as file:
+            for line in file:
+                split_line = line.strip().split(",")
+                team_name = split_line[0]
+                conference_name = split_line[1]
+                talent_rating = split_line[2]
+
+                cursor.execute("INSERT INTO TEAM(Name, Conference, Team_Composite_Rating) VALUES (?, ?, ?)", (team_name, conference_name, talent_rating))
+            
+            connection.commit()
+            connection.close()
         
-def main():
-    db = DatabaseQueries()
-    db.insert_conferences()
+# def main():
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
         
