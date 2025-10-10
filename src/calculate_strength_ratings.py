@@ -157,7 +157,12 @@ class CalculateStrengthRatings:
             resume_rating = self.get_team_resume_rating(row.Win_Pct, row.Conf_Win_Pct, row.Point_Diff_Standardized, self.conferences.loc[self.conferences['Name'] == row.Conference, 'OOC_Win_Pct_Standardized'].values[0], row.Conf_Games)
             self.teams.loc[self.teams['Name'] == row.Name, 'Resume_Rating'] = resume_rating
             standardized_comp = row.Team_Composite_Rating_Standardized
-            strength_rating = resume_rating * self.log_factor(row.Games, 13) + standardized_comp * (1 - self.log_factor(row.Games, 13))
+
+            # Checks if game threshold is met before calculating strength rating
+            if row.Games < 12:
+                strength_rating = resume_rating * self.log_factor(row.Games, 13) + standardized_comp * (1 - self.log_factor(row.Games, 13))
+            else: 
+                strength_rating = resume_rating
             self.teams.loc[self.teams['Name'] == row.Name, 'Strength_Rating'] = strength_rating
 
     # Order teams by strength rating
