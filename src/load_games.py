@@ -2,7 +2,7 @@ from fetch_api_data import FetchApiData
 from database_queries import DatabaseQueries
 
 # Week to load games of
-WEEK = 2
+WEEK = 3
 
 # This Class will load games from the College Football Data API into the database
 class Load_Games:
