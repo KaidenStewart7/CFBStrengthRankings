@@ -52,4 +52,47 @@ class DatabaseQueries:
 
         connection.commit()
         connection.close()
+
+    # Method to select all conferences from the database 
+    def select_conferences(self):
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT Name FROM CONFERENCE")
+        conferences = cursor.fetchall()
+
+        connection.close()
+        return conferences
+    
+    # Method to select all teams from the database
+    def select_teams(self):
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT * FROM TEAM")
+        teams = cursor.fetchall()
+
+        connection.close()
+        return teams
+    
+    # Method to select all games from the database
+    def select_games(self):
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT * FROM GAME")
+        games = cursor.fetchall()
+
+        connection.close()
+        return games
+
+
+def main():
+    db_queries = DatabaseQueries()
+    teams = db_queries.select_games()
+    print(teams)
+
+if __name__ == "__main__":
+    main()
+        
         
