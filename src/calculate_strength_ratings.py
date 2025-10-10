@@ -6,7 +6,7 @@ import os
 # Current Year
 YEAR = 2025
 # Week Number for the strength ratings
-WEEK = 2
+WEEK = 3
 
 # Class to interact with the database
 # Get path to the current script
@@ -190,6 +190,7 @@ def main():
     calc.calculate_strength_rating()
     calc.order_teams_by_strength_rating()
     calc.print_strength_ratings()
+
 
 if __name__ == "__main__":
     main()
