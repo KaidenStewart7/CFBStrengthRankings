@@ -8,7 +8,7 @@ WEEK = 1
 class Load_Games:
     def import_games(self):
         api_data = FetchApiData()
-        games = api_data.fetch_games(1)
+        games = api_data.fetch_games(WEEK)
 
         if games is None:
             print("No games data fetched.")
