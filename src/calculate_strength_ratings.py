@@ -6,7 +6,7 @@ import os
 # Current Year
 YEAR = 2025
 # Week Number for the strength ratings
-WEEK = 5
+WEEK = 6
 
 # Class to interact with the database
 # Get path to the current script
