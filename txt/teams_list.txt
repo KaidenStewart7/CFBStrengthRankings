@@ -1,0 +1,136 @@
+Air Force,Mountain West,0
+Akron,Mid-American,537.21
+Alabama,SEC,993.55
+App State,Sun Belt,611.31
+Arizona,Big 12,651.62
+Arizona State,Big 12,738.52
+Arkansas,SEC,772.64
+Arkansas State,Sun Belt,591.27
+Army,American Athletic,23.66
+Auburn,SEC,891.84
+Ball State,Mid-American,493.5
+Baylor,Big 12,726.3
+Boise State,Mountain West,610.65
+Boston College,ACC,650.12
+Bowling Green,Mid-American,527.31
+Buffalo,Mid-American,513.33
+BYU,Big 12,649.36
+California,ACC,726.21
+Central Michigan,Mid-American,481.16
+Charlotte,American Athletic,526.30
+Cincinnati,Big 12,644.10
+Clemson,ACC,918.43
+Coastal Carolina,Sun Belt,610.88
+Colorado,Big 12,755.20
+Colorado State,Mountain West,583.71
+Delaware,Conference USA,242.85
+Duke,ACC,669.18
+East Carolina,American Athletic,611.55
+Eastern Michigan,Mid-American,572.90
+Florida,SEC,898.58
+Florida Atlantic,American Athletic,605.22
+Florida International,Conference USA,562.61
+Florida State,ACC,828.45
+Fresno State,Mountain West,586.84
+Georgia,SEC,1002.98
+Georgia Southern,Sun Belt,574.48
+Georgia State,Sun Belt,611.97
+Georgia Tech,ACC,715.56
+Hawai'i,Mountain West,481.20
+Houston,Big 12,656.74
+Illinois,Big Ten,662.13
+Indiana,Big Ten,645.34
+Iowa,Big Ten,710.00
+Iowa State,Big 12,648.93
+Jacksonville State,Conference USA,519.93
+James Madison,Sun Belt,459.53
+Kansas,Big 12,705.32
+Kansas State,Big 12,705.85
+Kennesaw State,Conference USA,338.87
+Kent State,Mid-American,456.24
+Kentucky,SEC,763.18
+Liberty,Conference USA,599.12
+Louisiana,Sun Belt,585.82
+Louisiana Tech,Conference USA,493.50
+Louisville,ACC,700.77
+LSU,SEC,920.05
+Marshall,Sun Belt,590.64
+Maryland,Big Ten,699.31
+Massachusetts,Mid-American,488.73
+Memphis,American Athletic,668.63
+Miami,ACC,874.57
+Miami (OH),Mid-American,592.10
+Michigan,Big Ten,907.22
+Michigan State,Big Ten,717.42
+Middle Tennessee,Conference USA,520.55
+Minnesota,Big Ten,711.04
+Mississippi State,SEC,770.48
+Missouri,SEC,804.77
+Missouri State,Conference USA,426.10
+Navy,American Athletic,0
+NC State,ACC,707.51
+Nebraska,Big Ten,821.39
+Nevada,Mountain West,488.69
+New Mexico,Mountain West,378.80
+New Mexico State,Conference USA,402.90
+North Carolina,ACC,753.20
+Northern Illinois,Mid-American,471.01
+North Texas,American Athletic,569.15
+Northwestern,Big Ten,677.97
+Notre Dame,ACC,912.11
+Ohio,Mid-American,469.99
+Ohio State,Big Ten,973.69
+Oklahoma,SEC,882.59
+Oklahoma State,Big 12,702.74
+Old Dominion,Sun Belt,477.45
+Ole Miss,SEC,813.11
+Oregon,Big Ten,941.22
+Oregon State,Mountain West,667.99
+Penn State,Big Ten,910.42
+Pittsburgh,ACC,681.21
+Purdue,Big Ten,687.74
+Rice,American Athletic,530.06
+Rutgers,Big Ten,689.22
+Sam Houston,Conference USA,477.35
+San Diego State,Mountain West,594.27
+San José State,Mountain West,522.91
+SMU,ACC,766.67
+South Alabama,Sun Belt,544.87
+South Carolina,SEC,833.26
+Southern Miss,Sun Belt,602.53
+South Florida,American Athletic,666.89
+Stanford,ACC,707.27
+Syracuse,ACC,727.83
+TCU,Big 12,745.01
+Temple,American Athletic,507.91
+Tennessee,SEC,866.57
+Texas,SEC,973.54
+Texas A&M,SEC,917.29
+Texas State,Sun Belt,612.16
+Texas Tech,Big 12,757.49
+Toledo,Mid-American,620.13
+Troy,Sun Belt,561.87
+Tulane,American Athletic,650.87
+Tulsa,American Athletic,594.78
+UAB,American Athletic,540.93
+UCF,Big 12,709.99
+UCLA,Big Ten,766.62
+UConn,American Athletic,568.12
+UL Monroe,Sun Belt,473.34
+UNLV,Mountain West,700.54
+USC,Big Ten,847.53
+Utah,Big 12,707.86
+Utah State,Mountain West,503.59
+UTEP,Conference USA,551.88
+UTSA,American Athletic,662.09
+Vanderbilt,SEC,685.42
+Virginia,ACC,666.74
+Virginia Tech,ACC,712.19
+Wake Forest,ACC,627.16
+Washington,Big Ten,720.56
+Washington State,Mountain West,569.46
+Western Kentucky,Conference USA,561.36
+Western Michigan,Mid-American,534.35
+West Virginia,Big 12,662.33
+Wisconsin,Big Ten,763.17
+Wyoming,Mountain West,489.33
