@@ -2,6 +2,9 @@ import requests
 import os
 from dotenv import load_dotenv
 
+# Current Year
+CURRENT_YEAR = 2025
+
 #Load variables from .env file
 load_dotenv()
 
@@ -25,7 +28,7 @@ class FetchApiData:
     # Fetches all the games for the given week from the College Football Data API
     # Returns the JSON of the response
     def fetch_games(self, week):
-        url = "https://api.collegefootballdata.com/games?year=2025&week=" + str(week)
+        url = f"https://api.collegefootballdata.com/games?year={CURRENT_YEAR}&week=" + str(week)
         try: 
             response = requests.get(url, headers=headers)
             return response.json()
