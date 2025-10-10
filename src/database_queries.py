@@ -42,9 +42,14 @@ class DatabaseQueries:
             
             connection.commit()
             connection.close()
-        
-# def main():
 
-# if __name__ == "__main__":
-#     main()
+    # Method to insert a game into the database
+    def insert_game(self, week, home_team, away_team, neutral_flag, home_score, away_score):
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
+
+        cursor.execute("INSERT INTO GAME(Week, Home_Team, Away_Team, Neutral_Flag, Home_Score, Away_Score) VALUES (?, ?, ?, ?, ?, ?)", (week, home_team, away_team, neutral_flag, home_score, away_score))
+
+        connection.commit()
+        connection.close()
         
