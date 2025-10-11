@@ -54,7 +54,7 @@ class CreateHTML():
             file.write("        <div>\n")
             week_count = WEEK
             while week_count > 0:
-                week_path = f"week{week_count}.html"
+                week_path = f"{YEAR}week{week_count}.html"
                 file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
                 week_count -= 1
             file.write("        </div>\n")
@@ -64,7 +64,7 @@ class CreateHTML():
     # method to print the weekly files
     def print_weekly_files(self):
         week_count = WEEK
-        week_path = os.path.join(base_dir, "..", "doc", f"week{week_count}.html")
+        week_path = os.path.join(base_dir, "..", "doc", f"{YEAR}week{week_count}.html")
         with open(week_path, "w") as file:
             file.write("<!DOCTYPE html>\n")
             file.write("<html lang=\"en\">\n")
