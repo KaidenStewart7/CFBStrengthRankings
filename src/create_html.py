@@ -104,10 +104,9 @@ class CreateHTML():
         self.print_weekly_files()
 
 
-
+# Scripts to create the HTML files
 def main():
     html = CreateHTML()
-    html.initialize()
     html.print_HTML_files()
 
 if __name__ == "__main__":
