@@ -11,8 +11,8 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 # Construct the path to txt/teams_list.txt (relative to project root)
 strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
 
-# Construct the path to doc/index.html (relative to project root)
-index_path = os.path.join(base_dir, "..", "doc", "index.html")
+# Construct the path to docs/index.html (relative to project root)
+index_path = os.path.join(base_dir, "..", "docs", "index.html")
 
 # Class to create HTML output
 class CreateHTML():
@@ -64,7 +64,7 @@ class CreateHTML():
     # method to print the weekly files
     def print_weekly_files(self):
         week_count = WEEK
-        week_path = os.path.join(base_dir, "..", "doc", f"{YEAR}week{week_count}.html")
+        week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}week{week_count}.html")
         with open(week_path, "w") as file:
             file.write("<!DOCTYPE html>\n")
             file.write("<html lang=\"en\">\n")
