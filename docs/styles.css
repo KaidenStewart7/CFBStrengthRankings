@@ -63,9 +63,9 @@ ul {
 
 div{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2 fr;
     justify-content: center;
-    gap: 50px;
+    gap: 25px;
 }
 
 div p{
