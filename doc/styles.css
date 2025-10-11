@@ -1,0 +1,81 @@
+body {
+    background-color: lightgrey;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ol, ul{
+    width: max-content;
+    margin: auto;
+}
+
+a{
+    color: inherit;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px;
+}
+
+.ranking{
+    padding: auto 20px;
+}
+
+.team{
+    font-weight: bold;
+    font-style: italic;
+    padding: auto 20px;
+}
+
+.rating{
+    padding: auto 20px;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+
+
+ol li{
+    display: flex;
+    justify-content: space-between;
+}
+
+li:nth-child(2n - 1) {
+    background-color: lightcoral;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div p{
+    border-radius: 10px;
+    background-color: lightcoral;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    transition: transform 0.2s;
+
+}
+
+div p:hover {
+    background-color: yellow;
+}
