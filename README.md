@@ -1,1 +1,1 @@
-# CFBStregnthRankings
+# CFBStrengthRankings

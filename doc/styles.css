@@ -24,29 +24,33 @@ p{
 }
 
 .ranking{
-    padding: auto 20px;
+    padding: auto 200px;
 }
 
 .team{
     font-weight: bold;
     font-style: italic;
-    padding: auto 20px;
+    padding: auto 200px;
 }
 
 .rating{
-    padding: auto 20px;
+    padding: auto 200px;
 }
 
-li {
+ol li {
     font-size: 20px;
     padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 
 ol li{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     justify-content: space-between;
+    
 }
 
 li:nth-child(2n - 1) {
