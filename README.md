@@ -9,9 +9,8 @@
  - Used pandas dataframes to calculate and orginize the data needed to calculate the final strength ratings.
  - Created website by using HTML and CSS to display the weekly strength rankings.
 
- ## To Update Webpaage
+ ## To Update Webpage
  - For each file make sure the year and week are updated at the top of each file.
  - First, run the load_games.py file to load the latest games into the database.
  - Then, run the calculate_strength_ratings.py file to calculate the strength ratings.
  - Finally, run the create_html.py to generate the html.
- 
