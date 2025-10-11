@@ -48,7 +48,7 @@ class CreateHTML():
             file.write("    <body>\n")
             file.write("        <h1>College Football Strength Rankings</h1>\n")
             file.write("        <p>\n")
-            file.write("            Below you can find the weekly top 25 college football teams according to their strength rankings. These are power rankings that take into account team performance, conference strength, and the talent of the team determined by their <a href=\"https://247sports.com/season/2025-football/collegeteamtalentcomposite/\"> 247 Sports Talent Composite Ranking</a>. Each week, new rankings will be added. Early in the season, the main factor weighting the strength ratings will be their talent rating; however, as the season progresses and more games are played, each team’s rankings will factor in their \"resume rating\" more than their talent rating. Eventually, after each team plays 12 games against FBS opponents, their strength rating will be comprised only of their resume rating. A team's resume rating factors in their performance as well as the strength of their conference they are in. \n")
+            file.write("            Below you can find the weekly top 25 college football teams according to their strength rankings. These are power rankings that take into account team performance, conference strength, and the talent of the team determined by their <a href=\"https://247sports.com/season/2025-football/collegeteamtalentcomposite/\"> 247 Sports Talent Composite Ranking</a>. Each week, new rankings will be added. Early in the season, the main factor weighting the strength ratings will be their talent rating; however, as the season progresses and more games are played, each team’s rankings will factor in their \"resume rating\" more than their talent rating. Eventually, after each team plays 12 games against FBS opponents, their strength rating will be comprised only of their resume rating. A team's resume rating factors in their performance as well as the strength of the conference they are in. \n")
             file.write("        </p>\n")
             file.write("        <h2> Top 25 Rankings </h2>\n")
             file.write("        <div>\n")
@@ -107,6 +107,7 @@ class CreateHTML():
 # Scripts to create the HTML files
 def main():
     html = CreateHTML()
+    html.initialize()
     html.print_HTML_files()
 
 if __name__ == "__main__":
