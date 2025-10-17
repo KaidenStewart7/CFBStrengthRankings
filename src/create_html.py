@@ -24,17 +24,15 @@ class CreateHTML():
         with open(strength_ratings_path, "r") as file:
             count = 0
             lines = file.readlines()
+            count = 0
             for line in lines:
-                if count != 0:
-                    if count > 30:
-                        break
-                    else:
-                        count += 1
+                if count > 0:
+                    ranking = line[0:line.index(".")]
                     name = line[line.index(".") + 2:line.index(":")]
-                    rating = line[line.index(":") + 2:len(line) - 1]
-                    self.teams.append({"Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4))})
+                    rating = line[line.index(":") + 2:line.rfind('(') - 1]
+                    self.teams.append({"Ranking": ranking, "Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4))})
                 else:
-                    count += 1
+                    count+=1
 
     def print_index_file(self):
         with open(index_path, "w") as file:
@@ -76,15 +74,11 @@ class CreateHTML():
             file.write("    <body>\n")
             file.write(f"        <h1>College Football Strength Rankings - Week {week_count}</h1>\n")
             file.write("        <ol>\n")
-            count = 0
-            while count < 25:
-                team = self.teams[count]
-                file.write(f"            <li><span class=\"ranking\">{count + 1}.</span><span class=\"team\">{team['Name']}</span> <span class=\"rating\">{team['Rating']}</span></li>\n")
-                count += 1
+            file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span></li>\n")
+            for row in self.teams:
+                file.write(f"            <li><span class=\"ranking\">{row['Ranking']}.</span><span class=\"team\">{row['Name']}</span> <span class=\"rating\">{row['Rating']}</span></li>\n")
+                
             file.write("        </ol>\n")
-            file.write("        <p>\n")
-            file.write(f"           Next 5 Teams: {self.teams[count]['Name']}, {self.teams[count + 1]['Name']}, {self.teams[count + 2]['Name']}, {self.teams[count + 3]['Name']}, {self.teams[count + 4]['Name']}\n")
-            file.write("        </p>\n")
             file.write("        <p>\n")
             file.write("            <a href=\"index.html\">Back to Home Page</a>\n")
             file.write("        </p>\n")

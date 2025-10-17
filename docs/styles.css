@@ -23,6 +23,11 @@ p{
     margin: 50px;
 }
 
+.header{
+    padding: auto 200px;
+    font-weight: bold;
+}
+
 .ranking{
     padding: auto 200px;
 }
