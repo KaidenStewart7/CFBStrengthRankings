@@ -25,10 +25,10 @@ class CalculateStrengthRatings:
             self.conferences.loc[len(self.conferences)] = [conference[0], 0, 0, 0.0, 0.0]
 
         # Creates teams data frame
-        self.teams = pd.DataFrame(columns=['Name', 'Conference', 'Team_Composite_Rating', 'Team_Composite_Rating_Standardized', 'Wins', 'Games', 'Win_Pct', 'Conf_Wins', 'Conf_Games', 'Conf_Win_Pct', 'Point_Diff', 'Point_Diff_Standardized', 'Resume_Rating', 'Strength_Rating'])
+        self.teams = pd.DataFrame(columns=['Name', 'Conference', 'Team_Composite_Rating', 'Team_Composite_Rating_Standardized', 'Wins', 'Games', 'Win_Pct', 'Conf_Wins', 'Conf_Games', 'Conf_Win_Pct', 'Point_Diff', 'Point_Diff_Standardized', 'Resume_Rating', 'Strength_Rating', 'Ranking', 'Home_Wins', 'Home_Losses', 'Neutral_Wins', 'Neutral_Losses', 'Away_Wins', 'Away_Losses', 'Quad1_Wins', 'Quad1_Losses', 'Quad2_Wins', 'Quad2_Losses', 'Quad3_Wins', 'Quad3_Losses', 'Quad4_Wins', 'Quad4_Losses'])
         teams = db().select_teams()
         for team in teams:
-            self.teams.loc[len(self.teams)] = [team[0], team[1], float(team[2]), 0, 0, 0, 0.0, 0, 0, 0.0, 0, 0.0, 0.0, 0.0]
+            self.teams.loc[len(self.teams)] = [team[0], team[1], float(team[2]), 0, 0, 0, 0.0, 0, 0, 0.0, 0, 0.0, 0.0, 0.0, 0, [], [], [], [], [], [], 0, 0, 0, 0, 0, 0, 0, 0]
 
     # Method to standardize the composite rating
     def standardize_composite_rating(self):
@@ -60,7 +60,7 @@ class CalculateStrengthRatings:
             self.teams.loc[self.teams['Name'] == away_team, 'Conf_Wins'] += 1
 
     # Method to update team totals
-    def update_team_totals(self, home_team, away_team, home_score, away_score):
+    def update_team_totals(self, home_team, away_team, home_score, away_score, neutral_flag):
         # Update games played
         self.teams.loc[self.teams['Name'] == home_team, 'Games'] += 1
         self.teams.loc[self.teams['Name'] == away_team, 'Games'] += 1
@@ -71,11 +71,28 @@ class CalculateStrengthRatings:
             point_diff = home_score - away_score
             self.teams.loc[self.teams['Name'] == home_team, 'Point_Diff'] += point_diff
             self.teams.loc[self.teams['Name'] == away_team, 'Point_Diff'] -= point_diff
+
+            if neutral_flag:
+                self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Wins'] = self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Wins'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
+                self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Losses'] = self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Losses'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
+            
+            self.teams.loc[self.teams['Name'] == home_team, 'Home_Wins'] = self.teams.loc[self.teams['Name'] == home_team, 'Home_Wins'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
+            self.teams.loc[self.teams['Name'] == away_team, 'Away_Losses'] = self.teams.loc[self.teams['Name'] == away_team, 'Away_Losses'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
+                
+
         else:
             self.teams.loc[self.teams['Name'] == away_team, 'Wins'] += 1
             point_diff = away_score - home_score
             self.teams.loc[self.teams['Name'] == away_team, 'Point_Diff'] += point_diff
             self.teams.loc[self.teams['Name'] == home_team, 'Point_Diff'] -= point_diff
+
+            if neutral_flag:
+                self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Wins'] = self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Wins'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
+                self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Losses'] = self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Losses'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
+
+            self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'] = self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
+            self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'] = self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
+            
 
     # Method to parse games and update team and conference records
     def parse_games(self):
@@ -98,7 +115,7 @@ class CalculateStrengthRatings:
                 self.update_team_conf_wins(home_team, away_team, home_score, away_score)
 
             # Updates teams' records
-            self.update_team_totals(home_team, away_team, home_score, away_score)
+            self.update_team_totals(home_team, away_team, home_score, away_score, game[3])
 
     # Calculates the out of conference win percentages
     def calculate_ooc_win_pct(self):
@@ -168,16 +185,155 @@ class CalculateStrengthRatings:
     def order_teams_by_strength_rating(self):
         self.teams.sort_values(by='Strength_Rating', inplace=True, ascending=False)
 
+        rank = 1
+        for row in self.teams.itertuples():
+            self.teams.loc[self.teams['Name'] == row.Name, 'Ranking'] = rank
+            rank += 1
+
     # Prints rankings to file
     def print_strength_ratings(self):
         with open(strength_ratings_path, 'w') as file:
             file.write(f"{YEAR} Week {WEEK} Strength Ratings\n")
-            count = 1
             for row in self.teams.itertuples():
-                file.write(f"{count}. {row.Name}: {row.Strength_Rating}\n")
-                count += 1
-    
+                file.write(f"{row.Ranking}. {row.Name}: {row.Strength_Rating} ({row.Quad1_Wins}-{row.Quad1_Losses},{row.Quad2_Wins}-{row.Quad2_Losses},{row.Quad3_Wins}-{row.Quad3_Losses},{row.Quad4_Wins}-{row.Quad4_Losses})\n")
 
+
+    # Calculates the team's quad
+    def calculate_team_quad(self, opp_team, location):
+        team_ranking = self.teams.loc[self.teams['Name'] == opp_team, 'Ranking'].iloc[0]
+    
+        if location == "H":
+            if team_ranking < 12:
+                return 1
+            elif team_ranking < 29:
+                return 2
+            elif team_ranking < 61:
+                return 3
+            else:
+                return 4
+        
+        elif location == "N":
+            if team_ranking < 20:
+                return 1
+            elif team_ranking < 28:
+                return 2
+            elif team_ranking < 76:
+                return 3
+            else:
+                return 4
+            
+        else:
+            if team_ranking < 29:
+                return 1
+            elif team_ranking < 51:
+                return 2
+            elif team_ranking < 90:
+                return 3
+            else:
+                return 4
+            
+
+    # Calculates quad home wins
+    def calculate_quad_home_wins(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Home_Wins'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "H")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Wins'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Wins'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Wins'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Wins'] += 1
+
+    # Calculates quad home losses
+    def calculate_quad_home_losses(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Home_Losses'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "H")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Losses'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Losses'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Losses'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Losses'] += 1
+
+    # Calculates quad neutral wins
+    def calculate_quad_neutral_wins(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Neutral_Wins'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "N")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Wins'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Wins'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Wins'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Wins'] += 1
+
+    # Calculates quad neutral losses
+    def calculate_quad_neutral_losses(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Neutral_Losses'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "N")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Losses'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Losses'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Losses'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Losses'] += 1
+
+    # Calculates quad away wins
+    def calculate_quad_away_wins(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Away_Wins'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "A")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Wins'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Wins'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Wins'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Wins'] += 1
+
+    # Calculates quad away losses
+    def calculate_quad_away_losses(self, row):
+        team_list = self.teams.loc[self.teams['Name'] == row.Name, 'Away_Losses'].iloc[0]
+        for opp_team in team_list:
+            quad = self.calculate_team_quad(opp_team, "A")
+
+            if quad == 1:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Losses'] += 1
+            elif quad == 2:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Losses'] += 1
+            elif quad == 3:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Losses'] += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Losses'] += 1
+
+
+
+    # Calculates the quad wins and losses
+    def calculate_quad_results(self):
+        for row in self.teams.itertuples():
+            self.calculate_quad_home_wins(row)
+            self.calculate_quad_home_losses(row)
+            self.calculate_quad_neutral_wins(row)
+            self.calculate_quad_neutral_losses(row)
+            self.calculate_quad_away_wins(row)
+            self.calculate_quad_away_losses(row)
             
 
 
@@ -193,7 +349,10 @@ def main():
     calc.standardize_point_diff()
     calc.calculate_strength_rating()
     calc.order_teams_by_strength_rating()
+    calc.calculate_quad_results()
     calc.print_strength_ratings()
+
+    print(calc.teams)
 
 
 if __name__ == "__main__":
