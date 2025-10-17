@@ -98,6 +98,8 @@ class CalculateStrengthRatings:
     def parse_games(self):
         games = db().select_games()
         for game in games:
+            if game[0] > WEEK:
+                break
             # Gets essential information
             home_team = game[1]
             home_conference = self.teams[self.teams['Name'] == home_team]['Conference'].values[0]
