@@ -26,20 +26,24 @@ p{
 .header{
     padding: auto 200px;
     font-weight: bold;
+    text-align: center;
 }
 
 .ranking{
     padding: auto 200px;
+    text-align: center;
 }
 
 .team{
     font-weight: bold;
     font-style: italic;
     padding: auto 200px;
+    text-align: left;
 }
 
 .rating{
     padding: auto 200px;
+    text-align: center;
 }
 
 ol li {
@@ -53,7 +57,7 @@ ol li {
 
 ol li{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     justify-content: space-between;
     
 }
