@@ -30,7 +30,9 @@ class CreateHTML():
                     ranking = line[0:line.index(".")]
                     name = line[line.index(".") + 2:line.index(":")]
                     rating = line[line.index(":") + 2:line.rfind('(') - 1]
-                    self.teams.append({"Ranking": ranking, "Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4))})
+                    records = line[line.rfind('(') + 1 : line.rfind(')')]
+                    quad_split = records.split(',')
+                    self.teams.append({"Ranking": ranking, "Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4)), "Q1": quad_split[0], "Q2": quad_split[1], "Q3": quad_split[2], "Q4": quad_split[3]})
                 else:
                     count+=1
 
@@ -48,6 +50,14 @@ class CreateHTML():
             file.write("        <p>\n")
             file.write("            Below you can find the weekly rankings of college football teams according to their strength rankings. These are power rankings that take into account team performance, conference strength, and the talent of the team determined by their <a href=\"https://247sports.com/season/2025-football/collegeteamtalentcomposite/\"> 247 Sports Talent Composite Ranking</a>. Each week, new rankings will be added. Early in the season, the main factor weighting the strength ratings will be their talent rating; however, as the season progresses and more games are played, each team’s rankings will factor in their \"resume rating\" more than their talent rating. Eventually, after each team plays 12 games against FBS opponents, their strength rating will be comprised only of their resume rating. A team's resume rating factors in their performance as well as the strength of the conference they are in. \n")
             file.write("        </p>\n")
+            file.write("        <p>\n")
+            file.write("            Additionally, you can find each teams record versus teams in each quadrant. This is based on the college basketball Quad Wins and Losses found on <a href=\"https://bballnet.com\">NET Rankings and Quad Wins</a>. Note that only FBS versus FBS games are taken into account. Here is the break down of quadrants I used that are proportional to the number of teams in each quadrant in college basketball:")
+            file.write("        </p>")
+            file.write("        <ul class=quads>")
+            file.write("            <li>Quad 1: Home (1-11), Neutral (1-19), Away(1-28)</li>")
+            file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away(29-50)</li>")
+            file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away(51-89)</li>")
+            file.write("            <li>Quad 4: Home (61-136), Neutral (76-136), Away(90-136)</li>")
             file.write("        <h2> Weekly Rankings </h2>\n")
             file.write("        <div>\n")
             week_count = WEEK
@@ -74,9 +84,9 @@ class CreateHTML():
             file.write("    <body>\n")
             file.write(f"        <h1>College Football Strength Rankings - Week {week_count}</h1>\n")
             file.write("        <ol>\n")
-            file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span></li>\n")
+            file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span><span class=\"header\">Quad 1</span><span class=\"header\">Quad 2</span><span class=\"header\">Quad 3</span><span class=\"header\">Quad 4</span></li>\n")
             for row in self.teams:
-                file.write(f"            <li><span class=\"ranking\">{row['Ranking']}.</span><span class=\"team\">{row['Name']}</span> <span class=\"rating\">{row['Rating']}</span></li>\n")
+                file.write(f"            <li><span class=\"ranking\">{row['Ranking']}.</span><span class=\"team\">{row['Name']}</span> <span class=\"rating\">{row['Rating']}</span> <span class=\"record\">{row['Q1']}</span><span class=\"record\">{row['Q2']}</span> <span class=\"record\">{row['Q3']}</span> <span class=\"record\">{row['Q4']}</span></li>\n")
                 
             file.write("        </ol>\n")
             file.write("        <p>\n")
