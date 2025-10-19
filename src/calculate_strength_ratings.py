@@ -6,7 +6,7 @@ import os
 # Current Year
 YEAR = 2025
 # Week Number for the strength ratings
-WEEK = 7
+WEEK = 8
 
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -354,7 +354,7 @@ def main():
     calc.calculate_quad_results()
     calc.print_strength_ratings()
 
-    print(calc.teams)
+    
 
 
 if __name__ == "__main__":
