@@ -219,7 +219,7 @@ class CalculateStrengthRatings:
         elif location == "N":
             if team_ranking < 20:
                 return 1
-            elif team_ranking < 28:
+            elif team_ranking < 38:
                 return 2
             elif team_ranking < 76:
                 return 3
@@ -275,11 +275,11 @@ class CalculateStrengthRatings:
 
             if quad == 1:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Wins'] += 1
-            if quad == 2:
+            elif quad == 2:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Wins'] += 1
-            if quad == 3:
+            elif quad == 3:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Wins'] += 1
-            if quad == 4:
+            else:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Wins'] += 1
 
     # Calculates quad neutral losses
@@ -290,11 +290,11 @@ class CalculateStrengthRatings:
 
             if quad == 1:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad1_Losses'] += 1
-            if quad == 2:
+            elif quad == 2:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad2_Losses'] += 1
-            if quad == 3:
+            elif quad == 3:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad3_Losses'] += 1
-            if quad == 4:
+            else:
                 self.teams.loc[self.teams['Name'] == row.Name, 'Quad4_Losses'] += 1
 
     # Calculates quad away wins
