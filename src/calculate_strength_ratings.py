@@ -72,7 +72,7 @@ class CalculateStrengthRatings:
             self.teams.loc[self.teams['Name'] == home_team, 'Point_Diff'] += point_diff
             self.teams.loc[self.teams['Name'] == away_team, 'Point_Diff'] -= point_diff
 
-            if neutral_flag:
+            if neutral_flag == 1:
                 self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Wins'] = self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Wins'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
                 self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Losses'] = self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Losses'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
             
@@ -87,12 +87,13 @@ class CalculateStrengthRatings:
             self.teams.loc[self.teams['Name'] == away_team, 'Point_Diff'] += point_diff
             self.teams.loc[self.teams['Name'] == home_team, 'Point_Diff'] -= point_diff
 
-            if neutral_flag:
+            if neutral_flag == 1:
                 self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Wins'] = self.teams.loc[self.teams['Name'] == away_team, 'Neutral_Wins'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
                 self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Losses'] = self.teams.loc[self.teams['Name'] == home_team, 'Neutral_Losses'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
 
-            self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'] = self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
-            self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'] = self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
+            else:
+                self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'] = self.teams.loc[self.teams['Name'] == away_team, 'Away_Wins'].apply(lambda x: x + [home_team] if isinstance(x, list) else [home_team])
+                self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'] = self.teams.loc[self.teams['Name'] == home_team, 'Home_Losses'].apply(lambda x: x + [away_team] if isinstance(x, list) else [away_team])
             
 
     # Method to parse games and update team and conference records
