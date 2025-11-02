@@ -6,7 +6,7 @@ import os
 # Current Year
 YEAR = 2025
 # Week Number for the strength ratings
-WEEK = 9
+WEEK = 10
 
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
