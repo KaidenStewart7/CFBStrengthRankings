@@ -4,7 +4,7 @@ import os
 YEAR = 2025
 
 # Current Week
-WEEK = 10
+WEEK = 11
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
