@@ -26,9 +26,12 @@ class Load_Games:
                 away_score = game["awayPoints"]
 
                 db_queries = DatabaseQueries()
-                db_queries.insert_game(WEEK, home_team, away_team, neutral_flag, home_score, away_score)
+                if home_score is not None or away_score is not None:
+                    db_queries.insert_game(WEEK, home_team, away_team, neutral_flag, home_score, away_score)
+                else:
+                    print (f"Skipping game between {home_team} and {away_team} due to missing scores.")
 
-# # Runs the script
+# Runs the script
 # def main():
 #     load_games = Load_Games()
 #     load_games.import_games()
