@@ -32,7 +32,7 @@ class CreateHTML():
                     rating = line[line.index(":") + 2:line.rfind('(') - 1]
                     records = line[line.rfind('(') + 1 : line.rfind(')')]
                     quad_split = records.split(',')
-                    self.teams.append({"Ranking": ranking, "Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4)), "Q1": quad_split[0], "Q2": quad_split[1], "Q3": quad_split[2], "Q4": quad_split[3]})
+                    self.teams.append({"Ranking": ranking, "Name": name, "Rating": '  {:.4f}'.format(float(rating).__round__(4)), "Q1": quad_split[0], "Q2": quad_split[1], "Q3": quad_split[2], "Q4": quad_split[3], "SOS": quad_split[4], "SOR": quad_split[5],})
                 else:
                     count+=1
 
@@ -84,9 +84,9 @@ class CreateHTML():
             file.write("    <body>\n")
             file.write(f"        <h1>College Football Strength Rankings - Week {week_count}</h1>\n")
             file.write("        <ol>\n")
-            file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span><span class=\"header\">Quad 1</span><span class=\"header\">Quad 2</span><span class=\"header\">Quad 3</span><span class=\"header\">Quad 4</span></li>\n")
+            file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span><span class=\"header\">Quad 1</span><span class=\"header\">Quad 2</span><span class=\"header\">Quad 3</span><span class=\"header\">Quad 4</span><span class=\"header\">SOS</span><span class=\"header\">SOR</span></li>\n")
             for row in self.teams:
-                file.write(f"            <li><span class=\"ranking\">{row['Ranking']}.</span><span class=\"team\">{row['Name']}</span> <span class=\"rating\">{row['Rating']}</span> <span class=\"record\">{row['Q1']}</span><span class=\"record\">{row['Q2']}</span> <span class=\"record\">{row['Q3']}</span> <span class=\"record\">{row['Q4']}</span></li>\n")
+                file.write(f"            <li><span class=\"ranking\">{row['Ranking']}.</span><span class=\"team\">{row['Name']}</span> <span class=\"rating\">{row['Rating']}</span> <span class=\"record\">{row['Q1']}</span><span class=\"record\">{row['Q2']}</span> <span class=\"record\">{row['Q3']}</span> <span class=\"record\">{row['Q4']}</span><span class=\"record\">{row['SOS']}</span><span class=\"record\">{row['SOR']}</span></li>\n")
                 
             file.write("        </ol>\n")
             file.write("        <p>\n")

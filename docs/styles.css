@@ -68,7 +68,7 @@ ol li {
 
 ol li{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
     justify-content: space-between;
     
 }

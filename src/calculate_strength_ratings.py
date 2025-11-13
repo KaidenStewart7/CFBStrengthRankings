@@ -25,10 +25,10 @@ class CalculateStrengthRatings:
             self.conferences.loc[len(self.conferences)] = [conference[0], 0, 0, 0.0, 0.0]
 
         # Creates teams data frame
-        self.teams = pd.DataFrame(columns=['Name', 'Conference', 'Team_Composite_Rating', 'Team_Composite_Rating_Standardized', 'Wins', 'Games', 'Win_Pct', 'Conf_Wins', 'Conf_Games', 'Conf_Win_Pct', 'Point_Diff', 'Point_Diff_Standardized', 'Resume_Rating', 'Strength_Rating', 'Ranking', 'Home_Wins', 'Home_Losses', 'Neutral_Wins', 'Neutral_Losses', 'Away_Wins', 'Away_Losses', 'Quad1_Wins', 'Quad1_Losses', 'Quad2_Wins', 'Quad2_Losses', 'Quad3_Wins', 'Quad3_Losses', 'Quad4_Wins', 'Quad4_Losses'])
+        self.teams = pd.DataFrame(columns=['Name', 'Conference', 'Team_Composite_Rating', 'Team_Composite_Rating_Standardized', 'Wins', 'Games', 'Win_Pct', 'Conf_Wins', 'Conf_Games', 'Conf_Win_Pct', 'Point_Diff', 'Point_Diff_Standardized', 'Resume_Rating', 'Strength_Rating', 'Ranking', 'Home_Wins', 'Home_Losses', 'Neutral_Wins', 'Neutral_Losses', 'Away_Wins', 'Away_Losses', 'Quad1_Wins', 'Quad1_Losses', 'Quad2_Wins', 'Quad2_Losses', 'Quad3_Wins', 'Quad3_Losses', 'Quad4_Wins', 'Quad4_Losses', 'Sos_Rating', 'Sos', 'Sor_Rating', 'Sor'])
         teams = db().select_teams()
         for team in teams:
-            self.teams.loc[len(self.teams)] = [team[0], team[1], float(team[2]), 0, 0, 0, 0.0, 0, 0, 0.0, 0, 0.0, 0.0, 0.0, 0, [], [], [], [], [], [], 0, 0, 0, 0, 0, 0, 0, 0]
+            self.teams.loc[len(self.teams)] = [team[0], team[1], float(team[2]), 0, 0, 0, 0.0, 0, 0, 0.0, 0, 0.0, 0.0, 0.0, 0, [], [], [], [], [], [], 0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0, 0.0, 0]
 
     # Method to standardize the composite rating
     def standardize_composite_rating(self):
@@ -199,7 +199,7 @@ class CalculateStrengthRatings:
         with open(strength_ratings_path, 'w') as file:
             file.write(f"{YEAR} Week {WEEK} Strength Ratings\n")
             for row in self.teams.itertuples():
-                file.write(f"{row.Ranking}. {row.Name}: {row.Strength_Rating} ({row.Quad1_Wins}-{row.Quad1_Losses},{row.Quad2_Wins}-{row.Quad2_Losses},{row.Quad3_Wins}-{row.Quad3_Losses},{row.Quad4_Wins}-{row.Quad4_Losses})\n")
+                file.write(f"{row.Ranking}. {row.Name}: {row.Strength_Rating} ({row.Quad1_Wins}-{row.Quad1_Losses},{row.Quad2_Wins}-{row.Quad2_Losses},{row.Quad3_Wins}-{row.Quad3_Losses},{row.Quad4_Wins}-{row.Quad4_Losses},{row.Sos},{row.Sor})\n")
 
 
     # Calculates the team's quad
@@ -338,6 +338,59 @@ class CalculateStrengthRatings:
             self.calculate_quad_neutral_losses(row)
             self.calculate_quad_away_wins(row)
             self.calculate_quad_away_losses(row)
+
+    # Calculate SOS
+    def calculate_sos_and_sor(self):
+        for row in self.teams.itertuples():
+            if row.Games > 0:
+                sos_points = (row.Quad1_Wins + row.Quad1_Losses) * 8.0 + (row.Quad2_Wins + row.Quad2_Losses) * 4.0 + (row.Quad3_Wins + row.Quad3_Losses) * 2.0 + (row.Quad4_Wins + row.Quad4_Losses) * 1.0
+                sos_Rating = sos_points / row.Games
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sos_Rating'] = sos_Rating
+
+                sor_points = row.Quad1_Wins * 8.0 + row.Quad2_Wins * 4.0 + row.Quad3_Wins * 2.0 + row.Quad4_Wins * 1.0 - row.Quad1_Losses * 1.0 - row.Quad2_Losses * 2.0 - row.Quad3_Losses * 4.0 - row.Quad4_Losses * 8.0
+                sor_Rating = sor_points / row.Games
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sor_Rating'] = sor_Rating
+
+        # Rank teams based on sos_rating and sor_rating and set sos and sor
+        self.teams.sort_values(by='Sos_Rating', inplace=True, ascending=False)
+        rank = 1
+        previous_rank = 1
+        previous_rating = 0.0
+        for row in self.teams.itertuples():
+            if rank == 1:
+                previous_rank = 1
+                previous_rating = row.Sos_Rating
+            if row.Sos_Rating == previous_rating:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sos'] = previous_rank
+                rank += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sos'] = rank
+                rank += 1
+                previous_rank = rank
+                previous_rating = row.Sos_Rating
+
+        self.teams.sort_values(by='Sor_Rating', inplace=True, ascending=False)
+        rank = 1
+        previous_rank = 1
+        previous_rating = 0.0
+        for row in self.teams.itertuples():
+            if rank == 1:
+                previous_rank = 1
+                previous_rating = row.Sor_Rating
+            if row.Sor_Rating == previous_rating:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sor'] = previous_rank
+                rank += 1
+            else:
+                self.teams.loc[self.teams['Name'] == row.Name, 'Sor'] = rank
+                rank += 1
+                previous_rank = rank
+                previous_rating = row.Sor_Rating
+        
+        # Reorder teams by strength rating again
+        self.order_teams_by_strength_rating()
+        
+        
+
             
 
 
@@ -354,6 +407,7 @@ def main():
     calc.calculate_strength_rating()
     calc.order_teams_by_strength_rating()
     calc.calculate_quad_results()
+    calc.calculate_sos_and_sor()
     calc.print_strength_ratings()
 
     
@@ -361,6 +415,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
 
 
 
