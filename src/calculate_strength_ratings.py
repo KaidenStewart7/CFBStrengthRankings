@@ -7,12 +7,19 @@ import os
 YEAR = 2025
 # Week Number for the strength ratings
 WEEK = 12
+# Regular or Posteason
+SEASON_TYPE = "regular"
 
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to txt/teams_list.txt (relative to project root)
-strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
+
+if SEASON_TYPE == "regular":
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
+
+else:
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_final_strength_ratings.txt")
 
 # Class to calculate the strength ratings
 class CalculateStrengthRatings:

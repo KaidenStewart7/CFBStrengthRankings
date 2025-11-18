@@ -33,6 +33,7 @@ class DatabaseQueries:
 
         with open(team_list_path, "r") as file:
             for line in file:
+                print(line)
                 split_line = line.strip().split(",")
                 team_name = split_line[0]
                 conference_name = split_line[1]
@@ -89,8 +90,7 @@ class DatabaseQueries:
 
 def main():
     db_queries = DatabaseQueries()
-    teams = db_queries.select_games()
-    print(teams)
+    
 
 if __name__ == "__main__":
     main()

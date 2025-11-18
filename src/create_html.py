@@ -5,11 +5,17 @@ YEAR = 2025
 
 # Current Week
 WEEK = 12
+
+# Years
+YEAR_LIST = [2024, 2025]
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to txt/teams_list.txt (relative to project root)
-strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
+if WEEK == 'final':
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_final_strength_ratings.txt")
+else:
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
 
 # Construct the path to docs/index.html (relative to project root)
 index_path = os.path.join(base_dir, "..", "docs", "index.html")
@@ -46,6 +52,7 @@ class CreateHTML():
             file.write("        <meta charset=\"UTF-8\" >\n")
             file.write("    </head>\n")
             file.write("    <body>\n")
+            year = YEAR
             file.write("        <h1>College Football Strength Rankings</h1>\n")
             file.write("        <p>\n")
             file.write("            Below you can find the weekly rankings of college football teams according to their strength rankings. These are power rankings that take into account team performance, conference strength, and the talent of the team determined by their <a href=\"https://247sports.com/season/2025-football/collegeteamtalentcomposite/\"> 247 Sports Talent Composite Ranking</a>. Each week, new rankings will be added. Early in the season, the main factor weighting the strength ratings will be their talent rating; however, as the season progresses and more games are played, each team’s rankings will factor in their \"resume rating\" more than their talent rating. Eventually, after each team plays 12 games against FBS opponents, their strength rating will be comprised only of their resume rating. A team's resume rating factors in their performance as well as the strength of the conference they are in. \n")
@@ -58,11 +65,26 @@ class CreateHTML():
             file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away(29-50)</li>")
             file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away(51-89)</li>")
             file.write("            <li>Quad 4: Home (61-136), Neutral (76-136), Away(90-136)</li>")
-            file.write("        <h2> Weekly Rankings </h2>\n")
+
+            # 2025 Weekly Rankings
+            file.write(f"        <h2> 2025 Weekly Rankings </h2>\n")
             file.write("        <div>\n")
             week_count = WEEK
             while week_count > 0:
                 week_path = f"{YEAR}week{week_count}.html"
+                file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
+                week_count -= 1
+            file.write("        </div>\n")
+
+            # 2024 Weekly Rankings   
+            file.write(f"        <h2> 2024 Weekly Rankings </h2>\n")
+            file.write("        <div>\n")
+
+            week_path = "2024FinalRankings.html"
+            file.write(f"            <p><a href=\"{week_path}\">2024 Final Rankings</a></p>\n")
+            week_count = 16
+            while week_count > 0:
+                week_path = f"{2024}week{week_count}.html"
                 file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
                 week_count -= 1
             file.write("        </div>\n")
@@ -72,17 +94,26 @@ class CreateHTML():
     # method to print the weekly files
     def print_weekly_files(self):
         week_count = WEEK
-        week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}week{week_count}.html")
+        if week_count == "final":
+            week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}FinalRankings.html")
+        else:
+            week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}week{week_count}.html")
         with open(week_path, "w") as file:
             file.write("<!DOCTYPE html>\n")
             file.write("<html lang=\"en\">\n")
             file.write("    <head>\n")
             file.write("        <link rel=\"stylesheet\" href=\"styles.css\" media=\"screen\" />\n")
-            file.write(f"        <title>College Football Strength Rankings - Week {week_count}</title>\n")
+            if WEEK == 'final':
+                file.write(f"        <title>College Football Strength Rankings - Final Rankings</title>\n")
+            else:
+                file.write(f"        <title>College Football Strength Rankings - Week {week_count}</title>\n")
             file.write("        <meta charset=\"UTF-8\" >\n")
             file.write("    </head>\n")
             file.write("    <body>\n")
-            file.write(f"        <h1>College Football Strength Rankings - Week {week_count}</h1>\n")
+            if WEEK == 'final':
+                file.write(f"        <h1>College Football Strength Rankings - Final Rankings</h1>\n")
+            else:
+                file.write(f"        <h1>College Football Strength Rankings - Week {week_count}</h1>\n")
             file.write("        <ol>\n")
             file.write(f"            <li><span class=\"header\">Rank</span><span class=\"header\">Team Name</span> <span class=\"header\">Rating</span><span class=\"header\">Quad 1</span><span class=\"header\">Quad 2</span><span class=\"header\">Quad 3</span><span class=\"header\">Quad 4</span><span class=\"header\">SOS</span><span class=\"header\">SOR</span></li>\n")
             for row in self.teams:

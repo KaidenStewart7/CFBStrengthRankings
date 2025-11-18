@@ -1,11 +1,13 @@
 from fetch_api_data import FetchApiData
 import os
 
+YEAR = 2024
+
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to txt/teams_list.txt (relative to project root)
-output_path = os.path.join(base_dir, "..", "txt", "teams_list.txt")
+output_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_teams_list.txt")
 
 # Creates a list of teams and there conferences to be printed to the file
 def main():
