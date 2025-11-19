@@ -107,26 +107,25 @@ class CalculateStrengthRatings:
     def parse_games(self):
         games = db().select_games()
         for game in games:
-            if game[0] > WEEK:
-                break
-            # Gets essential information
-            home_team = game[1]
-            home_conference = self.teams[self.teams['Name'] == home_team]['Conference'].values[0]
-            home_score = game[4]
-            away_team = game[2]
-            away_conference = self.teams[self.teams['Name'] == away_team]['Conference'].values[0]
-            away_score = game[5]
+            if game[0] <= WEEK:
+                # Gets essential information
+                home_team = game[1]
+                home_conference = self.teams[self.teams['Name'] == home_team]['Conference'].values[0]
+                home_score = game[4]
+                away_team = game[2]
+                away_conference = self.teams[self.teams['Name'] == away_team]['Conference'].values[0]
+                away_score = game[5]
 
-            # Updates conference's record if it's an out-of-conference game
-            if home_conference != away_conference:
-                self.update_conference_ooc_totals(home_conference, away_conference, home_score, away_score)
-            
-            # Updated's teams' conference records if it's a conference game
-            else:
-                self.update_team_conf_wins(home_team, away_team, home_score, away_score)
+                # Updates conference's record if it's an out-of-conference game
+                if home_conference != away_conference:
+                    self.update_conference_ooc_totals(home_conference, away_conference, home_score, away_score)
+                
+                # Updated's teams' conference records if it's a conference game
+                else:
+                    self.update_team_conf_wins(home_team, away_team, home_score, away_score)
 
-            # Updates teams' records
-            self.update_team_totals(home_team, away_team, home_score, away_score, game[3])
+                # Updates teams' records
+                self.update_team_totals(home_team, away_team, home_score, away_score, game[3])
 
     # Calculates the out of conference win percentages
     def calculate_ooc_win_pct(self):
