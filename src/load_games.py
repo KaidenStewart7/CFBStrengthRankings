@@ -3,7 +3,7 @@ from database_queries import DatabaseQueries
 
 
 # Week to load games of
-WEEK = 12
+WEEK = 13
 
 # Regular or Postseason
 SEASON_TYPE = "regular"
@@ -40,10 +40,10 @@ class Load_Games:
                     print (f"Skipping game between {home_team} and {away_team} due to missing scores.")
 
 # Runs the script
-def main():
-    load_games = Load_Games()
-    load_games.import_games()
+# def main():
+#     load_games = Load_Games()
+#     load_games.import_games()
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
