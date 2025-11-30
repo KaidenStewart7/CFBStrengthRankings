@@ -4,7 +4,7 @@ import os
 YEAR = 2025
 
 # Current Week
-WEEK = 13
+WEEK = 14
 
 # Years
 YEAR_LIST = [2024, 2025]
