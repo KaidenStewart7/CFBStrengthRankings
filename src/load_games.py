@@ -3,10 +3,10 @@ from database_queries import DatabaseQueries
 
 
 # Week to load games of
-WEEK = 16
+WEEK = 1
 
 # Regular or Postseason
-SEASON_TYPE = "regular"
+SEASON_TYPE = "postseason"
 
 # This Class will load games from the College Football Data API into the database
 class Load_Games:

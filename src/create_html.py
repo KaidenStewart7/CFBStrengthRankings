@@ -4,7 +4,7 @@ import os
 YEAR = 2025
 
 # Current Week
-WEEK = 16
+WEEK = 'post_round_1'  # Change this value for different weeks or 'final' for final rankings
 
 # Years
 YEAR_LIST = [2024, 2025]
@@ -14,6 +14,8 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 # Construct the path to txt/teams_list.txt (relative to project root)
 if WEEK == 'final':
     strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_final_strength_ratings.txt")
+elif WEEK == 'post_round_1':
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_post_cfp_first_round_ratings.txt")
 else:
     strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
 
@@ -69,7 +71,9 @@ class CreateHTML():
             # 2025 Weekly Rankings
             file.write(f"        <h2> 2025 Weekly Rankings </h2>\n")
             file.write("        <div>\n")
-            week_count = WEEK
+            week_path = "2025PostCFPFirstRoundRankings.html"
+            file.write(f"            <p><a href=\"{week_path}\">Post CFP Round 1 Rankings</a></p>\n")
+            week_count = 16
             while week_count > 0:
                 week_path = f"{YEAR}week{week_count}.html"
                 file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
@@ -96,6 +100,8 @@ class CreateHTML():
         week_count = WEEK
         if week_count == "final":
             week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}FinalRankings.html")
+        elif week_count == "post_round_1":
+            week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}PostCFPFirstRoundRankings.html")
         else:
             week_path = os.path.join(base_dir, "..", "docs", f"{YEAR}week{week_count}.html")
         with open(week_path, "w") as file:
