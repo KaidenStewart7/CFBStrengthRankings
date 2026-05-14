@@ -4,7 +4,7 @@ import os
 YEAR = 2025
 
 # Current Week
-WEEK = 'post_round_1'  # Change this value for different weeks or 'final' for final rankings
+WEEK = 'final'  # Change this value for different weeks or 'final' for final rankings
 
 # Years
 YEAR_LIST = [2024, 2025]
@@ -16,6 +16,8 @@ if WEEK == 'final':
     strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_final_strength_ratings.txt")
 elif WEEK == 'post_round_1':
     strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_post_cfp_first_round_ratings.txt")
+elif WEEK == 'final':
+    strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_final_strength_ratings.txt")
 else:
     strength_ratings_path = os.path.join(base_dir, "..", "txt", f"{YEAR}_week{WEEK}_strength_ratings.txt")
 
@@ -71,6 +73,8 @@ class CreateHTML():
             # 2025 Weekly Rankings
             file.write(f"        <h2> 2025 Weekly Rankings </h2>\n")
             file.write("        <div>\n")
+            week_path = "2025FinalRankings.html"
+            file.write(f"            <p><a href=\"{week_path}\">2025 Final Rankings</a></p>\n")
             week_path = "2025PostCFPFirstRoundRankings.html"
             file.write(f"            <p><a href=\"{week_path}\">Post CFP Round 1 Rankings</a></p>\n")
             week_count = 16
