@@ -1,107 +1,848 @@
+/* ================================
+   COLLEGE FOOTBALL STRENGTH RANKINGS
+   LIGHT ESPN-INSPIRED THEME
+   ================================ */
+
+   :root {
+    --bg: #f2f4f7;
+    --surface: #ffffff;
+    --surface-light: #f8f9fb;
+    --surface-hover: #eef1f5;
+
+    --border: #d9dee5;
+
+    --red: #d71920;
+    --red-dark: #b51218;
+    --red-light: #e52a31;
+
+    /* NAVY CHANGED TO BLACK */
+    --navy: #000000;
+    --navy-light: #000000;
+
+    --text: #17202a;
+    --text-muted: #68727d;
+
+    --gold: #9a6500;
+}
+
+
+/* ================================
+   GLOBAL
+   ================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: lightgrey;
-    font-family: Verdana, Helvetica, sans-serif;
+    margin: 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f7f8fa 0%,
+            #eef1f5 100%
+        );
+
+    color: var(--text);
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height: 1.5;
+
+    min-height: 100vh;
 }
 
-h1, h2 {
+
+/* ================================
+   HEADINGS
+   ================================ */
+
+h1,
+h2 {
     text-align: center;
 }
 
-h2{
-    padding-top: 50px;
+
+/* Main title */
+
+h1 {
+    margin: 0;
+
+    padding: 32px 20px 26px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--navy),
+            #101010
+        );
+
+    border-bottom: 5px solid var(--red);
+
+    color: white;
+
+    font-size: clamp(
+        1.6rem,
+        4vw,
+        2.5rem
+    );
+
+    font-weight: 900;
+
+    letter-spacing: -0.5px;
+
+    text-transform: uppercase;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.18);
 }
 
-ol, ul{
-    width: max-content;
-    margin: auto;
+
+/* Section headings */
+
+h2 {
+    max-width: 1100px;
+
+    margin: 50px auto 20px;
+
+    padding: 12px 20px;
+
+    background: white;
+
+    border-left: 5px solid var(--red);
+
+    border-bottom: 1px solid var(--border);
+
+    color: var(--navy);
+
+    text-align: left;
+
+    font-size: clamp(
+        1.2rem,
+        3vw,
+        1.6rem
+    );
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-a{
-    color: inherit;
-    font-weight: bold;
-}
 
-p{
-    font-size: 18px;
-    text-align: center;
-    margin: 50px;
-    margin-bottom: 10px;
-}
+/* ================================
+   TEXT
+   ================================ */
 
-.header{
-    padding: auto 200px;
-    font-weight: bold;
-    text-align: center;
-}
+p {
+    max-width: 1000px;
 
-.ranking{
-    padding: auto 200px;
-    text-align: center;
-}
+    margin: 25px auto 10px;
 
-.record{
-    padding: auto 200px;
-    text-align: center;
-    font-style: italic;
-}
+    padding: 0 20px;
 
-.team{
-    font-weight: bold;
-    font-style: italic;
-    padding: auto 200px;
+    color: var(--text-muted);
+
+    font-size: 17px;
+
     text-align: left;
 }
 
-.rating{
-    padding: auto 200px;
-    text-align: center;
+p a {
+    color: var(--red);
+
+    font-weight: 700;
 }
+
+p a:hover {
+    color: var(--red-dark);
+}
+
+
+/* ================================
+   QUADRANTS
+   ================================ */
+
+ul.quads {
+    width: min(
+        900px,
+        calc(100% - 40px)
+    );
+
+    margin: 5px auto 30px;
+
+    padding-left: 25px;
+
+    color: var(--text-muted);
+
+    font-size: 15px;
+}
+
+ul.quads li {
+    margin: 7px 0;
+}
+
+
+/* ================================
+   RANKINGS CONTAINER
+   ================================ */
+
+ol {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 25px auto;
+
+    padding: 0;
+
+    list-style: none;
+
+    overflow-x: auto;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 18px rgba(
+            0,
+            0,
+            0,
+            0.09
+        );
+
+    /*
+       Smooth scrolling on phones
+    */
+
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* ================================
+   RANKING ROWS
+   ================================ */
 
 ol li {
-    font-size: 20px;
-    padding: 10px 5px;
-    display: flex;
-    justify-content: space-between;
-}
+    min-width: 850px;
 
-
-
-ol li{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
-    justify-content: space-between;
-    
+
+    grid-template-columns:
+        70px
+        minmax(180px, 2fr)
+        110px
+        repeat(4, 85px)
+        75px
+        75px;
+
+    align-items: center;
+
+    min-height: 48px;
+
+    padding: 0 14px;
+
+    border-bottom: 1px solid var(--border);
+
+    font-size: 15px;
+
+    transition:
+        background-color 0.15s ease;
 }
 
-ol li:nth-child(2n - 1) {
-    background-color: lightcoral;
+
+/* Last row */
+
+ol li:last-child {
+    border-bottom: none;
 }
 
-ul {
-    margin-top: 0px;
-    list-style-type: square; 
+
+/* ================================
+   TABLE HEADER
+   ================================ */
+
+ol li:first-child {
+    position: sticky;
+
+    top: 0;
+
+    z-index: 5;
+
+    min-height: 52px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--red-dark),
+            var(--red)
+        );
+
+    border-bottom: 2px solid #ed555a;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
 }
 
-div{
-    display: grid;
-    grid-template-columns: 2 fr;
-    justify-content: center;
-    gap: 25px;
-}
 
-div p{
-    border-radius: 10px;
-    background-color: lightcoral;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 200px;
-    margin: 0;
-    font-size: 16px;
+/* ================================
+   TABLE HEADER ALIGNMENT
+   ================================ */
+
+/*
+   Center all table headers by default.
+   This lines each header up with the
+   center of its corresponding column.
+*/
+
+ol li:first-child .header {
+    display: block;
+
+    padding: 0 8px;
+
+    white-space: nowrap;
+
     text-align: center;
-    transition: transform 0.2s;
-
 }
 
-div p:hover {
-    background-color: yellow;
+
+/*
+   TEAM NAME stays left-aligned so it
+   lines up with the team names below.
+*/
+
+ol li:first-child .header:nth-child(2) {
+    text-align: left;
+}
+
+
+/*
+   Make sure Rank is centered directly
+   over the ranking numbers.
+*/
+
+ol li:first-child .header:nth-child(1) {
+    text-align: center;
+}
+
+
+/*
+   Rating, Quads, SOS and SOR are
+   centered over their values.
+*/
+
+ol li:first-child .header:nth-child(3),
+ol li:first-child .header:nth-child(4),
+ol li:first-child .header:nth-child(5),
+ol li:first-child .header:nth-child(6),
+ol li:first-child .header:nth-child(7),
+ol li:first-child .header:nth-child(8),
+ol li:first-child .header:nth-child(9) {
+    text-align: center;
+}
+
+
+/* ================================
+   ZEBRA STRIPING
+   ================================ */
+
+ol li:nth-child(odd):not(:first-child) {
+    background-color: #f7f8fa;
+}
+
+ol li:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+/* Hover */
+
+ol li:not(:first-child):hover {
+    background-color: #fff3f3;
+}
+
+
+/* ================================
+   COLUMN STYLES
+   ================================ */
+
+.header,
+.ranking,
+.team,
+.rating,
+.record {
+    display: block;
+
+    padding: 0 8px;
+
+    white-space: nowrap;
+}
+
+
+/* Rank */
+
+.ranking {
+    color: var(--text-muted);
+
+    font-weight: 800;
+
+    text-align: center;
+}
+
+
+/* Team */
+
+.team {
+    overflow: hidden;
+
+    color: var(--navy);
+
+    font-size: 16px;
+
+    font-weight: 800;
+
+    font-style: normal;
+
+    text-align: left;
+
+    text-overflow: ellipsis;
+}
+
+
+/* Rating */
+
+.rating {
+    color: var(--gold);
+
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+/* Records */
+
+.record {
+    color: var(--text-muted);
+
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+    font-size: 13px;
+
+    text-align: center;
+}
+
+
+/* ================================
+   TOP 25
+   ================================ */
+
+ol li:nth-child(2) .ranking,
+ol li:nth-child(3) .ranking,
+ol li:nth-child(4) .ranking,
+ol li:nth-child(5) .ranking,
+ol li:nth-child(6) .ranking,
+ol li:nth-child(7) .ranking,
+ol li:nth-child(8) .ranking,
+ol li:nth-child(9) .ranking,
+ol li:nth-child(10) .ranking,
+ol li:nth-child(11) .ranking,
+ol li:nth-child(12) .ranking,
+ol li:nth-child(13) .ranking,
+ol li:nth-child(14) .ranking,
+ol li:nth-child(15) .ranking,
+ol li:nth-child(16) .ranking,
+ol li:nth-child(17) .ranking,
+ol li:nth-child(18) .ranking,
+ol li:nth-child(19) .ranking,
+ol li:nth-child(20) .ranking,
+ol li:nth-child(21) .ranking,
+ol li:nth-child(22) .ranking,
+ol li:nth-child(23) .ranking,
+ol li:nth-child(24) .ranking,
+ol li:nth-child(25) .ranking,
+ol li:nth-child(26) .ranking {
+    color: var(--red);
+}
+
+
+/* ================================
+   INDEX PAGE
+   ================================ */
+
+body > div {
+    width: min(
+        1100px,
+        calc(100% - 30px)
+    );
+
+    margin: 20px auto 50px;
+
+    display: grid;
+
+    /*
+       Five consistent columns on desktop.
+       This keeps 2026 Week 0 aligned with
+       the individual 2025 ranking cards.
+    */
+
+    grid-template-columns:
+        repeat(5, minmax(0, 1fr));
+
+    gap: 15px;
+}
+
+
+body > div p {
+    width: auto;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+
+/* Ranking buttons */
+
+body > div p a {
+    display: flex;
+
+    min-height: 65px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 15px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-left: 4px solid var(--red);
+
+    border-radius: 7px;
+
+    color: var(--navy);
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    text-align: center;
+
+    box-shadow:
+        0 3px 10px rgba(
+            0,
+            0,
+            0,
+            0.07
+        );
+
+    transition:
+        transform 0.18s ease,
+        background-color 0.18s ease,
+        color 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+
+/* Button hover */
+
+body > div p a:hover {
+    transform: translateY(-3px);
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--red),
+            var(--red-dark)
+        );
+
+    color: white;
+
+    box-shadow:
+        0 7px 18px rgba(
+            215,
+            25,
+            32,
+            0.25
+        );
+}
+
+
+/* ================================
+   BACK TO HOME
+   ================================ */
+
+ol + p {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 20px auto 40px;
+
+    padding: 0;
+}
+
+
+ol + p a {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 10px 16px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 6px;
+
+    color: var(--text-muted);
+
+    font-size: 14px;
+
+    box-shadow:
+        0 2px 7px rgba(
+            0,
+            0,
+            0,
+            0.06
+        );
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+
+ol + p a::before {
+    content: "←";
+
+    color: var(--red);
+
+    font-size: 18px;
+}
+
+
+ol + p a:hover {
+    background: var(--navy);
+
+    color: white;
+}
+
+
+/* ================================
+   SCROLLBAR
+   ================================ */
+
+ol::-webkit-scrollbar {
+    height: 8px;
+}
+
+ol::-webkit-scrollbar-track {
+    background: #e5e8ed;
+}
+
+ol::-webkit-scrollbar-thumb {
+    background: #aeb5bf;
+
+    border-radius: 10px;
+}
+
+ol::-webkit-scrollbar-thumb:hover {
+    background: var(--red);
+}
+
+
+/* ================================
+   MOBILE
+   ================================ */
+
+@media (max-width: 700px) {
+
+    h1 {
+        padding: 24px 15px 20px;
+
+        font-size: 1.35rem;
+
+        line-height: 1.2;
+    }
+
+
+    h2 {
+        margin-top: 30px;
+
+        padding: 10px 15px;
+
+        font-size: 1.05rem;
+    }
+
+
+    body > p {
+        margin-top: 20px;
+
+        padding: 0 18px;
+
+        font-size: 15px;
+
+        line-height: 1.65;
+    }
+
+
+    ul.quads {
+        width: calc(100% - 35px);
+
+        padding-left: 22px;
+
+        font-size: 14px;
+    }
+
+
+    /* Rankings */
+
+    ol {
+        width: calc(100% - 20px);
+
+        margin-top: 18px;
+
+        border-radius: 7px;
+    }
+
+
+    ol li {
+        min-width: 800px;
+
+        grid-template-columns:
+            60px
+            180px
+            105px
+            repeat(4, 80px)
+            70px
+            70px;
+
+        min-height: 45px;
+
+        padding: 0 8px;
+
+        font-size: 13px;
+    }
+
+
+    ol li:first-child {
+        min-height: 48px;
+
+        font-size: 10px;
+    }
+
+
+    /* Keep mobile headers aligned */
+
+    ol li:first-child .header {
+        text-align: center;
+    }
+
+
+    ol li:first-child .header:nth-child(2) {
+        text-align: left;
+    }
+
+
+    .team {
+        font-size: 14px;
+    }
+
+
+    .rating {
+        font-size: 12px;
+    }
+
+
+    .record {
+        font-size: 12px;
+    }
+
+
+    /* Home-page cards */
+
+    body > div {
+        width: calc(100% - 25px);
+
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+    }
+
+
+    body > div p a {
+        min-height: 55px;
+
+        font-size: 14px;
+    }
+}
+
+
+/* ================================
+   VERY SMALL PHONES
+   ================================ */
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+
+    h2 {
+        font-size: 1rem;
+    }
+
+
+    body > p {
+        font-size: 14px;
+    }
+
+
+    ol {
+        width: calc(100% - 12px);
+    }
 }
