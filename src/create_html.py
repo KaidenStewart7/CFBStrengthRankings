@@ -69,6 +69,7 @@ class CreateHTML():
             file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away(29-50)</li>")
             file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away(51-89)</li>")
             file.write("            <li>Quad 4: Home (61-136), Neutral (76-136), Away(90-136)</li>")
+            file.write("        </ul>")
 
             # 2026 Weekly Rankings
             file.write(f"        <h2> 2026 Weekly Rankings </h2>\n")
@@ -90,7 +91,7 @@ class CreateHTML():
             file.write(f"            <p><a href=\"{week_path}\">Post CFP Round 1 Rankings</a></p>\n")
             week_count = 16
             while week_count > 0:
-                week_path = f"{YEAR}week{week_count}.html"
+                week_path = f"{2025}week{week_count}.html"
                 file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
                 week_count -= 1
             file.write("        </div>\n")
