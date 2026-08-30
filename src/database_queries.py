@@ -6,10 +6,10 @@ import os
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to txt/teams_list.txt (relative to project root)
-team_list_path = os.path.join(base_dir, "..", "txt", "teams_list.txt")
+team_list_path = os.path.join(base_dir, "..", "txt", "2026_teams_list.txt")
 
 # Construct the path to db/cfb_game_results.db (relative to project root)
-db_path = os.path.join(base_dir, "..", "db", "cfb_game_results.db")
+db_path = os.path.join(base_dir, "..", "db", "2026_cfb_game_results.db")
 
 # Class to handle database queries
 class DatabaseQueries:
@@ -18,7 +18,7 @@ class DatabaseQueries:
         connection = sqlite3.connect(db_path)
         cursor = connection.cursor()
 
-        conferences = ["Mountain West", "Mid-American", "SEC", "Sun Belt", "Big 12", "American Athletic", "ACC", "Conference USA", "Big Ten"]
+        conferences = ["Mountain West", "Mid-American", "SEC", "Sun Belt", "Big 12", "American Athletic", "ACC", "Conference USA", "Big Ten", "Pac-12"]
 
         for conference in conferences:
             cursor.execute("INSERT INTO CONFERENCE (Name) VALUES (?)", (conference,))
@@ -90,6 +90,7 @@ class DatabaseQueries:
 
 def main():
     db_queries = DatabaseQueries()
+    db_queries.insert_teams()
     
 
 if __name__ == "__main__":

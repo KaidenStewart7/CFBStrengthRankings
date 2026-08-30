@@ -1,13 +1,13 @@
 import os
 
 # Current Year
-YEAR = 2025
+YEAR = 2026
 
 # Current Week
-WEEK = 'final'  # Change this value for different weeks or 'final' for final rankings
+WEEK = 0  # Change this value for different weeks or 'final' for final rankings
 
 # Years
-YEAR_LIST = [2024, 2025]
+YEAR_LIST = [2024, 2025, 2026]
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -69,6 +69,17 @@ class CreateHTML():
             file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away(29-50)</li>")
             file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away(51-89)</li>")
             file.write("            <li>Quad 4: Home (61-136), Neutral (76-136), Away(90-136)</li>")
+
+            # 2026 Weekly Rankings
+            file.write(f"        <h2> 2026 Weekly Rankings </h2>\n")
+            file.write("        <div>\n")
+            week_count = WEEK
+            while week_count >= 0:
+                week_path = f"{YEAR}week{week_count}.html"
+                file.write(f"            <p><a href=\"{week_path}\">Week {week_count} Rankings</a></p>\n")
+                week_count -= 1
+            file.write("        </div>\n")
+
 
             # 2025 Weekly Rankings
             file.write(f"        <h2> 2025 Weekly Rankings </h2>\n")

@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 # Current Year
-CURRENT_YEAR = 2025
+CURRENT_YEAR = 2026
 
 #Load variables from .env file
 load_dotenv()

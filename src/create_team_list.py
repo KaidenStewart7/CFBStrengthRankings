@@ -1,7 +1,7 @@
 from fetch_api_data import FetchApiData
 import os
 
-YEAR = 2024
+YEAR = 2026
 
 # Get path to the current script
 base_dir = os.path.dirname(os.path.abspath(__file__))
