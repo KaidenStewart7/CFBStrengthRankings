@@ -15,7 +15,6 @@
     --red-dark: #b51218;
     --red-light: #e52a31;
 
-    /* NAVY CHANGED TO BLACK */
     --navy: #000000;
     --navy-light: #000000;
 
@@ -71,7 +70,9 @@ h2 {
 }
 
 
-/* Main title */
+/* ================================
+   MAIN TITLE
+   ================================ */
 
 h1 {
     margin: 0;
@@ -106,7 +107,9 @@ h1 {
 }
 
 
-/* Section headings */
+/* ================================
+   SECTION HEADINGS
+   ================================ */
 
 h2 {
     max-width: 1100px;
@@ -227,10 +230,6 @@ ol {
             0.09
         );
 
-    /*
-       Smooth scrolling on phones
-    */
-
     -webkit-overflow-scrolling: touch;
 }
 
@@ -265,9 +264,6 @@ ol li {
     transition:
         background-color 0.15s ease;
 }
-
-
-/* Last row */
 
 ol li:last-child {
     border-bottom: none;
@@ -312,12 +308,6 @@ ol li:first-child {
    TABLE HEADER ALIGNMENT
    ================================ */
 
-/*
-   Center all table headers by default.
-   This lines each header up with the
-   center of its corresponding column.
-*/
-
 ol li:first-child .header {
     display: block;
 
@@ -328,31 +318,13 @@ ol li:first-child .header {
     text-align: center;
 }
 
-
-/*
-   TEAM NAME stays left-aligned so it
-   lines up with the team names below.
-*/
-
 ol li:first-child .header:nth-child(2) {
     text-align: left;
 }
 
-
-/*
-   Make sure Rank is centered directly
-   over the ranking numbers.
-*/
-
 ol li:first-child .header:nth-child(1) {
     text-align: center;
 }
-
-
-/*
-   Rating, Quads, SOS and SOR are
-   centered over their values.
-*/
 
 ol li:first-child .header:nth-child(3),
 ol li:first-child .header:nth-child(4),
@@ -386,7 +358,7 @@ ol li:not(:first-child):hover {
 
 
 /* ================================
-   COLUMN STYLES
+   RANKING COLUMN STYLES
    ================================ */
 
 .header,
@@ -502,10 +474,19 @@ ol li:nth-child(26) .ranking {
 
 
 /* ================================
-   INDEX PAGE
+   RANKINGS INDEX PAGE
    ================================ */
 
-body > div {
+/*
+   IMPORTANT:
+   Only the rankings/index page gets
+   the multi-column grid.
+
+   The lines page has .lines-page and
+   must NOT inherit this grid.
+*/
+
+body > div:not(.lines-page) {
     width: min(
         1100px,
         calc(100% - 30px)
@@ -515,12 +496,6 @@ body > div {
 
     display: grid;
 
-    /*
-       Five consistent columns on desktop.
-       This keeps 2026 Week 0 aligned with
-       the individual 2025 ranking cards.
-    */
-
     grid-template-columns:
         repeat(5, minmax(0, 1fr));
 
@@ -528,7 +503,7 @@ body > div {
 }
 
 
-body > div p {
+body > div:not(.lines-page) p {
     width: auto;
 
     margin: 0;
@@ -537,9 +512,11 @@ body > div p {
 }
 
 
-/* Ranking buttons */
+/* ================================
+   RANKING BUTTONS
+   ================================ */
 
-body > div p a {
+body > div:not(.lines-page) p a {
     display: flex;
 
     min-height: 65px;
@@ -584,7 +561,7 @@ body > div p a {
 
 /* Button hover */
 
-body > div p a:hover {
+body > div:not(.lines-page) p a:hover {
     transform: translateY(-3px);
 
     background:
@@ -607,7 +584,244 @@ body > div p a:hover {
 
 
 /* ================================
-   BACK TO HOME
+   WEEKLY LINES PAGE
+   ================================ */
+
+.lines-page {
+    display: block;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding: 0 0 50px;
+}
+
+
+/* Lines description */
+
+.lines-page .lines-description {
+    width: min(
+        1000px,
+        calc(100% - 40px)
+    );
+
+    margin: 35px auto 25px;
+
+    padding: 0;
+
+    color: var(--text-muted);
+
+    font-size: 19px;
+
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/* ================================
+   WEEK GAMES HEADER
+   ================================ */
+
+.lines-header {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 30px auto 0;
+
+    padding: 15px 20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--red-dark),
+            var(--red)
+        );
+
+    border-radius: 10px 10px 0 0;
+
+    border-bottom: 2px solid #ed555a;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: 900;
+
+    text-align: left;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* ================================
+   LINES GAME TABLE
+   ================================ */
+
+.lines-list {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-top: none;
+
+    border-radius: 0 0 10px 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 18px rgba(
+            0,
+            0,
+            0,
+            0.09
+        );
+}
+
+
+/* ================================
+   INDIVIDUAL GAME
+   ================================ */
+
+.line-game {
+    width: 100%;
+
+    min-height: 68px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 17px 25px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid var(--border);
+
+    font-size: 20px;
+
+    line-height: 1.4;
+
+    transition:
+        background-color 0.15s ease;
+}
+
+
+/* Alternating rows */
+
+.line-game:nth-child(even) {
+    background: #f7f8fa;
+}
+
+
+/* Last game */
+
+.line-game:last-child {
+    border-bottom: none;
+}
+
+
+/* Game text */
+
+.line-game .game {
+    display: block;
+
+    width: 100%;
+
+    color: var(--text);
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    line-height: 1.4;
+
+    text-align: center;
+}
+
+
+/* ================================
+   TEAM RANKS ON LINES PAGE
+   ================================ */
+
+.line-game .team-rank {
+    color: var(--red);
+
+    font-weight: 900;
+}
+
+
+/* ================================
+   SPREAD ON LINES PAGE
+   ================================ */
+
+.line-game .line {
+    color: var(--text);
+
+    font-weight: 900;
+
+    white-space: nowrap;
+}
+
+
+/* ================================
+   LINES HOVER
+   ================================ */
+
+.line-game:hover {
+    background: #fff3f3;
+}
+
+
+/* ================================
+   BACK LINKS
+   ================================ */
+
+/*
+   Rankings pages use:
+
+       <ol>
+           ...
+       </ol>
+
+       <p>
+           <a href="index.html">Back to Home Page</a>
+       </p>
+
+   Lines pages use:
+
+       <p>
+           <a href="lines_index.html">Back to Lines Home Page</a>
+       </p>
+
+   Lines index uses the paragraph following
+   the week-links div.
+
+   IMPORTANT:
+   Do NOT use p:last-child here.
+   That would turn the final Week Rankings
+   card into a giant back button.
+*/
+
+
+/* ================================
+   RANKINGS PAGE BACK LINK
    ================================ */
 
 ol + p {
@@ -616,30 +830,67 @@ ol + p {
         calc(100% - 30px)
     );
 
-    margin: 20px auto 40px;
+    margin: 25px auto 40px;
 
     padding: 0;
+
+    text-align: left;
 }
 
 
-ol + p a {
+/* ================================
+   LINES PAGE / LINES INDEX BACK LINK
+   ================================ */
+
+.lines-page > p,
+h2 + div + p {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 25px auto 40px;
+
+    padding: 0;
+
+    text-align: left;
+}
+
+
+/* ================================
+   SHARED BACK LINK APPEARANCE
+   ================================ */
+
+ol + p a,
+.lines-page > p a,
+h2 + div + p a {
     display: inline-flex;
 
     align-items: center;
 
-    gap: 8px;
+    justify-content: flex-start;
 
-    padding: 10px 16px;
+    gap: 12px;
+
+    min-height: 96px;
+
+    padding: 24px 34px;
 
     background: white;
 
     border: 1px solid var(--border);
 
-    border-radius: 6px;
+    border-radius: 12px;
 
     color: var(--text-muted);
 
-    font-size: 14px;
+    font-size: 28px;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    text-decoration: none;
 
     box-shadow:
         0 2px 7px rgba(
@@ -651,23 +902,147 @@ ol + p a {
 
     transition:
         background-color 0.2s ease,
-        color 0.2s ease;
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 
-ol + p a::before {
+/* ================================
+   BACK ARROW
+   ================================ */
+
+ol + p a::before,
+.lines-page > p a::before,
+h2 + div + p a::before {
     content: "←";
+
+    flex-shrink: 0;
 
     color: var(--red);
 
-    font-size: 18px;
+    font-size: 32px;
+
+    font-weight: 400;
+
+    line-height: 1;
 }
 
 
-ol + p a:hover {
-    background: var(--navy);
+/* ================================
+   BACK LINK HOVER
+   ================================ */
 
-    color: white;
+ol + p a:hover,
+.lines-page > p a:hover,
+h2 + div + p a:hover {
+    background: var(--surface-hover);
+
+    color: var(--text);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 14px rgba(
+            0,
+            0,
+            0,
+            0.10
+        );
+}
+
+
+/* ================================
+   OLD LINES BACK BUTTON SUPPORT
+   ================================ */
+
+.lines-page .lines-back {
+    width: min(
+        1200px,
+        calc(100% - 30px)
+    );
+
+    margin: 25px auto 40px;
+
+    padding: 0;
+
+    text-align: left;
+}
+
+.lines-page .lines-back a {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    gap: 12px;
+
+    min-height: 96px;
+
+    padding: 24px 34px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    color: var(--text-muted);
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 2px 7px rgba(
+            0,
+            0,
+            0,
+            0.06
+        );
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.lines-page .lines-back a::before {
+    content: "←";
+
+    flex-shrink: 0;
+
+    margin-right: 0;
+
+    color: var(--red);
+
+    font-size: 32px;
+
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+.lines-page .lines-back a:hover {
+    background: var(--surface-hover);
+
+    color: var(--text);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 14px rgba(
+            0,
+            0,
+            0,
+            0.10
+        );
 }
 
 
@@ -738,7 +1113,9 @@ ol::-webkit-scrollbar-thumb:hover {
     }
 
 
-    /* Rankings */
+    /* ============================
+       RANKINGS MOBILE
+       ============================ */
 
     ol {
         width: calc(100% - 20px);
@@ -775,8 +1152,6 @@ ol::-webkit-scrollbar-thumb:hover {
     }
 
 
-    /* Keep mobile headers aligned */
-
     ol li:first-child .header {
         text-align: center;
     }
@@ -802,9 +1177,11 @@ ol::-webkit-scrollbar-thumb:hover {
     }
 
 
-    /* Home-page cards */
+    /* ============================
+       RANKINGS INDEX MOBILE
+       ============================ */
 
-    body > div {
+    body > div:not(.lines-page) {
         width: calc(100% - 25px);
 
         grid-template-columns: 1fr;
@@ -813,10 +1190,119 @@ ol::-webkit-scrollbar-thumb:hover {
     }
 
 
-    body > div p a {
+    /*
+       IMPORTANT:
+       This ONLY styles the actual
+       ranking cards.
+
+       It does NOT target a final
+       p:last-child anymore.
+    */
+
+    body > div:not(.lines-page) p a {
         min-height: 55px;
 
         font-size: 14px;
+    }
+
+
+    /* ============================
+       LINES MOBILE
+       ============================ */
+
+    .lines-page {
+        width: 100%;
+
+        display: block;
+    }
+
+
+    .lines-page .lines-description {
+        width: calc(100% - 30px);
+
+        margin: 25px auto 20px;
+
+        font-size: 16px;
+
+        line-height: 1.5;
+    }
+
+
+    .lines-header {
+        width: calc(100% - 20px);
+
+        margin-top: 20px;
+
+        padding: 13px 15px;
+
+        font-size: 17px;
+
+        border-radius: 7px 7px 0 0;
+    }
+
+
+    .lines-list {
+        width: calc(100% - 20px);
+
+        margin: 0 auto;
+
+        border-radius: 0 0 7px 7px;
+    }
+
+
+    .line-game {
+        min-height: 60px;
+
+        padding: 15px 12px;
+
+        font-size: 17px;
+    }
+
+
+    .line-game .game {
+        font-size: 17px;
+
+        line-height: 1.45;
+    }
+
+
+    /* ============================
+       BACK LINKS MOBILE
+       ============================ */
+
+    ol + p,
+    .lines-page > p,
+    h2 + div + p,
+    .lines-page .lines-back {
+        width: calc(100% - 20px);
+
+        margin-top: 20px;
+
+        margin-bottom: 30px;
+
+        text-align: left;
+    }
+
+
+    ol + p a,
+    .lines-page > p a,
+    h2 + div + p a,
+    .lines-page .lines-back a {
+        min-height: 70px;
+
+        padding: 18px 22px;
+
+        gap: 10px;
+
+        font-size: 20px;
+    }
+
+
+    ol + p a::before,
+    .lines-page > p a::before,
+    h2 + div + p a::before,
+    .lines-page .lines-back a::before {
+        font-size: 25px;
     }
 }
 
@@ -844,5 +1330,59 @@ ol::-webkit-scrollbar-thumb:hover {
 
     ol {
         width: calc(100% - 12px);
+    }
+
+
+    .lines-header {
+        width: calc(100% - 12px);
+
+        font-size: 16px;
+    }
+
+
+    .lines-list {
+        width: calc(100% - 12px);
+    }
+
+
+    .line-game {
+        padding: 13px 8px;
+    }
+
+
+    .line-game .game {
+        font-size: 15px;
+    }
+
+
+    /* ============================
+       BACK LINKS
+       ============================ */
+
+    ol + p,
+    .lines-page > p,
+    h2 + div + p,
+    .lines-page .lines-back {
+        width: calc(100% - 12px);
+    }
+
+
+    ol + p a,
+    .lines-page > p a,
+    h2 + div + p a,
+    .lines-page .lines-back a {
+        min-height: 64px;
+
+        padding: 16px 18px;
+
+        font-size: 18px;
+    }
+
+
+    ol + p a::before,
+    .lines-page > p a::before,
+    h2 + div + p a::before,
+    .lines-page .lines-back a::before {
+        font-size: 23px;
     }
 }
