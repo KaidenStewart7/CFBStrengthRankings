@@ -1,0 +1,9 @@
+1. Create Strength Rankings
+    a. run load_games.played
+    b. run calculate_strength_ratings.py 
+    c. run create_html.py
+
+2. Create lines
+    a. run input_model_data.py
+    b. rrun create_line_html.py
+    c. run season_analytics.py

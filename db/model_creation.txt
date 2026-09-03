@@ -1,0 +1,17 @@
+CREATE TABLE model_data (
+    Game_Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Neutral_Flag BOOLEAN NOT NULL,
+    Home_Point_Diff INTEGER NOT NULL,
+    Home_Rating_Diff DECIMAL NOT NULL
+);
+
+CREATE TABLE lines_ [YEAR]
+(   Week    INT NOT NULL,
+    Home_Team   VARCHAR(50) NOT NULL,
+    Away_Team   VARCHAR(50) NOT NULL,
+    Neutral_Flag    BOOLEAN NOT NULL,
+    Projected_Winner VARCHAR(50) NOT NULL,
+    Projected_Line  DECIMAL NOT NULL,
+    Home_Rating     DECIMAL NOT NULL,
+    Away_Rating     DECIMAL NOT NULL,
+    PRIMARY KEY(Week, Home_Team, Away_Team));
