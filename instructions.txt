@@ -5,5 +5,5 @@
 
 2. Create lines
     a. run input_model_data.py
-    b. rrun create_line_html.py
+    b. run output_weekly_lines.py
     c. run season_analytics.py

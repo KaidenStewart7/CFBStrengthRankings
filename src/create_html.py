@@ -65,12 +65,13 @@ class CreateHTML():
             file.write("            Additionally, you can find each teams record versus teams in each quadrant. This is based on the college basketball Quad Wins and Losses found on <a href=\"https://bballnet.com\">NET Rankings and Quad Wins</a>. Note that only FBS versus FBS games are taken into account. Here is the break down of quadrants I used that are proportional to the number of teams in each quadrant in college basketball:")
             file.write("        </p>")
             file.write("        <ul class=quads>")
-            file.write("            <li>Quad 1: Home (1-11), Neutral (1-19), Away(1-28)</li>")
-            file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away(29-50)</li>")
-            file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away(51-89)</li>")
-            file.write("            <li>Quad 4: Home (61-136), Neutral (76-136), Away(90-136)</li>")
+            file.write("            <li>Quad 1: Home (1-11), Neutral (1-19), Away (1-28)</li>")
+            file.write("            <li>Quad 2: Home (12-28), Neutral (20-37), Away (29-50)</li>")
+            file.write("            <li>Quad 3: Home (29-60), Neutral (38-75), Away (51-89)</li>")
+            file.write("            <li>Quad 4: Home (61-138), Neutral (76-138), Away (90-138)</li>")
             file.write("        </ul>")
-
+            file.write("        <p>\n")
+            file.write("            Additionally, new this year, I have added <a href=\"lines_index.html\"> Weekly Line Projections</a> to the site. On the page, you can find each week's projected lines for each game according to our model.\n")
             # 2026 Weekly Rankings
             file.write(f"        <h2> 2026 Weekly Rankings </h2>\n")
             file.write("        <div>\n")
