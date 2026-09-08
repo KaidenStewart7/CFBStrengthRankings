@@ -4,7 +4,7 @@ import sqlite3
 # Currrent Year
 DB_YEAR = 2026
 # Current Week
-DB_WEEK = 0
+DB_WEEK = 1
 # Current Rankings Path 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 RANKINGS_PATH = os.path.join(base_dir, "..", "txt", f"2026_week{DB_WEEK}_strength_ratings.txt")

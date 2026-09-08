@@ -1,0 +1,410 @@
+2026 CFB MODEL SEASON ANALYTICS
+======================================================================
+
+SEASON SUMMARY
+----------------------------------------------------------------------
+Games Evaluated:          43
+Correct Winner Picks:     34
+Incorrect Winner Picks:   9
+Winner Prediction %:      79.07%
+Mean Absolute Error:      16.53 points
+Average Prediction Error: -5.74 points
+Average Predicted Margin: 14.16 points
+Average Actual Margin:    19.91 points
+
+
+WEEKLY PERFORMANCE
+----------------------------------------------------------------------
+Week 1: 34/43 correct (79.07%) | MAE: 16.53
+
+
+COMPLETED GAME RESULTS
+======================================================================
+
+Week 1: Alabama vs East Carolina
+Projected Winner: Alabama
+Projected Line: 29.5
+Actual Winner: Alabama
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 1: Auburn vs Baylor
+Projected Winner: Auburn
+Projected Line: 9.0
+Actual Winner: Auburn
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 1: California vs UCLA
+Projected Winner: California
+Projected Line: 1.0
+Actual Winner: UCLA
+Actual Margin: -21.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 1: Cincinnati vs Boston College
+Projected Winner: Cincinnati
+Projected Line: 0.5
+Actual Winner: Cincinnati
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 1: Colorado State vs Wyoming
+Projected Winner: Colorado State
+Projected Line: 11.5
+Actual Winner: Colorado State
+Actual Margin: +22.0
+Winner Prediction: CORRECT
+Prediction Error: -10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 1: Duke vs Tulane
+Projected Winner: Duke
+Projected Line: 3.0
+Actual Winner: Duke
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 1: Eastern Michigan vs San José State
+Projected Winner: Eastern Michigan
+Projected Line: 10.5
+Actual Winner: San José State
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 1: Florida vs Florida Atlantic
+Projected Winner: Florida
+Projected Line: 25.5
+Actual Winner: Florida
+Actual Margin: +45.0
+Winner Prediction: CORRECT
+Prediction Error: -19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 1: Florida State vs SMU
+Projected Winner: Florida State
+Projected Line: 8.5
+Actual Winner: SMU
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 1: Georgia Tech vs Colorado
+Projected Winner: Georgia Tech
+Projected Line: 4.0
+Actual Winner: Colorado
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 1: Hawai'i vs UNLV
+Projected Winner: UNLV
+Projected Line: 5.5
+Actual Winner: UNLV
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 1: Houston vs Oregon State
+Projected Winner: Houston
+Projected Line: 7.0
+Actual Winner: Houston
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 1: Illinois vs UAB
+Projected Winner: Illinois
+Projected Line: 10.0
+Actual Winner: Illinois
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 1: Indiana vs North Texas
+Projected Winner: Indiana
+Projected Line: 13.0
+Actual Winner: Indiana
+Actual Margin: +36.0
+Winner Prediction: CORRECT
+Prediction Error: -23.0
+Absolute Error: 23.0
+----------------------------------------------------------------------
+Week 1: Iowa vs Northern Illinois
+Projected Winner: Iowa
+Projected Line: 17.0
+Actual Winner: Iowa
+Actual Margin: +40.0
+Winner Prediction: CORRECT
+Prediction Error: -23.0
+Absolute Error: 23.0
+----------------------------------------------------------------------
+Week 1: James Madison vs Liberty
+Projected Winner: Liberty
+Projected Line: 1.0
+Actual Winner: James Madison
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 1: LSU vs Clemson
+Projected Winner: LSU
+Projected Line: 8.0
+Actual Winner: LSU
+Actual Margin: +41.0
+Winner Prediction: CORRECT
+Prediction Error: -33.0
+Absolute Error: 33.0
+----------------------------------------------------------------------
+Week 1: Memphis vs Arkansas State
+Projected Winner: Memphis
+Projected Line: 12.5
+Actual Winner: Memphis
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 1: Michigan vs Western Michigan
+Projected Winner: Michigan
+Projected Line: 27.0
+Actual Winner: Western Michigan
+Actual Margin: -5.0
+Winner Prediction: INCORRECT
+Prediction Error: +32.0
+Absolute Error: 32.0
+----------------------------------------------------------------------
+Week 1: Michigan State vs Toledo
+Projected Winner: Michigan State
+Projected Line: 12.5
+Actual Winner: Michigan State
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 1: Mississippi State vs UL Monroe
+Projected Winner: Mississippi State
+Projected Line: 26.0
+Actual Winner: Mississippi State
+Actual Margin: +49.0
+Winner Prediction: CORRECT
+Prediction Error: -23.0
+Absolute Error: 23.0
+----------------------------------------------------------------------
+Week 1: Nebraska vs Ohio
+Projected Winner: Nebraska
+Projected Line: 23.0
+Actual Winner: Nebraska
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 1: Nevada vs Western Kentucky
+Projected Winner: Western Kentucky
+Projected Line: 2.0
+Actual Winner: Nevada
+Actual Margin: -35.0
+Winner Prediction: INCORRECT
+Prediction Error: +37.0
+Absolute Error: 37.0
+----------------------------------------------------------------------
+Week 1: New Mexico vs Central Michigan
+Projected Winner: New Mexico
+Projected Line: 5.0
+Actual Winner: New Mexico
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -26.0
+Absolute Error: 26.0
+----------------------------------------------------------------------
+Week 1: Notre Dame vs Wisconsin
+Projected Winner: Notre Dame
+Projected Line: 15.5
+Actual Winner: Notre Dame
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 1: Ohio State vs Ball State
+Projected Winner: Ohio State
+Projected Line: 33.5
+Actual Winner: Ohio State
+Actual Margin: +53.0
+Winner Prediction: CORRECT
+Prediction Error: -19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 1: Oklahoma vs UTEP
+Projected Winner: Oklahoma
+Projected Line: 23.0
+Actual Winner: Oklahoma
+Actual Margin: +51.0
+Winner Prediction: CORRECT
+Prediction Error: -28.0
+Absolute Error: 28.0
+----------------------------------------------------------------------
+Week 1: Ole Miss vs Louisville
+Projected Winner: Ole Miss
+Projected Line: 13.0
+Actual Winner: Ole Miss
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 1: Oregon vs Boise State
+Projected Winner: Oregon
+Projected Line: 29.0
+Actual Winner: Oregon
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 1: Penn State vs Marshall
+Projected Winner: Penn State
+Projected Line: 16.5
+Actual Winner: Penn State
+Actual Margin: +45.0
+Winner Prediction: CORRECT
+Prediction Error: -28.5
+Absolute Error: 28.5
+----------------------------------------------------------------------
+Week 1: Pittsburgh vs Miami (OH)
+Projected Winner: Pittsburgh
+Projected Line: 6.5
+Actual Winner: Pittsburgh
+Actual Margin: +45.0
+Winner Prediction: CORRECT
+Prediction Error: -38.5
+Absolute Error: 38.5
+----------------------------------------------------------------------
+Week 1: Rutgers vs Massachusetts
+Projected Winner: Rutgers
+Projected Line: 17.0
+Actual Winner: Massachusetts
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +33.0
+Absolute Error: 33.0
+----------------------------------------------------------------------
+Week 1: South Carolina vs Kent State
+Projected Winner: South Carolina
+Projected Line: 29.0
+Actual Winner: South Carolina
+Actual Margin: +57.0
+Winner Prediction: CORRECT
+Prediction Error: -28.0
+Absolute Error: 28.0
+----------------------------------------------------------------------
+Week 1: South Florida vs Florida International
+Projected Winner: South Florida
+Projected Line: 10.0
+Actual Winner: South Florida
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 1: Stanford vs Miami
+Projected Winner: Miami
+Projected Line: 7.0
+Actual Winner: Miami
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -32.0
+Absolute Error: 32.0
+----------------------------------------------------------------------
+Week 1: Texas vs Texas State
+Projected Winner: Texas
+Projected Line: 30.5
+Actual Winner: Texas
+Actual Margin: +52.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 1: Texas A&M vs Missouri State
+Projected Winner: Texas A&M
+Projected Line: 32.5
+Actual Winner: Texas A&M
+Actual Margin: +50.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 1: Troy vs Sam Houston
+Projected Winner: Troy
+Projected Line: 6.0
+Actual Winner: Troy
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 1: Tulsa vs Oklahoma State
+Projected Winner: Oklahoma State
+Projected Line: 1.5
+Actual Winner: Tulsa
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 1: USC vs Fresno State
+Projected Winner: USC
+Projected Line: 26.0
+Actual Winner: USC
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 1: Wake Forest vs Akron
+Projected Winner: Wake Forest
+Projected Line: 13.0
+Actual Winner: Wake Forest
+Actual Margin: +22.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 1: Washington vs Washington State
+Projected Winner: Washington
+Projected Line: 14.0
+Actual Winner: Washington
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 1: West Virginia vs Coastal Carolina
+Projected Winner: West Virginia
+Projected Line: 13.0
+Actual Winner: West Virginia
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------

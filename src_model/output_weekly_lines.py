@@ -7,7 +7,7 @@ from fetch_api_data import FetchApiData
 SEASON_TYPE = "regular"
 
 # Week
-DB_WEEK = 1
+DB_WEEK = 2
 
 # Year
 DB_YEAR = 2026

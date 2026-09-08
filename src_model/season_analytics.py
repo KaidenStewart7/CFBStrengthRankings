@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # Current Year
-DB_YEAR = 2025
+DB_YEAR = 2026
 
 # Base directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -34,7 +34,7 @@ ANALYTICS_DIR = os.path.join(
 def get_predictions():
     """
     Get every prediction that has been generated
-    during the 2025 season.
+    during the 2026 season.
     """
 
     connection = sqlite3.connect(MODEL_DB_PATH)
@@ -48,7 +48,7 @@ def get_predictions():
             Neutral_Flag,
             Projected_Winner,
             Projected_Line
-        FROM lines_2025
+        FROM lines_2026
         ORDER BY Week
     """)
 
