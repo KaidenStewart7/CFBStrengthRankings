@@ -3,19 +3,20 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          43
-Correct Winner Picks:     34
-Incorrect Winner Picks:   9
-Winner Prediction %:      79.07%
-Mean Absolute Error:      16.53 points
-Average Prediction Error: -5.74 points
-Average Predicted Margin: 14.16 points
-Average Actual Margin:    19.91 points
+Games Evaluated:          92
+Correct Winner Picks:     72
+Incorrect Winner Picks:   20
+Winner Prediction %:      78.26%
+Mean Absolute Error:      14.26 points
+Average Prediction Error: -2.10 points
+Average Predicted Margin: 13.54 points
+Average Actual Margin:    15.64 points
 
 
 WEEKLY PERFORMANCE
 ----------------------------------------------------------------------
 Week 1: 34/43 correct (79.07%) | MAE: 16.53
+Week 2: 38/49 correct (77.55%) | MAE: 12.27
 
 
 COMPLETED GAME RESULTS
@@ -407,4 +408,445 @@ Actual Margin: +7.0
 Winner Prediction: CORRECT
 Prediction Error: +6.0
 Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 2: Air Force vs North Dakota State
+Projected Winner: North Dakota State
+Projected Line: 22.0
+Actual Winner: North Dakota State
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 2: Army vs South Florida
+Projected Winner: South Florida
+Projected Line: 29.5
+Actual Winner: South Florida
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +25.5
+Absolute Error: 25.5
+----------------------------------------------------------------------
+Week 2: Auburn vs Southern Miss
+Projected Winner: Auburn
+Projected Line: 21.0
+Actual Winner: Auburn
+Actual Margin: +35.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 2: BYU vs Arizona
+Projected Winner: BYU
+Projected Line: 2.0
+Actual Winner: BYU
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 2: Boise State vs Memphis
+Projected Winner: Memphis
+Projected Line: 9.0
+Actual Winner: Boise State
+Actual Margin: -18.0
+Winner Prediction: INCORRECT
+Prediction Error: +27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 2: Boston College vs Rutgers
+Projected Winner: Rutgers
+Projected Line: 1.5
+Actual Winner: Boston College
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 2: Clemson vs Georgia Southern
+Projected Winner: Clemson
+Projected Line: 10.5
+Actual Winner: Clemson
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 2: East Carolina vs App State
+Projected Winner: App State
+Projected Line: 3.0
+Actual Winner: App State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 2: Florida Atlantic vs Navy
+Projected Winner: Florida Atlantic
+Projected Line: 28.5
+Actual Winner: Florida Atlantic
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 2: Florida International vs Buffalo
+Projected Winner: Florida International
+Projected Line: 1.0
+Actual Winner: Florida International
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 2: Fresno State vs Sacramento State
+Projected Winner: Fresno State
+Projected Line: 4.0
+Actual Winner: Fresno State
+Actual Margin: +46.0
+Winner Prediction: CORRECT
+Prediction Error: -42.0
+Absolute Error: 42.0
+----------------------------------------------------------------------
+Week 2: Georgia vs Western Kentucky
+Projected Winner: Georgia
+Projected Line: 41.0
+Actual Winner: Georgia
+Actual Margin: +50.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 2: Georgia Tech vs Tennessee
+Projected Winner: Tennessee
+Projected Line: 13.5
+Actual Winner: Tennessee
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 2: Hawai'i vs New Mexico State
+Projected Winner: Hawai'i
+Projected Line: 8.0
+Actual Winner: Hawai'i
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 2: Illinois vs Duke
+Projected Winner: Illinois
+Projected Line: 6.0
+Actual Winner: Duke
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 2: Iowa vs Iowa State
+Projected Winner: Iowa
+Projected Line: 11.0
+Actual Winner: Iowa
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 2: Kansas vs Missouri
+Projected Winner: Missouri
+Projected Line: 7.0
+Actual Winner: Missouri
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 2: Kansas State vs Washington State
+Projected Winner: Kansas State
+Projected Line: 15.5
+Actual Winner: Kansas State
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 2: Kennesaw State vs Georgia State
+Projected Winner: Georgia State
+Projected Line: 3.0
+Actual Winner: Georgia State
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 2: Kentucky vs Alabama
+Projected Winner: Alabama
+Projected Line: 11.5
+Actual Winner: Alabama
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 2: LSU vs Louisiana Tech
+Projected Winner: LSU
+Projected Line: 34.0
+Actual Winner: LSU
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 2: Marshall vs Middle Tennessee
+Projected Winner: Middle Tennessee
+Projected Line: 1.5
+Actual Winner: Marshall
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 2: Michigan vs Oklahoma
+Projected Winner: Oklahoma
+Projected Line: 5.0
+Actual Winner: Michigan
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 2: Michigan State vs Eastern Michigan
+Projected Winner: Michigan State
+Projected Line: 16.0
+Actual Winner: Michigan State
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 2: Minnesota vs Mississippi State
+Projected Winner: Mississippi State
+Projected Line: 7.0
+Actual Winner: Mississippi State
+Actual Margin: +25.0
+Winner Prediction: CORRECT
+Prediction Error: -18.0
+Absolute Error: 18.0
+----------------------------------------------------------------------
+Week 2: Nebraska vs Bowling Green
+Projected Winner: Nebraska
+Projected Line: 22.0
+Actual Winner: Nebraska
+Actual Margin: +49.0
+Winner Prediction: CORRECT
+Prediction Error: -27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 2: North Texas vs UNLV
+Projected Winner: UNLV
+Projected Line: 6.5
+Actual Winner: North Texas
+Actual Margin: -38.0
+Winner Prediction: INCORRECT
+Prediction Error: +44.5
+Absolute Error: 44.5
+----------------------------------------------------------------------
+Week 2: Notre Dame vs Rice
+Projected Winner: Notre Dame
+Projected Line: 28.5
+Actual Winner: Notre Dame
+Actual Margin: +52.0
+Winner Prediction: CORRECT
+Prediction Error: -23.5
+Absolute Error: 23.5
+----------------------------------------------------------------------
+Week 2: Ohio vs Jacksonville State
+Projected Winner: Jacksonville State
+Projected Line: 1.0
+Actual Winner: Ohio
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 2: Oklahoma State vs Oregon
+Projected Winner: Oregon
+Projected Line: 23.5
+Actual Winner: Oklahoma State
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +31.5
+Absolute Error: 31.5
+----------------------------------------------------------------------
+Week 2: Ole Miss vs Charlotte
+Projected Winner: Ole Miss
+Projected Line: 26.5
+Actual Winner: Ole Miss
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 2: Oregon State vs Texas Tech
+Projected Winner: Texas Tech
+Projected Line: 14.0
+Actual Winner: Texas Tech
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 2: Pittsburgh vs UCF
+Projected Winner: Pittsburgh
+Projected Line: 7.0
+Actual Winner: Pittsburgh
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 2: Purdue vs Wake Forest
+Projected Winner: Purdue
+Projected Line: 1.5
+Actual Winner: Wake Forest
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 2: Sam Houston vs Tulsa
+Projected Winner: Tulsa
+Projected Line: 10.5
+Actual Winner: Tulsa
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 2: Syracuse vs California
+Projected Winner: Syracuse
+Projected Line: 9.0
+Actual Winner: California
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 2: Temple vs Penn State
+Projected Winner: Penn State
+Projected Line: 11.5
+Actual Winner: Penn State
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 2: Texas vs Ohio State
+Projected Winner: Texas
+Projected Line: 5.0
+Actual Winner: Texas
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 2: Texas A&M vs Arizona State
+Projected Winner: Texas A&M
+Projected Line: 20.5
+Actual Winner: Texas A&M
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 2: Texas State vs UTSA
+Projected Winner: UTSA
+Projected Line: 8.0
+Actual Winner: UTSA
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 2: Tulane vs South Alabama
+Projected Winner: Tulane
+Projected Line: 4.5
+Actual Winner: Tulane
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 2: UAB vs UL Monroe
+Projected Winner: UAB
+Projected Line: 10.5
+Actual Winner: UAB
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 2: UCLA vs San Diego State
+Projected Winner: UCLA
+Projected Line: 17.5
+Actual Winner: UCLA
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 2: UConn vs Maryland
+Projected Winner: Maryland
+Projected Line: 2.5
+Actual Winner: Maryland
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 2: USC vs Louisiana
+Projected Winner: USC
+Projected Line: 28.5
+Actual Winner: USC
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 2: Utah vs Arkansas
+Projected Winner: Arkansas
+Projected Line: 1.5
+Actual Winner: Utah
+Actual Margin: -33.0
+Winner Prediction: INCORRECT
+Prediction Error: +34.5
+Absolute Error: 34.5
+----------------------------------------------------------------------
+Week 2: Vanderbilt vs Delaware
+Projected Winner: Vanderbilt
+Projected Line: 22.0
+Actual Winner: Vanderbilt
+Actual Margin: +9.0
+Winner Prediction: CORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 2: Virginia Tech vs Old Dominion
+Projected Winner: Virginia Tech
+Projected Line: 20.5
+Actual Winner: Virginia Tech
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 2: Washington vs Utah State
+Projected Winner: Washington
+Projected Line: 22.5
+Actual Winner: Washington
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
 ----------------------------------------------------------------------

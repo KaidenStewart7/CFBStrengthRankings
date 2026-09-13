@@ -4,7 +4,7 @@ import os
 YEAR = 2026
 
 # Current Week
-WEEK = 1  # Change this value for different weeks or 'final' for final rankings
+WEEK = 2  # Change this value for different weeks or 'final' for final rankings
 
 # Years
 YEAR_LIST = [2024, 2025, 2026]
