@@ -3,20 +3,21 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          92
-Correct Winner Picks:     72
-Incorrect Winner Picks:   20
-Winner Prediction %:      78.26%
-Mean Absolute Error:      14.26 points
-Average Prediction Error: -2.10 points
-Average Predicted Margin: 13.54 points
-Average Actual Margin:    15.64 points
+Games Evaluated:          149
+Correct Winner Picks:     114
+Incorrect Winner Picks:   35
+Winner Prediction %:      76.51%
+Mean Absolute Error:      13.07 points
+Average Prediction Error: -1.79 points
+Average Predicted Margin: 12.42 points
+Average Actual Margin:    14.21 points
 
 
 WEEKLY PERFORMANCE
 ----------------------------------------------------------------------
 Week 1: 34/43 correct (79.07%) | MAE: 16.53
 Week 2: 38/49 correct (77.55%) | MAE: 12.27
+Week 3: 42/57 correct (73.68%) | MAE: 11.14
 
 
 COMPLETED GAME RESULTS
@@ -849,4 +850,517 @@ Actual Margin: +2.0
 Winner Prediction: CORRECT
 Prediction Error: +20.5
 Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 3: Alabama vs Florida State
+Projected Winner: Alabama
+Projected Line: 20.0
+Actual Winner: Alabama
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 3: App State vs Charlotte
+Projected Winner: App State
+Projected Line: 11.0
+Actual Winner: App State
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 3: Arizona vs Northern Illinois
+Projected Winner: Arizona
+Projected Line: 14.0
+Actual Winner: Arizona
+Actual Margin: +25.0
+Winner Prediction: CORRECT
+Prediction Error: -11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 3: Arkansas vs Georgia
+Projected Winner: Georgia
+Projected Line: 20.5
+Actual Winner: Georgia
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 3: Auburn vs Florida
+Projected Winner: Auburn
+Projected Line: 0.0
+Actual Winner: Florida
+Actual Margin: -5.0
+Winner Prediction: INCORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 3: Baylor vs Louisiana Tech
+Projected Winner: Baylor
+Projected Line: 15.5
+Actual Winner: Baylor
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 3: Central Michigan vs Wyoming
+Projected Winner: Central Michigan
+Projected Line: 1.5
+Actual Winner: Central Michigan
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 3: Cincinnati vs Miami (OH)
+Projected Winner: Cincinnati
+Projected Line: 13.5
+Actual Winner: Cincinnati
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 3: Clemson vs North Carolina
+Projected Winner: Clemson
+Projected Line: 1.5
+Actual Winner: Clemson
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 3: Colorado State vs BYU
+Projected Winner: BYU
+Projected Line: 2.0
+Actual Winner: BYU
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 3: Delaware vs Coastal Carolina
+Projected Winner: Coastal Carolina
+Projected Line: 4.0
+Actual Winner: Delaware
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 3: Duke vs Stanford
+Projected Winner: Duke
+Projected Line: 8.0
+Actual Winner: Duke
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 3: Florida Atlantic vs Florida International
+Projected Winner: Florida Atlantic
+Projected Line: 4.0
+Actual Winner: Florida Atlantic
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 3: Indiana vs Western Kentucky
+Projected Winner: Indiana
+Projected Line: 29.0
+Actual Winner: Indiana
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 3: Iowa State vs Bowling Green
+Projected Winner: Iowa State
+Projected Line: 12.5
+Actual Winner: Iowa State
+Actual Margin: +48.0
+Winner Prediction: CORRECT
+Prediction Error: -35.5
+Absolute Error: 35.5
+----------------------------------------------------------------------
+Week 3: Jacksonville State vs Georgia Southern
+Projected Winner: Georgia Southern
+Projected Line: 5.0
+Actual Winner: Jacksonville State
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 3: Kansas vs Arizona State
+Projected Winner: Arizona State
+Projected Line: 1.0
+Actual Winner: Arizona State
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 3: Kansas State vs Tulane
+Projected Winner: Kansas State
+Projected Line: 11.5
+Actual Winner: Kansas State
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 3: Liberty vs Ball State
+Projected Winner: Liberty
+Projected Line: 7.5
+Actual Winner: Liberty
+Actual Margin: +36.0
+Winner Prediction: CORRECT
+Prediction Error: -28.5
+Absolute Error: 28.5
+----------------------------------------------------------------------
+Week 3: Louisiana vs UAB
+Projected Winner: UAB
+Projected Line: 2.0
+Actual Winner: Louisiana
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 3: Louisville vs SMU
+Projected Winner: SMU
+Projected Line: 5.5
+Actual Winner: Louisville
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 3: Maryland vs Virginia Tech
+Projected Winner: Virginia Tech
+Projected Line: 0.0
+Actual Winner: Virginia Tech
+Actual Margin: +9.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 3: Michigan vs UTEP
+Projected Winner: Michigan
+Projected Line: 24.0
+Actual Winner: Michigan
+Actual Margin: +35.0
+Winner Prediction: CORRECT
+Prediction Error: -11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 3: Middle Tennessee vs Nevada
+Projected Winner: Nevada
+Projected Line: 5.5
+Actual Winner: Middle Tennessee
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 3: Minnesota vs Akron
+Projected Winner: Minnesota
+Projected Line: 16.5
+Actual Winner: Minnesota
+Actual Margin: +34.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 3: Missouri vs Troy
+Projected Winner: Missouri
+Projected Line: 19.5
+Actual Winner: Missouri
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 3: Missouri State vs Marshall
+Projected Winner: Marshall
+Projected Line: 3.0
+Actual Winner: Marshall
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: -3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 3: Northwestern vs Colorado
+Projected Winner: Colorado
+Projected Line: 1.0
+Actual Winner: Northwestern
+Actual Margin: -34.0
+Winner Prediction: INCORRECT
+Prediction Error: +35.0
+Absolute Error: 35.0
+----------------------------------------------------------------------
+Week 3: Notre Dame vs Michigan State
+Projected Winner: Notre Dame
+Projected Line: 17.0
+Actual Winner: Notre Dame
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 3: Ohio State vs Kent State
+Projected Winner: Ohio State
+Projected Line: 35.0
+Actual Winner: Ohio State
+Actual Margin: +56.0
+Winner Prediction: CORRECT
+Prediction Error: -21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 3: Oklahoma vs New Mexico
+Projected Winner: Oklahoma
+Projected Line: 19.0
+Actual Winner: Oklahoma
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 3: Old Dominion vs East Carolina
+Projected Winner: Old Dominion
+Projected Line: 0.5
+Actual Winner: East Carolina
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 3: Ole Miss vs LSU
+Projected Winner: LSU
+Projected Line: 1.5
+Actual Winner: Ole Miss
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 3: Penn State vs Buffalo
+Projected Winner: Penn State
+Projected Line: 29.0
+Actual Winner: Penn State
+Actual Margin: +42.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 3: Pittsburgh vs Syracuse
+Projected Winner: Pittsburgh
+Projected Line: 9.0
+Actual Winner: Pittsburgh
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 3: Rice vs Western Michigan
+Projected Winner: Western Michigan
+Projected Line: 2.0
+Actual Winner: Western Michigan
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 3: Rutgers vs USC
+Projected Winner: USC
+Projected Line: 20.5
+Actual Winner: USC
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +13.5
+Absolute Error: 13.5
+----------------------------------------------------------------------
+Week 3: Sacramento State vs North Dakota State
+Projected Winner: North Dakota State
+Projected Line: 11.5
+Actual Winner: North Dakota State
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 3: San Diego State vs James Madison
+Projected Winner: James Madison
+Projected Line: 3.0
+Actual Winner: James Madison
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 3: San José State vs Fresno State
+Projected Winner: San José State
+Projected Line: 2.0
+Actual Winner: Fresno State
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.0
+Absolute Error: 18.0
+----------------------------------------------------------------------
+Week 3: South Alabama vs Ohio
+Projected Winner: South Alabama
+Projected Line: 5.0
+Actual Winner: South Alabama
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 3: South Carolina vs Mississippi State
+Projected Winner: South Carolina
+Projected Line: 3.0
+Actual Winner: Mississippi State
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 3: Southern Miss vs UConn
+Projected Winner: UConn
+Projected Line: 0.5
+Actual Winner: UConn
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -27.5
+Absolute Error: 27.5
+----------------------------------------------------------------------
+Week 3: TCU vs Arkansas State
+Projected Winner: TCU
+Projected Line: 12.0
+Actual Winner: TCU
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 3: Tennessee vs Kennesaw State
+Projected Winner: Tennessee
+Projected Line: 37.0
+Actual Winner: Tennessee
+Actual Margin: +33.0
+Winner Prediction: CORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 3: Texas vs UTSA
+Projected Winner: Texas
+Projected Line: 25.5
+Actual Winner: Texas
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 3: Texas A&M vs Kentucky
+Projected Winner: Texas A&M
+Projected Line: 21.0
+Actual Winner: Kentucky
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +31.0
+Absolute Error: 31.0
+----------------------------------------------------------------------
+Week 3: Texas State vs North Texas
+Projected Winner: North Texas
+Projected Line: 6.5
+Actual Winner: Texas State
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 3: Texas Tech vs Houston
+Projected Winner: Texas Tech
+Projected Line: 6.5
+Actual Winner: Texas Tech
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 3: Toledo vs Temple
+Projected Winner: Temple
+Projected Line: 3.0
+Actual Winner: Toledo
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 3: UCF vs Georgia State
+Projected Winner: UCF
+Projected Line: 3.5
+Actual Winner: UCF
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 3: UCLA vs Purdue
+Projected Winner: UCLA
+Projected Line: 15.5
+Actual Winner: UCLA
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 3: Utah vs Utah State
+Projected Winner: Utah
+Projected Line: 20.0
+Actual Winner: Utah
+Actual Margin: +33.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 3: Vanderbilt vs NC State
+Projected Winner: Vanderbilt
+Projected Line: 9.5
+Actual Winner: Vanderbilt
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 3: Virginia vs West Virginia
+Projected Winner: Virginia
+Projected Line: 2.0
+Actual Winner: West Virginia
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 3: Wake Forest vs Miami
+Projected Winner: Miami
+Projected Line: 7.5
+Actual Winner: Miami
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 3: Wisconsin vs Eastern Michigan
+Projected Winner: Wisconsin
+Projected Line: 18.0
+Actual Winner: Wisconsin
+Actual Margin: +44.0
+Winner Prediction: CORRECT
+Prediction Error: -26.0
+Absolute Error: 26.0
 ----------------------------------------------------------------------
