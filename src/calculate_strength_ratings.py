@@ -350,11 +350,11 @@ class CalculateStrengthRatings:
         for row in self.teams.itertuples():
             if row.Games > 0:
                 sos_points = (row.Quad1_Wins + row.Quad1_Losses) * 8.0 + (row.Quad2_Wins + row.Quad2_Losses) * 4.0 + (row.Quad3_Wins + row.Quad3_Losses) * 2.0 + (row.Quad4_Wins + row.Quad4_Losses) * 1.0
-                sos_Rating = sos_points / row.Games
+                sos_Rating = sos_points
                 self.teams.loc[self.teams['Name'] == row.Name, 'Sos_Rating'] = sos_Rating
 
                 sor_points = row.Quad1_Wins * 8.0 + row.Quad2_Wins * 4.0 + row.Quad3_Wins * 2.0 + row.Quad4_Wins * 1.0 - row.Quad1_Losses * 1.0 - row.Quad2_Losses * 2.0 - row.Quad3_Losses * 4.0 - row.Quad4_Losses * 8.0
-                sor_Rating = sor_points / row.Games
+                sor_Rating = sor_points
                 self.teams.loc[self.teams['Name'] == row.Name, 'Sor_Rating'] = sor_Rating
 
         # Rank teams based on sos_rating and sor_rating and set sos and sor
