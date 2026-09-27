@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          149
-Correct Winner Picks:     114
-Incorrect Winner Picks:   35
-Winner Prediction %:      76.51%
-Mean Absolute Error:      13.07 points
-Average Prediction Error: -1.79 points
-Average Predicted Margin: 12.42 points
-Average Actual Margin:    14.21 points
+Games Evaluated:          207
+Correct Winner Picks:     156
+Incorrect Winner Picks:   51
+Winner Prediction %:      75.36%
+Mean Absolute Error:      13.21 points
+Average Prediction Error: -2.08 points
+Average Predicted Margin: 11.49 points
+Average Actual Margin:    13.57 points
 
 
 WEEKLY PERFORMANCE
@@ -18,6 +18,7 @@ WEEKLY PERFORMANCE
 Week 1: 34/43 correct (79.07%) | MAE: 16.53
 Week 2: 38/49 correct (77.55%) | MAE: 12.27
 Week 3: 42/57 correct (73.68%) | MAE: 11.14
+Week 4: 42/58 correct (72.41%) | MAE: 13.58
 
 
 COMPLETED GAME RESULTS
@@ -1363,4 +1364,526 @@ Actual Margin: +44.0
 Winner Prediction: CORRECT
 Prediction Error: -26.0
 Absolute Error: 26.0
+----------------------------------------------------------------------
+Week 4: Akron vs UNLV
+Projected Winner: UNLV
+Projected Line: 7.0
+Actual Winner: UNLV
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 4: Alabama vs South Carolina
+Projected Winner: Alabama
+Projected Line: 13.5
+Actual Winner: Alabama
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 4: Arkansas vs Tulsa
+Projected Winner: Arkansas
+Projected Line: 3.0
+Actual Winner: Arkansas
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -25.0
+Absolute Error: 25.0
+----------------------------------------------------------------------
+Week 4: Arkansas State vs Kennesaw State
+Projected Winner: Arkansas State
+Projected Line: 9.0
+Actual Winner: Arkansas State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 4: Auburn vs Vanderbilt
+Projected Winner: Auburn
+Projected Line: 5.0
+Actual Winner: Auburn
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 4: Baylor vs Colorado
+Projected Winner: Baylor
+Projected Line: 4.0
+Actual Winner: Baylor
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 4: Boston College vs Virginia Tech
+Projected Winner: Virginia Tech
+Projected Line: 8.5
+Actual Winner: Virginia Tech
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 4: Bowling Green vs South Florida
+Projected Winner: South Florida
+Projected Line: 19.0
+Actual Winner: South Florida
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 4: California vs Clemson
+Projected Winner: Clemson
+Projected Line: 2.0
+Actual Winner: Clemson
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 4: Charlotte vs Louisiana
+Projected Winner: Louisiana
+Projected Line: 3.0
+Actual Winner: Louisiana
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -24.0
+Absolute Error: 24.0
+----------------------------------------------------------------------
+Week 4: Cincinnati vs Kansas State
+Projected Winner: Kansas State
+Projected Line: 1.5
+Actual Winner: Cincinnati
+Actual Margin: -5.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 4: Coastal Carolina vs Liberty
+Projected Winner: Liberty
+Projected Line: 4.5
+Actual Winner: Liberty
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 4: Florida vs Ole Miss
+Projected Winner: Florida
+Projected Line: 3.0
+Actual Winner: Florida
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 4: Fresno State vs Rice
+Projected Winner: Fresno State
+Projected Line: 11.0
+Actual Winner: Fresno State
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 4: Georgia vs Oklahoma
+Projected Winner: Georgia
+Projected Line: 13.5
+Actual Winner: Georgia
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 4: Georgia Southern vs Houston
+Projected Winner: Houston
+Projected Line: 10.0
+Actual Winner: Houston
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 4: Georgia State vs Northern Illinois
+Projected Winner: Georgia State
+Projected Line: 12.0
+Actual Winner: Georgia State
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 4: Indiana vs Northwestern
+Projected Winner: Indiana
+Projected Line: 8.0
+Actual Winner: Indiana
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 4: Iowa State vs Utah
+Projected Winner: Utah
+Projected Line: 4.0
+Actual Winner: Utah
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 4: Jacksonville State vs Middle Tennessee
+Projected Winner: Middle Tennessee
+Projected Line: 0.5
+Actual Winner: Jacksonville State
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 4: Kent State vs Ball State
+Projected Winner: Ball State
+Projected Line: 0.0
+Actual Winner: Kent State
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 4: Kentucky vs South Alabama
+Projected Winner: Kentucky
+Projected Line: 19.0
+Actual Winner: Kentucky
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 4: LSU vs Texas A&M
+Projected Winner: LSU
+Projected Line: 2.5
+Actual Winner: LSU
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: -26.5
+Absolute Error: 26.5
+----------------------------------------------------------------------
+Week 4: Louisville vs Wake Forest
+Projected Winner: Louisville
+Projected Line: 3.0
+Actual Winner: Wake Forest
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 4: Maryland vs UCLA
+Projected Winner: UCLA
+Projected Line: 6.5
+Actual Winner: UCLA
+Actual Margin: +51.0
+Winner Prediction: CORRECT
+Prediction Error: -44.5
+Absolute Error: 44.5
+----------------------------------------------------------------------
+Week 4: Miami vs Central Michigan
+Projected Winner: Miami
+Projected Line: 30.5
+Actual Winner: Miami
+Actual Margin: +49.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 4: Miami (OH) vs UConn
+Projected Winner: UConn
+Projected Line: 7.0
+Actual Winner: Miami (OH)
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 4: Michigan vs Iowa
+Projected Winner: Michigan
+Projected Line: 5.5
+Actual Winner: Iowa
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 4: Michigan State vs Nebraska
+Projected Winner: Nebraska
+Projected Line: 6.5
+Actual Winner: Nebraska
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 4: Mississippi State vs Missouri
+Projected Winner: Mississippi State
+Projected Line: 6.0
+Actual Winner: Mississippi State
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 4: NC State vs App State
+Projected Winner: NC State
+Projected Line: 2.0
+Actual Winner: NC State
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 4: Nevada vs Air Force
+Projected Winner: Nevada
+Projected Line: 22.0
+Actual Winner: Air Force
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.0
+Absolute Error: 25.0
+----------------------------------------------------------------------
+Week 4: New Mexico State vs New Mexico
+Projected Winner: New Mexico
+Projected Line: 10.0
+Actual Winner: New Mexico
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 4: Ohio State vs Illinois
+Projected Winner: Ohio State
+Projected Line: 18.5
+Actual Winner: Ohio State
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 4: Old Dominion vs James Madison
+Projected Winner: James Madison
+Projected Line: 10.0
+Actual Winner: James Madison
+Actual Margin: +26.0
+Winner Prediction: CORRECT
+Prediction Error: -16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 4: Penn State vs Wisconsin
+Projected Winner: Penn State
+Projected Line: 12.0
+Actual Winner: Wisconsin
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 4: Purdue vs Notre Dame
+Projected Winner: Notre Dame
+Projected Line: 20.5
+Actual Winner: Notre Dame
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 4: SMU vs Missouri State
+Projected Winner: SMU
+Projected Line: 24.0
+Actual Winner: SMU
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 4: Sacramento State vs Massachusetts
+Projected Winner: Massachusetts
+Projected Line: 10.0
+Actual Winner: Massachusetts
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: -19.0
+Absolute Error: 19.0
+----------------------------------------------------------------------
+Week 4: Stanford vs Georgia Tech
+Projected Winner: Stanford
+Projected Line: 0.5
+Actual Winner: Stanford
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 4: Temple vs Army
+Projected Winner: Temple
+Projected Line: 18.0
+Actual Winner: Army
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 4: Tennessee vs Texas
+Projected Winner: Texas
+Projected Line: 2.5
+Actual Winner: Texas
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 4: Texas Tech vs Sam Houston
+Projected Winner: Texas Tech
+Projected Line: 28.0
+Actual Winner: Texas Tech
+Actual Margin: +35.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 4: Toledo vs San Diego State
+Projected Winner: Toledo
+Projected Line: 5.0
+Actual Winner: Toledo
+Actual Margin: +25.0
+Winner Prediction: CORRECT
+Prediction Error: -20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 4: Tulane vs Southern Miss
+Projected Winner: Tulane
+Projected Line: 9.0
+Actual Winner: Tulane
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 4: UAB vs Navy
+Projected Winner: UAB
+Projected Line: 25.0
+Actual Winner: UAB
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 4: UCF vs TCU
+Projected Winner: TCU
+Projected Line: 0.5
+Actual Winner: UCF
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 4: UL Monroe vs Florida Atlantic
+Projected Winner: Florida Atlantic
+Projected Line: 8.5
+Actual Winner: Florida Atlantic
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 4: USC vs Oregon
+Projected Winner: USC
+Projected Line: 6.5
+Actual Winner: Oregon
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 4: UTEP vs Oregon State
+Projected Winner: Oregon State
+Projected Line: 1.5
+Actual Winner: Oregon State
+Actual Margin: +26.0
+Winner Prediction: CORRECT
+Prediction Error: -24.5
+Absolute Error: 24.5
+----------------------------------------------------------------------
+Week 4: UTSA vs Colorado State
+Projected Winner: UTSA
+Projected Line: 4.0
+Actual Winner: UTSA
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 4: Utah State vs Troy
+Projected Winner: Troy
+Projected Line: 6.0
+Actual Winner: Utah State
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 4: Virginia vs Delaware
+Projected Winner: Virginia
+Projected Line: 18.5
+Actual Winner: Virginia
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 4: Washington vs Minnesota
+Projected Winner: Washington
+Projected Line: 9.5
+Actual Winner: Minnesota
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 4: Washington State vs Arizona
+Projected Winner: Arizona
+Projected Line: 12.5
+Actual Winner: Arizona
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 4: West Virginia vs Oklahoma State
+Projected Winner: West Virginia
+Projected Line: 9.5
+Actual Winner: Oklahoma State
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +26.5
+Absolute Error: 26.5
+----------------------------------------------------------------------
+Week 4: Western Michigan vs Boise State
+Projected Winner: Western Michigan
+Projected Line: 3.5
+Actual Winner: Boise State
+Actual Margin: -25.0
+Winner Prediction: INCORRECT
+Prediction Error: +28.5
+Absolute Error: 28.5
+----------------------------------------------------------------------
+Week 4: Wyoming vs Hawai'i
+Projected Winner: Hawai'i
+Projected Line: 1.5
+Actual Winner: Wyoming
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
 ----------------------------------------------------------------------
