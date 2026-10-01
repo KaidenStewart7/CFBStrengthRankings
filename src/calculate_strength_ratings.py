@@ -345,59 +345,60 @@ class CalculateStrengthRatings:
             self.calculate_quad_away_wins(row)
             self.calculate_quad_away_losses(row)
 
-    # Calculate SOS
+
+    # Calculate SOS and SOR
     def calculate_sos_and_sor(self):
         for row in self.teams.itertuples():
             if row.Games > 0:
-                sos_points = (row.Quad1_Wins + row.Quad1_Losses) * 8.0 + (row.Quad2_Wins + row.Quad2_Losses) * 4.0 + (row.Quad3_Wins + row.Quad3_Losses) * 2.0 + (row.Quad4_Wins + row.Quad4_Losses) * 1.0
-                sos_Rating = sos_points
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sos_Rating'] = sos_Rating
+                sos_points = (
+                    (row.Quad1_Wins + row.Quad1_Losses) * 8.0
+                    + (row.Quad2_Wins + row.Quad2_Losses) * 4.0
+                    + (row.Quad3_Wins + row.Quad3_Losses) * 2.0
+                    + (row.Quad4_Wins + row.Quad4_Losses) * 1.0
+                )
 
-                sor_points = row.Quad1_Wins * 8.0 + row.Quad2_Wins * 4.0 + row.Quad3_Wins * 2.0 + row.Quad4_Wins * 1.0 - row.Quad1_Losses * 1.0 - row.Quad2_Losses * 2.0 - row.Quad3_Losses * 4.0 - row.Quad4_Losses * 8.0
-                sor_Rating = sor_points
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sor_Rating'] = sor_Rating
+                self.teams.loc[
+                    self.teams['Name'] == row.Name, 'Sos_Rating'
+                ] = sos_points
 
-        # Rank teams based on sos_rating and sor_rating and set sos and sor
-        self.teams.sort_values(by='Sos_Rating', inplace=True, ascending=False)
-        rank = 1
-        previous_rank = 1
-        previous_rating = 0.0
-        for row in self.teams.itertuples():
-            if rank == 1:
-                previous_rank = 1
-                previous_rating = row.Sos_Rating
-            if row.Sos_Rating == previous_rating:
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sos'] = previous_rank
-                rank += 1
-            else:
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sos'] = rank
-                rank += 1
-                previous_rank = rank
-                previous_rating = row.Sos_Rating
+                sor_points = (
+                    row.Quad1_Wins * 8.0
+                    + row.Quad2_Wins * 4.0
+                    + row.Quad3_Wins * 2.0
+                    + row.Quad4_Wins * 1.0
+                    - row.Quad1_Losses * 1.0
+                    - row.Quad2_Losses * 2.0
+                    - row.Quad3_Losses * 4.0
+                    - row.Quad4_Losses * 8.0
+                )
 
-        self.teams.sort_values(by='Sor_Rating', inplace=True, ascending=False)
-        rank = 1
-        previous_rank = 1
-        previous_rating = 0.0
-        for row in self.teams.itertuples():
-            if rank == 1:
-                previous_rank = 1
-                previous_rating = row.Sor_Rating
-            if row.Sor_Rating == previous_rating:
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sor'] = previous_rank
-                rank += 1
-            else:
-                self.teams.loc[self.teams['Name'] == row.Name, 'Sor'] = rank
-                rank += 1
-                previous_rank = rank
-                previous_rating = row.Sor_Rating
-        
+                self.teams.loc[
+                    self.teams['Name'] == row.Name, 'Sor_Rating'
+                ] = sor_points
+
+        # Rank SOS.
+        # method='min' gives tied teams the same rank:
+        # 1, 2, 2, 4, 5, 5, 7
+        self.teams['Sos'] = (
+            self.teams['Sos_Rating']
+            .rank(method='min', ascending=False)
+            .astype(int)
+        )
+
+        # Rank SOR using the same tie behavior.
+        self.teams['Sor'] = (
+            self.teams['Sor_Rating']
+            .rank(method='min', ascending=False)
+            .astype(int)
+        )
+
         # Reorder teams by strength rating again
         self.order_teams_by_strength_rating()
         
-        
-
             
+            
+
+                
 
 
 # Run scripts to calculate and output strength ratings            
