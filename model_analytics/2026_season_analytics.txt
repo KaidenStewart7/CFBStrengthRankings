@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          263
-Correct Winner Picks:     196
-Incorrect Winner Picks:   67
-Winner Prediction %:      74.52%
-Mean Absolute Error:      13.48 points
-Average Prediction Error: -2.37 points
-Average Predicted Margin: 10.71 points
-Average Actual Margin:    13.08 points
+Games Evaluated:          321
+Correct Winner Picks:     227
+Incorrect Winner Picks:   94
+Winner Prediction %:      70.72%
+Mean Absolute Error:      13.52 points
+Average Prediction Error: -1.51 points
+Average Predicted Margin: 10.36 points
+Average Actual Margin:    11.86 points
 
 
 WEEKLY PERFORMANCE
@@ -20,6 +20,7 @@ Week 2: 38/49 correct (77.55%) | MAE: 12.27
 Week 3: 42/57 correct (73.68%) | MAE: 11.14
 Week 4: 42/58 correct (72.41%) | MAE: 13.58
 Week 5: 40/56 correct (71.43%) | MAE: 14.47
+Week 6: 31/58 correct (53.45%) | MAE: 13.70
 
 
 COMPLETED GAME RESULTS
@@ -2391,4 +2392,526 @@ Actual Margin: +28.0
 Winner Prediction: CORRECT
 Prediction Error: -19.5
 Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 6: Akron vs Eastern Michigan
+Projected Winner: Eastern Michigan
+Projected Line: 5.5
+Actual Winner: Eastern Michigan
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 6: Alabama vs Georgia
+Projected Winner: Alabama
+Projected Line: 2.5
+Actual Winner: Georgia
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 6: App State vs Old Dominion
+Projected Winner: App State
+Projected Line: 17.5
+Actual Winner: Old Dominion
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +24.5
+Absolute Error: 24.5
+----------------------------------------------------------------------
+Week 6: Arizona State vs Hawai'i
+Projected Winner: Arizona State
+Projected Line: 19.5
+Actual Winner: Arizona State
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 6: Arkansas vs Tennessee
+Projected Winner: Tennessee
+Projected Line: 13.5
+Actual Winner: Tennessee
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 6: Arkansas State vs South Alabama
+Projected Winner: South Alabama
+Projected Line: 1.5
+Actual Winner: South Alabama
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 6: Army vs Tulane
+Projected Winner: Tulane
+Projected Line: 11.0
+Actual Winner: Army
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 6: BYU vs Iowa State
+Projected Winner: BYU
+Projected Line: 9.0
+Actual Winner: BYU
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 6: Bowling Green vs Sacramento State
+Projected Winner: Bowling Green
+Projected Line: 6.5
+Actual Winner: Bowling Green
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 6: California vs Virginia Tech
+Projected Winner: Virginia Tech
+Projected Line: 8.0
+Actual Winner: California
+Actual Margin: -5.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 6: East Carolina vs Rice
+Projected Winner: East Carolina
+Projected Line: 10.5
+Actual Winner: East Carolina
+Actual Margin: +16.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 6: Florida vs South Carolina
+Projected Winner: Florida
+Projected Line: 16.0
+Actual Winner: South Carolina
+Actual Margin: -19.0
+Winner Prediction: INCORRECT
+Prediction Error: +35.0
+Absolute Error: 35.0
+----------------------------------------------------------------------
+Week 6: Florida International vs New Mexico State
+Projected Winner: Florida International
+Projected Line: 10.5
+Actual Winner: Florida International
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 6: Fresno State vs Boise State
+Projected Winner: Fresno State
+Projected Line: 2.5
+Actual Winner: Boise State
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 6: Georgia Southern vs James Madison
+Projected Winner: James Madison
+Projected Line: 10.5
+Actual Winner: James Madison
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 6: Georgia Tech vs Duke
+Projected Winner: Duke
+Projected Line: 8.5
+Actual Winner: Georgia Tech
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 6: Kansas State vs Houston
+Projected Winner: Kansas State
+Projected Line: 2.0
+Actual Winner: Houston
+Actual Margin: -19.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 6: Kennesaw State vs Jacksonville State
+Projected Winner: Jacksonville State
+Projected Line: 7.0
+Actual Winner: Jacksonville State
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 6: Kentucky vs LSU
+Projected Winner: LSU
+Projected Line: 6.5
+Actual Winner: Kentucky
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 6: Liberty vs Sam Houston
+Projected Winner: Liberty
+Projected Line: 17.5
+Actual Winner: Liberty
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 6: Louisiana Tech vs Louisiana
+Projected Winner: Louisiana
+Projected Line: 6.5
+Actual Winner: Louisiana Tech
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 6: Louisville vs Florida State
+Projected Winner: Florida State
+Projected Line: 5.5
+Actual Winner: Louisville
+Actual Margin: -24.0
+Winner Prediction: INCORRECT
+Prediction Error: +29.5
+Absolute Error: 29.5
+----------------------------------------------------------------------
+Week 6: Marshall vs Coastal Carolina
+Projected Winner: Marshall
+Projected Line: 9.0
+Actual Winner: Coastal Carolina
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 6: Massachusetts vs Miami (OH)
+Projected Winner: Massachusetts
+Projected Line: 8.0
+Actual Winner: Miami (OH)
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 6: Memphis vs UAB
+Projected Winner: Memphis
+Projected Line: 11.0
+Actual Winner: Memphis
+Actual Margin: +25.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 6: Michigan State vs Illinois
+Projected Winner: Michigan State
+Projected Line: 3.0
+Actual Winner: Illinois
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 6: Missouri vs Texas A&M
+Projected Winner: Missouri
+Projected Line: 5.5
+Actual Winner: Missouri
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 6: NC State vs Wake Forest
+Projected Winner: Wake Forest
+Projected Line: 2.5
+Actual Winner: Wake Forest
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 6: Navy vs Tulsa
+Projected Winner: Tulsa
+Projected Line: 18.5
+Actual Winner: Navy
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +26.5
+Absolute Error: 26.5
+----------------------------------------------------------------------
+Week 6: Nebraska vs Indiana
+Projected Winner: Nebraska
+Projected Line: 4.5
+Actual Winner: Indiana
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 6: North Texas vs Charlotte
+Projected Winner: North Texas
+Projected Line: 14.5
+Actual Winner: North Texas
+Actual Margin: +40.0
+Winner Prediction: CORRECT
+Prediction Error: -25.5
+Absolute Error: 25.5
+----------------------------------------------------------------------
+Week 6: Northern Illinois vs Air Force
+Projected Winner: Northern Illinois
+Projected Line: 1.5
+Actual Winner: Air Force
+Actual Margin: -21.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.5
+Absolute Error: 22.5
+----------------------------------------------------------------------
+Week 6: Northwestern vs Ball State
+Projected Winner: Northwestern
+Projected Line: 30.5
+Actual Winner: Northwestern
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 6: Notre Dame vs Stanford
+Projected Winner: Notre Dame
+Projected Line: 31.5
+Actual Winner: Notre Dame
+Actual Margin: +51.0
+Winner Prediction: CORRECT
+Prediction Error: -19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 6: Ohio vs Central Michigan
+Projected Winner: Ohio
+Projected Line: 2.5
+Actual Winner: Ohio
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 6: Ohio State vs Maryland
+Projected Winner: Ohio State
+Projected Line: 25.5
+Actual Winner: Ohio State
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 6: Oklahoma vs Texas
+Projected Winner: Texas
+Projected Line: 12.5
+Actual Winner: Oklahoma
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 6: Oklahoma State vs UCF
+Projected Winner: Oklahoma State
+Projected Line: 4.5
+Actual Winner: Oklahoma State
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 6: Oregon vs UCLA
+Projected Winner: Oregon
+Projected Line: 2.5
+Actual Winner: UCLA
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 6: Oregon State vs San Diego State
+Projected Winner: Oregon State
+Projected Line: 10.5
+Actual Winner: Oregon State
+Actual Margin: +52.0
+Winner Prediction: CORRECT
+Prediction Error: -41.5
+Absolute Error: 41.5
+----------------------------------------------------------------------
+Week 6: Penn State vs USC
+Projected Winner: USC
+Projected Line: 2.0
+Actual Winner: USC
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 6: Pittsburgh vs North Carolina
+Projected Winner: Pittsburgh
+Projected Line: 11.0
+Actual Winner: North Carolina
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 6: Purdue vs Minnesota
+Projected Winner: Minnesota
+Projected Line: 8.0
+Actual Winner: Purdue
+Actual Margin: -28.0
+Winner Prediction: INCORRECT
+Prediction Error: +36.0
+Absolute Error: 36.0
+----------------------------------------------------------------------
+Week 6: San José State vs Wyoming
+Projected Winner: San José State
+Projected Line: 8.0
+Actual Winner: Wyoming
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 6: Temple vs UConn
+Projected Winner: Temple
+Projected Line: 2.5
+Actual Winner: UConn
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 6: Toledo vs Buffalo
+Projected Winner: Toledo
+Projected Line: 15.0
+Actual Winner: Buffalo
+Actual Margin: -15.0
+Winner Prediction: INCORRECT
+Prediction Error: +30.0
+Absolute Error: 30.0
+----------------------------------------------------------------------
+Week 6: Troy vs Southern Miss
+Projected Winner: Troy
+Projected Line: 8.0
+Actual Winner: Troy
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 6: UNLV vs North Dakota State
+Projected Winner: North Dakota State
+Projected Line: 1.5
+Actual Winner: UNLV
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 6: UTEP vs Nevada
+Projected Winner: Nevada
+Projected Line: 9.0
+Actual Winner: Nevada
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 6: UTSA vs South Florida
+Projected Winner: UTSA
+Projected Line: 0.0
+Actual Winner: UTSA
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 6: Utah vs Kansas
+Projected Winner: Utah
+Projected Line: 12.5
+Actual Winner: Utah
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 6: Utah State vs Washington State
+Projected Winner: Utah State
+Projected Line: 4.5
+Actual Winner: Utah State
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 6: Vanderbilt vs Ole Miss
+Projected Winner: Ole Miss
+Projected Line: 7.0
+Actual Winner: Ole Miss
+Actual Margin: +35.0
+Winner Prediction: CORRECT
+Prediction Error: -28.0
+Absolute Error: 28.0
+----------------------------------------------------------------------
+Week 6: Virginia vs Syracuse
+Projected Winner: Virginia
+Projected Line: 4.0
+Actual Winner: Virginia
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 6: Washington vs Iowa
+Projected Winner: Washington
+Projected Line: 0.0
+Actual Winner: Iowa
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 6: West Virginia vs Arizona
+Projected Winner: Arizona
+Projected Line: 3.0
+Actual Winner: Arizona
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -18.0
+Absolute Error: 18.0
+----------------------------------------------------------------------
+Week 6: Western Kentucky vs Missouri State
+Projected Winner: Missouri State
+Projected Line: 1.0
+Actual Winner: Western Kentucky
+Actual Margin: -21.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 6: Western Michigan vs Kent State
+Projected Winner: Western Michigan
+Projected Line: 14.5
+Actual Winner: Western Michigan
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -16.5
+Absolute Error: 16.5
 ----------------------------------------------------------------------
