@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          321
-Correct Winner Picks:     227
-Incorrect Winner Picks:   94
-Winner Prediction %:      70.72%
-Mean Absolute Error:      13.52 points
-Average Prediction Error: -1.51 points
-Average Predicted Margin: 10.36 points
-Average Actual Margin:    11.86 points
+Games Evaluated:          380
+Correct Winner Picks:     265
+Incorrect Winner Picks:   115
+Winner Prediction %:      69.74%
+Mean Absolute Error:      13.35 points
+Average Prediction Error: -0.95 points
+Average Predicted Margin: 9.98 points
+Average Actual Margin:    10.93 points
 
 
 WEEKLY PERFORMANCE
@@ -21,6 +21,7 @@ Week 3: 42/57 correct (73.68%) | MAE: 11.14
 Week 4: 42/58 correct (72.41%) | MAE: 13.58
 Week 5: 40/56 correct (71.43%) | MAE: 14.47
 Week 6: 31/58 correct (53.45%) | MAE: 13.70
+Week 7: 38/59 correct (64.41%) | MAE: 12.45
 
 
 COMPLETED GAME RESULTS
@@ -2914,4 +2915,535 @@ Actual Margin: +31.0
 Winner Prediction: CORRECT
 Prediction Error: -16.5
 Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 7: Air Force vs UNLV
+Projected Winner: UNLV
+Projected Line: 5.5
+Actual Winner: Air Force
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 7: Army vs Florida Atlantic
+Projected Winner: Florida Atlantic
+Projected Line: 6.5
+Actual Winner: Army
+Actual Margin: -32.0
+Winner Prediction: INCORRECT
+Prediction Error: +38.5
+Absolute Error: 38.5
+----------------------------------------------------------------------
+Week 7: BYU vs Notre Dame
+Projected Winner: Notre Dame
+Projected Line: 7.0
+Actual Winner: BYU
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 7: Baylor vs TCU
+Projected Winner: Baylor
+Projected Line: 11.0
+Actual Winner: TCU
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 7: Boston College vs Pittsburgh
+Projected Winner: Pittsburgh
+Projected Line: 8.5
+Actual Winner: Boston College
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 7: Bowling Green vs Ball State
+Projected Winner: Bowling Green
+Projected Line: 11.5
+Actual Winner: Ball State
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 7: Buffalo vs Massachusetts
+Projected Winner: Massachusetts
+Projected Line: 2.0
+Actual Winner: Buffalo
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 7: California vs Wake Forest
+Projected Winner: Wake Forest
+Projected Line: 6.0
+Actual Winner: Wake Forest
+Actual Margin: +34.0
+Winner Prediction: CORRECT
+Prediction Error: -28.0
+Absolute Error: 28.0
+----------------------------------------------------------------------
+Week 7: Central Michigan vs Western Michigan
+Projected Winner: Western Michigan
+Projected Line: 7.5
+Actual Winner: Western Michigan
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 7: Coastal Carolina vs App State
+Projected Winner: App State
+Projected Line: 4.5
+Actual Winner: App State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 7: Colorado vs Utah
+Projected Winner: Utah
+Projected Line: 12.0
+Actual Winner: Utah
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 7: Duke vs North Carolina
+Projected Winner: Duke
+Projected Line: 7.0
+Actual Winner: North Carolina
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 7: Eastern Michigan vs Toledo
+Projected Winner: Eastern Michigan
+Projected Line: 7.0
+Actual Winner: Toledo
+Actual Margin: -20.0
+Winner Prediction: INCORRECT
+Prediction Error: +27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 7: Georgia vs Auburn
+Projected Winner: Georgia
+Projected Line: 22.0
+Actual Winner: Auburn
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.0
+Absolute Error: 25.0
+----------------------------------------------------------------------
+Week 7: Hawai'i vs New Mexico
+Projected Winner: New Mexico
+Projected Line: 16.0
+Actual Winner: New Mexico
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 7: Houston vs Oklahoma State
+Projected Winner: Houston
+Projected Line: 5.0
+Actual Winner: Houston
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 7: Indiana vs Ohio State
+Projected Winner: Ohio State
+Projected Line: 2.5
+Actual Winner: Ohio State
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: -1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 7: Jacksonville State vs Florida International
+Projected Winner: Jacksonville State
+Projected Line: 2.0
+Actual Winner: Jacksonville State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 7: James Madison vs Georgia State
+Projected Winner: James Madison
+Projected Line: 12.0
+Actual Winner: James Madison
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 7: Kansas State vs Kansas
+Projected Winner: Kansas State
+Projected Line: 7.0
+Actual Winner: Kansas State
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 7: LSU vs Mississippi State
+Projected Winner: LSU
+Projected Line: 1.0
+Actual Winner: LSU
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -30.0
+Absolute Error: 30.0
+----------------------------------------------------------------------
+Week 7: Louisiana vs Troy
+Projected Winner: Louisiana
+Projected Line: 4.0
+Actual Winner: Louisiana
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -23.0
+Absolute Error: 23.0
+----------------------------------------------------------------------
+Week 7: Maryland vs Rutgers
+Projected Winner: Rutgers
+Projected Line: 1.0
+Actual Winner: Rutgers
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 7: Miami vs Florida State
+Projected Winner: Miami
+Projected Line: 22.5
+Actual Winner: Miami
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 7: Miami (OH) vs Akron
+Projected Winner: Miami (OH)
+Projected Line: 13.0
+Actual Winner: Miami (OH)
+Actual Margin: +20.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 7: Michigan vs Penn State
+Projected Winner: Michigan
+Projected Line: 10.0
+Actual Winner: Michigan
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 7: Michigan State vs Northwestern
+Projected Winner: Northwestern
+Projected Line: 13.5
+Actual Winner: Northwestern
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 7: Middle Tennessee vs Delaware
+Projected Winner: Middle Tennessee
+Projected Line: 5.0
+Actual Winner: Middle Tennessee
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 7: Missouri State vs Kennesaw State
+Projected Winner: Missouri State
+Projected Line: 2.5
+Actual Winner: Missouri State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 7: North Dakota State vs Nevada
+Projected Winner: North Dakota State
+Projected Line: 8.5
+Actual Winner: North Dakota State
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 7: Oklahoma vs Kentucky
+Projected Winner: Oklahoma
+Projected Line: 2.0
+Actual Winner: Kentucky
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 7: Old Dominion vs Georgia Southern
+Projected Winner: Georgia Southern
+Projected Line: 0.0
+Actual Winner: Georgia Southern
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 7: Ole Miss vs Missouri
+Projected Winner: Ole Miss
+Projected Line: 4.0
+Actual Winner: Ole Miss
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -24.0
+Absolute Error: 24.0
+----------------------------------------------------------------------
+Week 7: Oregon vs Nebraska
+Projected Winner: Oregon
+Projected Line: 1.5
+Actual Winner: Oregon
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 7: Oregon State vs Washington State
+Projected Winner: Oregon State
+Projected Line: 18.0
+Actual Winner: Oregon State
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 7: Purdue vs Washington
+Projected Winner: Purdue
+Projected Line: 8.0
+Actual Winner: Washington
+Actual Margin: -12.0
+Winner Prediction: INCORRECT
+Prediction Error: +20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 7: Rice vs Tulsa
+Projected Winner: Tulsa
+Projected Line: 7.0
+Actual Winner: Tulsa
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 7: SMU vs Virginia
+Projected Winner: SMU
+Projected Line: 5.5
+Actual Winner: SMU
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 7: Sacramento State vs Ohio
+Projected Winner: Ohio
+Projected Line: 11.0
+Actual Winner: Ohio
+Actual Margin: +41.0
+Winner Prediction: CORRECT
+Prediction Error: -30.0
+Absolute Error: 30.0
+----------------------------------------------------------------------
+Week 7: Sam Houston vs Western Kentucky
+Projected Winner: Sam Houston
+Projected Line: 1.5
+Actual Winner: Western Kentucky
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 7: San Diego State vs Fresno State
+Projected Winner: Fresno State
+Projected Line: 10.5
+Actual Winner: San Diego State
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.5
+Absolute Error: 13.5
+----------------------------------------------------------------------
+Week 7: South Florida vs Kent State
+Projected Winner: South Florida
+Projected Line: 18.0
+Actual Winner: South Florida
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 7: Southern Miss vs Arkansas State
+Projected Winner: Arkansas State
+Projected Line: 0.5
+Actual Winner: Arkansas State
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 7: Syracuse vs Louisville
+Projected Winner: Louisville
+Projected Line: 4.0
+Actual Winner: Louisville
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 7: Temple vs Charlotte
+Projected Winner: Temple
+Projected Line: 11.5
+Actual Winner: Charlotte
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 7: Tennessee vs Alabama
+Projected Winner: Alabama
+Projected Line: 2.5
+Actual Winner: Tennessee
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 7: Texas vs Florida
+Projected Winner: Texas
+Projected Line: 12.5
+Actual Winner: Florida
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 7: Texas State vs Colorado State
+Projected Winner: Texas State
+Projected Line: 2.0
+Actual Winner: Texas State
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -37.0
+Absolute Error: 37.0
+----------------------------------------------------------------------
+Week 7: Texas Tech vs Arizona State
+Projected Winner: Texas Tech
+Projected Line: 14.5
+Actual Winner: Texas Tech
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -13.5
+Absolute Error: 13.5
+----------------------------------------------------------------------
+Week 7: Tulane vs Memphis
+Projected Winner: Memphis
+Projected Line: 7.5
+Actual Winner: Tulane
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 7: UAB vs East Carolina
+Projected Winner: East Carolina
+Projected Line: 0.5
+Actual Winner: UAB
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.5
+Absolute Error: 13.5
+----------------------------------------------------------------------
+Week 7: UCLA vs Wisconsin
+Projected Winner: UCLA
+Projected Line: 10.5
+Actual Winner: UCLA
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 7: UL Monroe vs Louisiana Tech
+Projected Winner: Louisiana Tech
+Projected Line: 7.0
+Actual Winner: Louisiana Tech
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 7: UTEP vs San José State
+Projected Winner: San José State
+Projected Line: 9.0
+Actual Winner: San José State
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 7: UTSA vs Navy
+Projected Winner: UTSA
+Projected Line: 24.0
+Actual Winner: UTSA
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 7: Vanderbilt vs Arkansas
+Projected Winner: Vanderbilt
+Projected Line: 5.0
+Actual Winner: Arkansas
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 7: Virginia Tech vs Georgia Tech
+Projected Winner: Virginia Tech
+Projected Line: 6.5
+Actual Winner: Virginia Tech
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 7: West Virginia vs Cincinnati
+Projected Winner: Cincinnati
+Projected Line: 7.0
+Actual Winner: West Virginia
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 7: Wyoming vs Northern Illinois
+Projected Winner: Wyoming
+Projected Line: 13.5
+Actual Winner: Wyoming
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
 ----------------------------------------------------------------------
