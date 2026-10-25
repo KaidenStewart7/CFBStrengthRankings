@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          380
-Correct Winner Picks:     265
-Incorrect Winner Picks:   115
-Winner Prediction %:      69.74%
-Mean Absolute Error:      13.35 points
-Average Prediction Error: -0.95 points
-Average Predicted Margin: 9.98 points
-Average Actual Margin:    10.93 points
+Games Evaluated:          436
+Correct Winner Picks:     293
+Incorrect Winner Picks:   143
+Winner Prediction %:      67.20%
+Mean Absolute Error:      13.17 points
+Average Prediction Error: -0.25 points
+Average Predicted Margin: 9.85 points
+Average Actual Margin:    10.10 points
 
 
 WEEKLY PERFORMANCE
@@ -22,6 +22,7 @@ Week 4: 42/58 correct (72.41%) | MAE: 13.58
 Week 5: 40/56 correct (71.43%) | MAE: 14.47
 Week 6: 31/58 correct (53.45%) | MAE: 13.70
 Week 7: 38/59 correct (64.41%) | MAE: 12.45
+Week 8: 28/56 correct (50.00%) | MAE: 11.95
 
 
 COMPLETED GAME RESULTS
@@ -3446,4 +3447,508 @@ Actual Margin: +18.0
 Winner Prediction: CORRECT
 Prediction Error: -4.5
 Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 8: Alabama vs Texas A&M
+Projected Winner: Alabama
+Projected Line: 12.0
+Actual Winner: Alabama
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 8: App State vs James Madison
+Projected Winner: James Madison
+Projected Line: 11.5
+Actual Winner: App State
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 8: Arizona vs Iowa State
+Projected Winner: Arizona
+Projected Line: 13.0
+Actual Winner: Arizona
+Actual Margin: +36.0
+Winner Prediction: CORRECT
+Prediction Error: -23.0
+Absolute Error: 23.0
+----------------------------------------------------------------------
+Week 8: Arizona State vs Kansas State
+Projected Winner: Kansas State
+Projected Line: 2.0
+Actual Winner: Arizona State
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 8: Arkansas State vs Georgia State
+Projected Winner: Georgia State
+Projected Line: 3.5
+Actual Winner: Arkansas State
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 8: Auburn vs LSU
+Projected Winner: LSU
+Projected Line: 2.5
+Actual Winner: LSU
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 8: Ball State vs Sacramento State
+Projected Winner: Ball State
+Projected Line: 9.5
+Actual Winner: Ball State
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 8: Buffalo vs Bowling Green
+Projected Winner: Buffalo
+Projected Line: 4.5
+Actual Winner: Buffalo
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 8: Central Michigan vs Miami (OH)
+Projected Winner: Miami (OH)
+Projected Line: 6.0
+Actual Winner: Miami (OH)
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 8: Cincinnati vs Texas Tech
+Projected Winner: Texas Tech
+Projected Line: 15.5
+Actual Winner: Cincinnati
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +28.5
+Absolute Error: 28.5
+----------------------------------------------------------------------
+Week 8: Clemson vs Virginia Tech
+Projected Winner: Clemson
+Projected Line: 4.5
+Actual Winner: Virginia Tech
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 8: Colorado State vs San Diego State
+Projected Winner: San Diego State
+Projected Line: 1.5
+Actual Winner: Colorado State
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 8: Delaware vs Missouri State
+Projected Winner: Delaware
+Projected Line: 2.0
+Actual Winner: Delaware
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 8: Florida Atlantic vs Rice
+Projected Winner: Florida Atlantic
+Projected Line: 18.0
+Actual Winner: Florida Atlantic
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 8: Florida International vs Middle Tennessee
+Projected Winner: Florida International
+Projected Line: 6.0
+Actual Winner: Middle Tennessee
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 8: Georgia Tech vs Boston College
+Projected Winner: Georgia Tech
+Projected Line: 2.0
+Actual Winner: Boston College
+Actual Margin: -22.0
+Winner Prediction: INCORRECT
+Prediction Error: +24.0
+Absolute Error: 24.0
+----------------------------------------------------------------------
+Week 8: Illinois vs Oregon
+Projected Winner: Oregon
+Projected Line: 11.0
+Actual Winner: Illinois
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 8: Kansas vs Baylor
+Projected Winner: Baylor
+Projected Line: 11.5
+Actual Winner: Kansas
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 8: Kennesaw State vs Liberty
+Projected Winner: Liberty
+Projected Line: 18.0
+Actual Winner: Liberty
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 8: Kent State vs Akron
+Projected Winner: Kent State
+Projected Line: 7.5
+Actual Winner: Kent State
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 8: Kentucky vs Vanderbilt
+Projected Winner: Kentucky
+Projected Line: 22.0
+Actual Winner: Kentucky
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 8: Louisiana Tech vs Old Dominion
+Projected Winner: Louisiana Tech
+Projected Line: 12.0
+Actual Winner: Louisiana Tech
+Actual Margin: +26.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 8: Marshall vs South Alabama
+Projected Winner: South Alabama
+Projected Line: 2.5
+Actual Winner: Marshall
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 8: Memphis vs East Carolina
+Projected Winner: Memphis
+Projected Line: 13.0
+Actual Winner: Memphis
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 8: Miami vs Pittsburgh
+Projected Winner: Miami
+Projected Line: 19.0
+Actual Winner: Miami
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 8: Michigan vs Indiana
+Projected Winner: Indiana
+Projected Line: 6.0
+Actual Winner: Indiana
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 8: Minnesota vs Iowa
+Projected Winner: Iowa
+Projected Line: 1.0
+Actual Winner: Minnesota
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 8: Mississippi State vs Oklahoma
+Projected Winner: Mississippi State
+Projected Line: 6.0
+Actual Winner: Oklahoma
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 8: Navy vs North Texas
+Projected Winner: North Texas
+Projected Line: 15.5
+Actual Winner: North Texas
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 8: Nevada vs San José State
+Projected Winner: San José State
+Projected Line: 1.5
+Actual Winner: Nevada
+Actual Margin: -15.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 8: New Mexico vs North Dakota State
+Projected Winner: New Mexico
+Projected Line: 1.5
+Actual Winner: New Mexico
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 8: North Carolina vs Syracuse
+Projected Winner: North Carolina
+Projected Line: 14.0
+Actual Winner: Syracuse
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 8: Northern Illinois vs Hawai'i
+Projected Winner: Northern Illinois
+Projected Line: 2.5
+Actual Winner: Hawai'i
+Actual Margin: -35.0
+Winner Prediction: INCORRECT
+Prediction Error: +37.5
+Absolute Error: 37.5
+----------------------------------------------------------------------
+Week 8: Northwestern vs Rutgers
+Projected Winner: Northwestern
+Projected Line: 16.5
+Actual Winner: Northwestern
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 8: Ohio vs Eastern Michigan
+Projected Winner: Ohio
+Projected Line: 10.5
+Actual Winner: Ohio
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 8: Oklahoma State vs Colorado
+Projected Winner: Oklahoma State
+Projected Line: 15.5
+Actual Winner: Oklahoma State
+Actual Margin: +33.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 8: SMU vs California
+Projected Winner: SMU
+Projected Line: 14.5
+Actual Winner: SMU
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -24.5
+Absolute Error: 24.5
+----------------------------------------------------------------------
+Week 8: Sam Houston vs New Mexico State
+Projected Winner: Sam Houston
+Projected Line: 0.5
+Actual Winner: New Mexico State
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 8: South Carolina vs Tennessee
+Projected Winner: Tennessee
+Projected Line: 9.5
+Actual Winner: South Carolina
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 8: Southern Miss vs Louisiana
+Projected Winner: Louisiana
+Projected Line: 16.5
+Actual Winner: Southern Miss
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 8: Stanford vs NC State
+Projected Winner: NC State
+Projected Line: 5.5
+Actual Winner: Stanford
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 8: TCU vs West Virginia
+Projected Winner: TCU
+Projected Line: 4.5
+Actual Winner: West Virginia
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 8: Texas vs Ole Miss
+Projected Winner: Ole Miss
+Projected Line: 3.0
+Actual Winner: Texas
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 8: Texas State vs Utah State
+Projected Winner: Texas State
+Projected Line: 6.0
+Actual Winner: Texas State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 8: Toledo vs Western Michigan
+Projected Winner: Western Michigan
+Projected Line: 3.5
+Actual Winner: Toledo
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 8: Troy vs UL Monroe
+Projected Winner: Troy
+Projected Line: 14.5
+Actual Winner: UL Monroe
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 8: Tulane vs UTSA
+Projected Winner: UTSA
+Projected Line: 8.5
+Actual Winner: UTSA
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 8: Tulsa vs Army
+Projected Winner: Tulsa
+Projected Line: 3.0
+Actual Winner: Army
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 8: UCF vs BYU
+Projected Winner: BYU
+Projected Line: 13.5
+Actual Winner: UCF
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 8: UCLA vs Michigan State
+Projected Winner: UCLA
+Projected Line: 30.5
+Actual Winner: UCLA
+Actual Margin: +18.0
+Winner Prediction: CORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 8: UConn vs Massachusetts
+Projected Winner: UConn
+Projected Line: 9.0
+Actual Winner: UConn
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 8: Utah vs Houston
+Projected Winner: Utah
+Projected Line: 8.0
+Actual Winner: Utah
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 8: Virginia vs Duke
+Projected Winner: Virginia
+Projected Line: 3.0
+Actual Winner: Duke
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 8: Washington State vs Boise State
+Projected Winner: Boise State
+Projected Line: 19.0
+Actual Winner: Boise State
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 8: Wisconsin vs USC
+Projected Winner: USC
+Projected Line: 4.5
+Actual Winner: Wisconsin
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 8: Wyoming vs Air Force
+Projected Winner: Wyoming
+Projected Line: 4.0
+Actual Winner: Wyoming
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
 ----------------------------------------------------------------------
