@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          436
-Correct Winner Picks:     293
-Incorrect Winner Picks:   143
-Winner Prediction %:      67.20%
-Mean Absolute Error:      13.17 points
-Average Prediction Error: -0.25 points
-Average Predicted Margin: 9.85 points
-Average Actual Margin:    10.10 points
+Games Evaluated:          492
+Correct Winner Picks:     331
+Incorrect Winner Picks:   161
+Winner Prediction %:      67.28%
+Mean Absolute Error:      13.30 points
+Average Prediction Error: +0.06 points
+Average Predicted Margin: 9.87 points
+Average Actual Margin:    9.81 points
 
 
 WEEKLY PERFORMANCE
@@ -23,6 +23,7 @@ Week 5: 40/56 correct (71.43%) | MAE: 14.47
 Week 6: 31/58 correct (53.45%) | MAE: 13.70
 Week 7: 38/59 correct (64.41%) | MAE: 12.45
 Week 8: 28/56 correct (50.00%) | MAE: 11.95
+Week 9: 38/56 correct (67.86%) | MAE: 14.29
 
 
 COMPLETED GAME RESULTS
@@ -3951,4 +3952,508 @@ Actual Margin: +14.0
 Winner Prediction: CORRECT
 Prediction Error: -10.0
 Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 9: Air Force vs UConn
+Projected Winner: UConn
+Projected Line: 0.5
+Actual Winner: Air Force
+Actual Margin: -9.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 9: Arkansas vs Missouri
+Projected Winner: Missouri
+Projected Line: 8.5
+Actual Winner: Missouri
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 9: BYU vs Arizona State
+Projected Winner: BYU
+Projected Line: 12.5
+Actual Winner: BYU
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 9: Boise State vs Texas State
+Projected Winner: Boise State
+Projected Line: 13.5
+Actual Winner: Boise State
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 9: Charlotte vs Tulane
+Projected Winner: Tulane
+Projected Line: 5.0
+Actual Winner: Tulane
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 9: Cincinnati vs Utah
+Projected Winner: Utah
+Projected Line: 11.5
+Actual Winner: Utah
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 9: Colorado vs Kansas State
+Projected Winner: Kansas State
+Projected Line: 7.5
+Actual Winner: Colorado
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 9: Duke vs Boston College
+Projected Winner: Duke
+Projected Line: 6.0
+Actual Winner: Duke
+Actual Margin: +45.0
+Winner Prediction: CORRECT
+Prediction Error: -39.0
+Absolute Error: 39.0
+----------------------------------------------------------------------
+Week 9: East Carolina vs Temple
+Projected Winner: East Carolina
+Projected Line: 4.5
+Actual Winner: East Carolina
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 9: Florida State vs Clemson
+Projected Winner: Clemson
+Projected Line: 2.5
+Actual Winner: Clemson
+Actual Margin: +12.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 9: Fresno State vs Oregon State
+Projected Winner: Oregon State
+Projected Line: 9.0
+Actual Winner: Fresno State
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.0
+Absolute Error: 25.0
+----------------------------------------------------------------------
+Week 9: Georgia vs Florida
+Projected Winner: Georgia
+Projected Line: 10.5
+Actual Winner: Georgia
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 9: Georgia Southern vs App State
+Projected Winner: App State
+Projected Line: 1.5
+Actual Winner: Georgia Southern
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 9: Georgia State vs Coastal Carolina
+Projected Winner: Georgia State
+Projected Line: 8.5
+Actual Winner: Coastal Carolina
+Actual Margin: -11.0
+Winner Prediction: INCORRECT
+Prediction Error: +19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 9: Indiana vs Minnesota
+Projected Winner: Indiana
+Projected Line: 10.0
+Actual Winner: Indiana
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 9: Iowa vs Wisconsin
+Projected Winner: Wisconsin
+Projected Line: 1.5
+Actual Winner: Iowa
+Actual Margin: -30.0
+Winner Prediction: INCORRECT
+Prediction Error: +31.5
+Absolute Error: 31.5
+----------------------------------------------------------------------
+Week 9: Iowa State vs Oklahoma State
+Projected Winner: Oklahoma State
+Projected Line: 9.5
+Actual Winner: Iowa State
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 9: James Madison vs Troy
+Projected Winner: James Madison
+Projected Line: 19.0
+Actual Winner: Troy
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 9: Liberty vs Florida International
+Projected Winner: Liberty
+Projected Line: 20.5
+Actual Winner: Liberty
+Actual Margin: +39.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 9: Louisville vs Stanford
+Projected Winner: Louisville
+Projected Line: 14.0
+Actual Winner: Louisville
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 9: Maryland vs Illinois
+Projected Winner: Illinois
+Projected Line: 10.0
+Actual Winner: Illinois
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 9: Memphis vs Army
+Projected Winner: Memphis
+Projected Line: 11.0
+Actual Winner: Memphis
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 9: Middle Tennessee vs Kennesaw State
+Projected Winner: Middle Tennessee
+Projected Line: 19.0
+Actual Winner: Kennesaw State
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +35.0
+Absolute Error: 35.0
+----------------------------------------------------------------------
+Week 9: Missouri State vs Sam Houston
+Projected Winner: Missouri State
+Projected Line: 8.0
+Actual Winner: Missouri State
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 9: NC State vs California
+Projected Winner: NC State
+Projected Line: 4.5
+Actual Winner: NC State
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 9: Navy vs Notre Dame
+Projected Winner: Notre Dame
+Projected Line: 40.5
+Actual Winner: Notre Dame
+Actual Margin: +22.0
+Winner Prediction: CORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 9: Nebraska vs Washington
+Projected Winner: Nebraska
+Projected Line: 11.5
+Actual Winner: Washington
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 9: New Mexico State vs Jacksonville State
+Projected Winner: Jacksonville State
+Projected Line: 9.0
+Actual Winner: Jacksonville State
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 9: North Carolina vs Miami
+Projected Winner: Miami
+Projected Line: 18.5
+Actual Winner: Miami
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 9: North Dakota State vs UTEP
+Projected Winner: North Dakota State
+Projected Line: 26.5
+Actual Winner: North Dakota State
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: +2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 9: North Texas vs Florida Atlantic
+Projected Winner: North Texas
+Projected Line: 9.0
+Actual Winner: North Texas
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 9: Oklahoma vs South Carolina
+Projected Winner: Oklahoma
+Projected Line: 3.5
+Actual Winner: South Carolina
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 9: Old Dominion vs Marshall
+Projected Winner: Marshall
+Projected Line: 6.5
+Actual Winner: Marshall
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 9: Ole Miss vs Auburn
+Projected Winner: Ole Miss
+Projected Line: 10.0
+Actual Winner: Ole Miss
+Actual Margin: +30.0
+Winner Prediction: CORRECT
+Prediction Error: -20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 9: Oregon vs Northwestern
+Projected Winner: Northwestern
+Projected Line: 2.0
+Actual Winner: Oregon
+Actual Margin: -8.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 9: Penn State vs Purdue
+Projected Winner: Penn State
+Projected Line: 1.5
+Actual Winner: Penn State
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 9: Pittsburgh vs Georgia Tech
+Projected Winner: Pittsburgh
+Projected Line: 10.5
+Actual Winner: Pittsburgh
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 9: Rutgers vs Michigan
+Projected Winner: Michigan
+Projected Line: 6.0
+Actual Winner: Michigan
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 9: Sacramento State vs Kent State
+Projected Winner: Kent State
+Projected Line: 8.5
+Actual Winner: Sacramento State
+Actual Margin: -21.0
+Winner Prediction: INCORRECT
+Prediction Error: +29.5
+Absolute Error: 29.5
+----------------------------------------------------------------------
+Week 9: San Diego State vs Washington State
+Projected Winner: San Diego State
+Projected Line: 12.5
+Actual Winner: San Diego State
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 9: San José State vs New Mexico
+Projected Winner: New Mexico
+Projected Line: 13.0
+Actual Winner: New Mexico
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 9: South Alabama vs Louisiana Tech
+Projected Winner: Louisiana Tech
+Projected Line: 3.0
+Actual Winner: Louisiana Tech
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: -12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 9: South Florida vs UAB
+Projected Winner: South Florida
+Projected Line: 4.5
+Actual Winner: South Florida
+Actual Margin: +20.0
+Winner Prediction: CORRECT
+Prediction Error: -15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 9: Syracuse vs SMU
+Projected Winner: SMU
+Projected Line: 13.5
+Actual Winner: Syracuse
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 9: TCU vs Kansas
+Projected Winner: TCU
+Projected Line: 3.5
+Actual Winner: TCU
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: -2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 9: Texas vs Mississippi State
+Projected Winner: Texas
+Projected Line: 10.5
+Actual Winner: Texas
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 9: Texas Tech vs Arizona
+Projected Winner: Texas Tech
+Projected Line: 3.0
+Actual Winner: Texas Tech
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 9: UCF vs Baylor
+Projected Winner: UCF
+Projected Line: 0.0
+Actual Winner: Baylor
+Actual Margin: -32.0
+Winner Prediction: INCORRECT
+Prediction Error: +32.0
+Absolute Error: 32.0
+----------------------------------------------------------------------
+Week 9: UCLA vs Nevada
+Projected Winner: UCLA
+Projected Line: 28.0
+Actual Winner: UCLA
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 9: UL Monroe vs Southern Miss
+Projected Winner: UL Monroe
+Projected Line: 1.0
+Actual Winner: Southern Miss
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 9: UNLV vs Northern Illinois
+Projected Winner: UNLV
+Projected Line: 25.5
+Actual Winner: UNLV
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 9: USC vs Ohio State
+Projected Winner: Ohio State
+Projected Line: 9.5
+Actual Winner: USC
+Actual Margin: -12.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 9: Utah State vs Colorado State
+Projected Winner: Utah State
+Projected Line: 1.5
+Actual Winner: Utah State
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 9: Wake Forest vs Virginia
+Projected Winner: Wake Forest
+Projected Line: 17.0
+Actual Winner: Wake Forest
+Actual Margin: +44.0
+Winner Prediction: CORRECT
+Prediction Error: -27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 9: Western Kentucky vs Delaware
+Projected Winner: Western Kentucky
+Projected Line: 7.0
+Actual Winner: Delaware
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 9: Western Michigan vs Bowling Green
+Projected Winner: Western Michigan
+Projected Line: 15.0
+Actual Winner: Western Michigan
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
 ----------------------------------------------------------------------

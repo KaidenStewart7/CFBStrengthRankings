@@ -3,7 +3,7 @@ from database_queries import DatabaseQueries
 
 
 # Week to load games of
-WEEK = 8
+WEEK = 9
 
 # Regular or Postseason
 SEASON_TYPE = "regular"
