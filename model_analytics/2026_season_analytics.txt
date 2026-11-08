@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          492
-Correct Winner Picks:     331
-Incorrect Winner Picks:   161
-Winner Prediction %:      67.28%
-Mean Absolute Error:      13.30 points
-Average Prediction Error: +0.06 points
-Average Predicted Margin: 9.87 points
-Average Actual Margin:    9.81 points
+Games Evaluated:          554
+Correct Winner Picks:     370
+Incorrect Winner Picks:   184
+Winner Prediction %:      66.79%
+Mean Absolute Error:      13.33 points
+Average Prediction Error: +0.48 points
+Average Predicted Margin: 9.78 points
+Average Actual Margin:    9.30 points
 
 
 WEEKLY PERFORMANCE
@@ -24,6 +24,7 @@ Week 6: 31/58 correct (53.45%) | MAE: 13.70
 Week 7: 38/59 correct (64.41%) | MAE: 12.45
 Week 8: 28/56 correct (50.00%) | MAE: 11.95
 Week 9: 38/56 correct (67.86%) | MAE: 14.29
+Week 10: 39/62 correct (62.90%) | MAE: 13.56
 
 
 COMPLETED GAME RESULTS
@@ -4456,4 +4457,562 @@ Actual Margin: +13.0
 Winner Prediction: CORRECT
 Prediction Error: +2.0
 Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 10: Akron vs Ohio
+Projected Winner: Ohio
+Projected Line: 24.5
+Actual Winner: Ohio
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 10: App State vs Georgia State
+Projected Winner: App State
+Projected Line: 7.5
+Actual Winner: Georgia State
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +23.5
+Absolute Error: 23.5
+----------------------------------------------------------------------
+Week 10: Arizona vs TCU
+Projected Winner: Arizona
+Projected Line: 11.0
+Actual Winner: Arizona
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 10: Arizona State vs Colorado
+Projected Winner: Arizona State
+Projected Line: 8.0
+Actual Winner: Arizona State
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 10: Arkansas State vs UL Monroe
+Projected Winner: Arkansas State
+Projected Line: 14.0
+Actual Winner: UL Monroe
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 10: Army vs Air Force
+Projected Winner: Army
+Projected Line: 1.5
+Actual Winner: Air Force
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 10: Auburn vs Arkansas
+Projected Winner: Auburn
+Projected Line: 9.5
+Actual Winner: Auburn
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 10: Baylor vs Iowa State
+Projected Winner: Baylor
+Projected Line: 11.0
+Actual Winner: Baylor
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 10: Boston College vs Florida State
+Projected Winner: Boston College
+Projected Line: 4.0
+Actual Winner: Florida State
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 10: Coastal Carolina vs Old Dominion
+Projected Winner: Coastal Carolina
+Projected Line: 13.0
+Actual Winner: Old Dominion
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +26.0
+Absolute Error: 26.0
+----------------------------------------------------------------------
+Week 10: Colorado State vs Boise State
+Projected Winner: Boise State
+Projected Line: 19.5
+Actual Winner: Boise State
+Actual Margin: +26.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 10: East Carolina vs South Florida
+Projected Winner: South Florida
+Projected Line: 5.0
+Actual Winner: East Carolina
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 10: Eastern Michigan vs Central Michigan
+Projected Winner: Eastern Michigan
+Projected Line: 7.0
+Actual Winner: Central Michigan
+Actual Margin: -28.0
+Winner Prediction: INCORRECT
+Prediction Error: +35.0
+Absolute Error: 35.0
+----------------------------------------------------------------------
+Week 10: Florida vs Oklahoma
+Projected Winner: Florida
+Projected Line: 6.0
+Actual Winner: Oklahoma
+Actual Margin: -16.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 10: Florida Atlantic vs UTSA
+Projected Winner: UTSA
+Projected Line: 10.5
+Actual Winner: Florida Atlantic
+Actual Margin: -31.0
+Winner Prediction: INCORRECT
+Prediction Error: +41.5
+Absolute Error: 41.5
+----------------------------------------------------------------------
+Week 10: Florida International vs Missouri State
+Projected Winner: Florida International
+Projected Line: 2.0
+Actual Winner: Florida International
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 10: Georgia Southern vs Marshall
+Projected Winner: Georgia Southern
+Projected Line: 6.0
+Actual Winner: Georgia Southern
+Actual Margin: +36.0
+Winner Prediction: CORRECT
+Prediction Error: -30.0
+Absolute Error: 30.0
+----------------------------------------------------------------------
+Week 10: Georgia Tech vs Louisville
+Projected Winner: Louisville
+Projected Line: 12.5
+Actual Winner: Louisville
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 10: Houston vs Cincinnati
+Projected Winner: Houston
+Projected Line: 10.0
+Actual Winner: Houston
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 10: Illinois vs Nebraska
+Projected Winner: Illinois
+Projected Line: 1.0
+Actual Winner: Illinois
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 10: Jacksonville State vs Sam Houston
+Projected Winner: Jacksonville State
+Projected Line: 29.5
+Actual Winner: Jacksonville State
+Actual Margin: +33.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 10: Kansas vs UCF
+Projected Winner: UCF
+Projected Line: 0.5
+Actual Winner: UCF
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 10: Kansas State vs Oklahoma State
+Projected Winner: Oklahoma State
+Projected Line: 5.0
+Actual Winner: Oklahoma State
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -33.0
+Absolute Error: 33.0
+----------------------------------------------------------------------
+Week 10: Kennesaw State vs Delaware
+Projected Winner: Delaware
+Projected Line: 5.0
+Actual Winner: Kennesaw State
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 10: LSU vs Alabama
+Projected Winner: LSU
+Projected Line: 1.5
+Actual Winner: Alabama
+Actual Margin: -18.0
+Winner Prediction: INCORRECT
+Prediction Error: +19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 10: Louisiana vs South Alabama
+Projected Winner: Louisiana
+Projected Line: 6.5
+Actual Winner: Louisiana
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 10: Massachusetts vs Ball State
+Projected Winner: Massachusetts
+Projected Line: 3.5
+Actual Winner: Massachusetts
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 10: Miami (OH) vs Buffalo
+Projected Winner: Miami (OH)
+Projected Line: 4.5
+Actual Winner: Buffalo
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 10: Michigan vs Michigan State
+Projected Winner: Michigan
+Projected Line: 16.5
+Actual Winner: Michigan State
+Actual Margin: -9.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.5
+Absolute Error: 25.5
+----------------------------------------------------------------------
+Week 10: Middle Tennessee vs Western Kentucky
+Projected Winner: Middle Tennessee
+Projected Line: 5.5
+Actual Winner: Middle Tennessee
+Actual Margin: +9.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 10: Minnesota vs UCLA
+Projected Winner: UCLA
+Projected Line: 14.5
+Actual Winner: UCLA
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 10: Mississippi State vs Vanderbilt
+Projected Winner: Mississippi State
+Projected Line: 12.5
+Actual Winner: Vanderbilt
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 10: Missouri vs Texas
+Projected Winner: Texas
+Projected Line: 1.0
+Actual Winner: Texas
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 10: NC State vs Duke
+Projected Winner: Duke
+Projected Line: 5.5
+Actual Winner: Duke
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -32.5
+Absolute Error: 32.5
+----------------------------------------------------------------------
+Week 10: Navy vs Temple
+Projected Winner: Temple
+Projected Line: 4.5
+Actual Winner: Navy
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 10: Nevada vs New Mexico
+Projected Winner: New Mexico
+Projected Line: 12.5
+Actual Winner: New Mexico
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 10: New Mexico State vs Liberty
+Projected Winner: Liberty
+Projected Line: 20.5
+Actual Winner: Liberty
+Actual Margin: +16.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 10: North Texas vs Rice
+Projected Winner: North Texas
+Projected Line: 30.0
+Actual Winner: North Texas
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 10: Northwestern vs Iowa
+Projected Winner: Northwestern
+Projected Line: 3.0
+Actual Winner: Iowa
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 10: Notre Dame vs Miami
+Projected Winner: Notre Dame
+Projected Line: 1.0
+Actual Winner: Notre Dame
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 10: Ohio State vs Oregon
+Projected Winner: Ohio State
+Projected Line: 11.5
+Actual Winner: Oregon
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +24.5
+Absolute Error: 24.5
+----------------------------------------------------------------------
+Week 10: Ole Miss vs Georgia
+Projected Winner: Georgia
+Projected Line: 4.0
+Actual Winner: Georgia
+Actual Margin: +35.0
+Winner Prediction: CORRECT
+Prediction Error: -31.0
+Absolute Error: 31.0
+----------------------------------------------------------------------
+Week 10: Oregon State vs Texas State
+Projected Winner: Oregon State
+Projected Line: 10.5
+Actual Winner: Texas State
+Actual Margin: -21.0
+Winner Prediction: INCORRECT
+Prediction Error: +31.5
+Absolute Error: 31.5
+----------------------------------------------------------------------
+Week 10: Purdue vs Maryland
+Projected Winner: Purdue
+Projected Line: 11.0
+Actual Winner: Maryland
+Actual Margin: -5.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 10: SMU vs Virginia Tech
+Projected Winner: SMU
+Projected Line: 4.0
+Actual Winner: SMU
+Actual Margin: +23.0
+Winner Prediction: CORRECT
+Prediction Error: -19.0
+Absolute Error: 19.0
+----------------------------------------------------------------------
+Week 10: Sacramento State vs Toledo
+Projected Winner: Toledo
+Projected Line: 20.0
+Actual Winner: Toledo
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 10: San José State vs Northern Illinois
+Projected Winner: San José State
+Projected Line: 17.0
+Actual Winner: San José State
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +6.0
+Absolute Error: 6.0
+----------------------------------------------------------------------
+Week 10: South Carolina vs Texas A&M
+Projected Winner: South Carolina
+Projected Line: 8.0
+Actual Winner: South Carolina
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +0.0
+Absolute Error: 0.0
+----------------------------------------------------------------------
+Week 10: Southern Miss vs James Madison
+Projected Winner: James Madison
+Projected Line: 12.0
+Actual Winner: James Madison
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -19.0
+Absolute Error: 19.0
+----------------------------------------------------------------------
+Week 10: Syracuse vs Clemson
+Projected Winner: Clemson
+Projected Line: 4.5
+Actual Winner: Clemson
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 10: Tennessee vs Kentucky
+Projected Winner: Tennessee
+Projected Line: 0.5
+Actual Winner: Tennessee
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -27.5
+Absolute Error: 27.5
+----------------------------------------------------------------------
+Week 10: Texas Tech vs West Virginia
+Projected Winner: Texas Tech
+Projected Line: 15.5
+Actual Winner: Texas Tech
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 10: Troy vs Louisiana Tech
+Projected Winner: Louisiana Tech
+Projected Line: 8.0
+Actual Winner: Louisiana Tech
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 10: Tulane vs Tulsa
+Projected Winner: Tulane
+Projected Line: 6.5
+Actual Winner: Tulsa
+Actual Margin: -50.0
+Winner Prediction: INCORRECT
+Prediction Error: +56.5
+Absolute Error: 56.5
+----------------------------------------------------------------------
+Week 10: UAB vs Charlotte
+Projected Winner: UAB
+Projected Line: 13.0
+Actual Winner: UAB
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 10: UConn vs North Carolina
+Projected Winner: North Carolina
+Projected Line: 3.0
+Actual Winner: North Carolina
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 10: UNLV vs Wyoming
+Projected Winner: UNLV
+Projected Line: 5.5
+Actual Winner: Wyoming
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 10: UTEP vs Hawai'i
+Projected Winner: Hawai'i
+Projected Line: 8.0
+Actual Winner: Hawai'i
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 10: Utah vs BYU
+Projected Winner: Utah
+Projected Line: 9.5
+Actual Winner: Utah
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 10: Utah State vs Fresno State
+Projected Winner: Fresno State
+Projected Line: 3.5
+Actual Winner: Utah State
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 10: Washington vs Penn State
+Projected Winner: Washington
+Projected Line: 4.5
+Actual Winner: Penn State
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 10: Wisconsin vs Rutgers
+Projected Winner: Wisconsin
+Projected Line: 17.5
+Actual Winner: Wisconsin
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
 ----------------------------------------------------------------------
