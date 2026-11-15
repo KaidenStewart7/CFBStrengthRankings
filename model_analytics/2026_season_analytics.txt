@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          554
-Correct Winner Picks:     370
-Incorrect Winner Picks:   184
-Winner Prediction %:      66.79%
-Mean Absolute Error:      13.33 points
-Average Prediction Error: +0.48 points
-Average Predicted Margin: 9.78 points
-Average Actual Margin:    9.30 points
+Games Evaluated:          621
+Correct Winner Picks:     418
+Incorrect Winner Picks:   203
+Winner Prediction %:      67.31%
+Mean Absolute Error:      13.44 points
+Average Prediction Error: +0.67 points
+Average Predicted Margin: 9.76 points
+Average Actual Margin:    9.10 points
 
 
 WEEKLY PERFORMANCE
@@ -25,6 +25,7 @@ Week 7: 38/59 correct (64.41%) | MAE: 12.45
 Week 8: 28/56 correct (50.00%) | MAE: 11.95
 Week 9: 38/56 correct (67.86%) | MAE: 14.29
 Week 10: 39/62 correct (62.90%) | MAE: 13.56
+Week 11: 48/67 correct (71.64%) | MAE: 14.37
 
 
 COMPLETED GAME RESULTS
@@ -5015,4 +5016,607 @@ Actual Margin: +21.0
 Winner Prediction: CORRECT
 Prediction Error: -3.5
 Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Air Force vs San José State
+Projected Winner: Air Force
+Projected Line: 6.5
+Actual Winner: Air Force
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 11: Akron vs Western Michigan
+Projected Winner: Western Michigan
+Projected Line: 24.5
+Actual Winner: Western Michigan
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Arizona vs Utah
+Projected Winner: Utah
+Projected Line: 6.5
+Actual Winner: Utah
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 11: Arkansas vs South Carolina
+Projected Winner: South Carolina
+Projected Line: 14.0
+Actual Winner: Arkansas
+Actual Margin: -28.0
+Winner Prediction: INCORRECT
+Prediction Error: +42.0
+Absolute Error: 42.0
+----------------------------------------------------------------------
+Week 11: BYU vs Baylor
+Projected Winner: BYU
+Projected Line: 2.5
+Actual Winner: BYU
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 11: Ball State vs Buffalo
+Projected Winner: Buffalo
+Projected Line: 10.5
+Actual Winner: Buffalo
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 11: Boise State vs Oregon State
+Projected Winner: Boise State
+Projected Line: 14.5
+Actual Winner: Boise State
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 11: Bowling Green vs Kent State
+Projected Winner: Bowling Green
+Projected Line: 5.5
+Actual Winner: Bowling Green
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 11: Central Michigan vs Sacramento State
+Projected Winner: Central Michigan
+Projected Line: 14.5
+Actual Winner: Central Michigan
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 11: Charlotte vs East Carolina
+Projected Winner: East Carolina
+Projected Line: 12.5
+Actual Winner: East Carolina
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 11: Clemson vs Georgia Tech
+Projected Winner: Clemson
+Projected Line: 20.0
+Actual Winner: Georgia Tech
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +34.0
+Absolute Error: 34.0
+----------------------------------------------------------------------
+Week 11: Coastal Carolina vs Arkansas State
+Projected Winner: Coastal Carolina
+Projected Line: 0.5
+Actual Winner: Coastal Carolina
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 11: Colorado vs Houston
+Projected Winner: Houston
+Projected Line: 15.5
+Actual Winner: Colorado
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.5
+Absolute Error: 25.5
+----------------------------------------------------------------------
+Week 11: Delaware vs Florida International
+Projected Winner: Delaware
+Projected Line: 1.0
+Actual Winner: Delaware
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 11: Georgia vs Missouri
+Projected Winner: Georgia
+Projected Line: 17.0
+Actual Winner: Georgia
+Actual Margin: +27.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 11: Georgia State vs Georgia Southern
+Projected Winner: Georgia Southern
+Projected Line: 4.0
+Actual Winner: Georgia Southern
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 11: Hawai'i vs North Dakota State
+Projected Winner: North Dakota State
+Projected Line: 11.5
+Actual Winner: North Dakota State
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Indiana vs USC
+Projected Winner: Indiana
+Projected Line: 6.5
+Actual Winner: Indiana
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 11: Iowa vs Purdue
+Projected Winner: Iowa
+Projected Line: 18.5
+Actual Winner: Iowa
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 11: Iowa State vs Cincinnati
+Projected Winner: Iowa State
+Projected Line: 1.0
+Actual Winner: Iowa State
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 11: Kentucky vs Florida
+Projected Winner: Kentucky
+Projected Line: 9.0
+Actual Winner: Florida
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 11: LSU vs Texas
+Projected Winner: Texas
+Projected Line: 2.0
+Actual Winner: Texas
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 11: Liberty vs Middle Tennessee
+Projected Winner: Liberty
+Projected Line: 21.0
+Actual Winner: Liberty
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +16.0
+Absolute Error: 16.0
+----------------------------------------------------------------------
+Week 11: Louisiana Tech vs Southern Miss
+Projected Winner: Louisiana Tech
+Projected Line: 22.5
+Actual Winner: Louisiana Tech
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 11: Marshall vs App State
+Projected Winner: Marshall
+Projected Line: 0.5
+Actual Winner: App State
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 11: Maryland vs Wisconsin
+Projected Winner: Wisconsin
+Projected Line: 14.5
+Actual Winner: Maryland
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 11: Miami vs Duke
+Projected Winner: Miami
+Projected Line: 10.5
+Actual Winner: Miami
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -0.5
+Absolute Error: 0.5
+----------------------------------------------------------------------
+Week 11: Miami (OH) vs Ohio
+Projected Winner: Ohio
+Projected Line: 7.5
+Actual Winner: Miami (OH)
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +24.5
+Absolute Error: 24.5
+----------------------------------------------------------------------
+Week 11: Michigan State vs Washington
+Projected Winner: Washington
+Projected Line: 5.0
+Actual Winner: Washington
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 11: Mississippi State vs Auburn
+Projected Winner: Auburn
+Projected Line: 1.0
+Actual Winner: Auburn
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -31.0
+Absolute Error: 31.0
+----------------------------------------------------------------------
+Week 11: Missouri State vs New Mexico State
+Projected Winner: Missouri State
+Projected Line: 3.5
+Actual Winner: Missouri State
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: -2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 11: NC State vs Syracuse
+Projected Winner: NC State
+Projected Line: 2.5
+Actual Winner: Syracuse
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 11: New Mexico vs UNLV
+Projected Winner: New Mexico
+Projected Line: 15.5
+Actual Winner: UNLV
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +19.5
+Absolute Error: 19.5
+----------------------------------------------------------------------
+Week 11: North Carolina vs Louisville
+Projected Winner: Louisville
+Projected Line: 6.5
+Actual Winner: Louisville
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 11: Northern Illinois vs Nevada
+Projected Winner: Nevada
+Projected Line: 13.5
+Actual Winner: Nevada
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -7.5
+Absolute Error: 7.5
+----------------------------------------------------------------------
+Week 11: Notre Dame vs Boston College
+Projected Winner: Notre Dame
+Projected Line: 30.5
+Actual Winner: Notre Dame
+Actual Margin: +34.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Ohio State vs Northwestern
+Projected Winner: Ohio State
+Projected Line: 10.0
+Actual Winner: Ohio State
+Actual Margin: +9.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 11: Oklahoma vs Ole Miss
+Projected Winner: Ole Miss
+Projected Line: 2.0
+Actual Winner: Oklahoma
+Actual Margin: -7.0
+Winner Prediction: INCORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 11: Oklahoma State vs Texas Tech
+Projected Winner: Texas Tech
+Projected Line: 4.5
+Actual Winner: Texas Tech
+Actual Margin: +25.0
+Winner Prediction: CORRECT
+Prediction Error: -20.5
+Absolute Error: 20.5
+----------------------------------------------------------------------
+Week 11: Oregon vs Michigan
+Projected Winner: Oregon
+Projected Line: 11.5
+Actual Winner: Oregon
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -12.5
+Absolute Error: 12.5
+----------------------------------------------------------------------
+Week 11: Penn State vs Minnesota
+Projected Winner: Penn State
+Projected Line: 4.5
+Actual Winner: Penn State
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -23.5
+Absolute Error: 23.5
+----------------------------------------------------------------------
+Week 11: Pittsburgh vs Florida State
+Projected Winner: Pittsburgh
+Projected Line: 8.5
+Actual Winner: Florida State
+Actual Margin: -6.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 11: Rice vs Tulane
+Projected Winner: Tulane
+Projected Line: 11.5
+Actual Winner: Tulane
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 11: Rutgers vs Nebraska
+Projected Winner: Nebraska
+Projected Line: 12.0
+Actual Winner: Nebraska
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -19.0
+Absolute Error: 19.0
+----------------------------------------------------------------------
+Week 11: SMU vs Wake Forest
+Projected Winner: Wake Forest
+Projected Line: 2.5
+Actual Winner: Wake Forest
+Actual Margin: +42.0
+Winner Prediction: CORRECT
+Prediction Error: -39.5
+Absolute Error: 39.5
+----------------------------------------------------------------------
+Week 11: Sam Houston vs Kennesaw State
+Projected Winner: Kennesaw State
+Projected Line: 8.5
+Actual Winner: Kennesaw State
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 11: San Diego State vs Utah State
+Projected Winner: Utah State
+Projected Line: 1.0
+Actual Winner: San Diego State
+Actual Margin: -17.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.0
+Absolute Error: 18.0
+----------------------------------------------------------------------
+Week 11: South Alabama vs Troy
+Projected Winner: South Alabama
+Projected Line: 3.0
+Actual Winner: South Alabama
+Actual Margin: +13.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 11: South Florida vs Memphis
+Projected Winner: Memphis
+Projected Line: 5.5
+Actual Winner: Memphis
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 11: TCU vs Kansas State
+Projected Winner: TCU
+Projected Line: 6.5
+Actual Winner: TCU
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Temple vs UAB
+Projected Winner: UAB
+Projected Line: 8.5
+Actual Winner: UAB
+Actual Margin: +26.0
+Winner Prediction: CORRECT
+Prediction Error: -17.5
+Absolute Error: 17.5
+----------------------------------------------------------------------
+Week 11: Texas A&M vs Tennessee
+Projected Winner: Tennessee
+Projected Line: 11.5
+Actual Winner: Tennessee
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 11: Texas State vs Fresno State
+Projected Winner: Texas State
+Projected Line: 3.5
+Actual Winner: Texas State
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 11: Toledo vs Massachusetts
+Projected Winner: Toledo
+Projected Line: 14.0
+Actual Winner: Toledo
+Actual Margin: +24.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 11: Tulsa vs Florida Atlantic
+Projected Winner: Tulsa
+Projected Line: 0.5
+Actual Winner: Tulsa
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -16.5
+Absolute Error: 16.5
+----------------------------------------------------------------------
+Week 11: UCF vs Arizona State
+Projected Winner: UCF
+Projected Line: 2.5
+Actual Winner: Arizona State
+Actual Margin: -13.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.5
+Absolute Error: 15.5
+----------------------------------------------------------------------
+Week 11: UCLA vs Illinois
+Projected Winner: UCLA
+Projected Line: 18.5
+Actual Winner: UCLA
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +10.5
+Absolute Error: 10.5
+----------------------------------------------------------------------
+Week 11: UConn vs James Madison
+Projected Winner: James Madison
+Projected Line: 11.0
+Actual Winner: UConn
+Actual Margin: -24.0
+Winner Prediction: INCORRECT
+Prediction Error: +35.0
+Absolute Error: 35.0
+----------------------------------------------------------------------
+Week 11: UL Monroe vs Louisiana
+Projected Winner: Louisiana
+Projected Line: 11.5
+Actual Winner: Louisiana
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -9.5
+Absolute Error: 9.5
+----------------------------------------------------------------------
+Week 11: UTEP vs Wyoming
+Projected Winner: Wyoming
+Projected Line: 23.5
+Actual Winner: Wyoming
+Actual Margin: +12.0
+Winner Prediction: CORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 11: UTSA vs North Texas
+Projected Winner: North Texas
+Projected Line: 2.0
+Actual Winner: UTSA
+Actual Margin: -19.0
+Winner Prediction: INCORRECT
+Prediction Error: +21.0
+Absolute Error: 21.0
+----------------------------------------------------------------------
+Week 11: Vanderbilt vs Alabama
+Projected Winner: Alabama
+Projected Line: 20.0
+Actual Winner: Alabama
+Actual Margin: +15.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 11: Virginia vs California
+Projected Winner: Virginia
+Projected Line: 6.5
+Actual Winner: Virginia
+Actual Margin: +29.0
+Winner Prediction: CORRECT
+Prediction Error: -22.5
+Absolute Error: 22.5
+----------------------------------------------------------------------
+Week 11: Virginia Tech vs Stanford
+Projected Winner: Virginia Tech
+Projected Line: 16.0
+Actual Winner: Stanford
+Actual Margin: -18.0
+Winner Prediction: INCORRECT
+Prediction Error: +34.0
+Absolute Error: 34.0
+----------------------------------------------------------------------
+Week 11: Washington State vs Colorado State
+Projected Winner: Colorado State
+Projected Line: 4.0
+Actual Winner: Washington State
+Actual Margin: -66.0
+Winner Prediction: INCORRECT
+Prediction Error: +70.0
+Absolute Error: 70.0
+----------------------------------------------------------------------
+Week 11: West Virginia vs Kansas
+Projected Winner: West Virginia
+Projected Line: 8.0
+Actual Winner: Kansas
+Actual Margin: -23.0
+Winner Prediction: INCORRECT
+Prediction Error: +31.0
+Absolute Error: 31.0
+----------------------------------------------------------------------
+Week 11: Western Kentucky vs Jacksonville State
+Projected Winner: Jacksonville State
+Projected Line: 18.0
+Actual Winner: Western Kentucky
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +28.0
+Absolute Error: 28.0
 ----------------------------------------------------------------------
