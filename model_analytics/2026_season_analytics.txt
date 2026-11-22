@@ -3,14 +3,14 @@
 
 SEASON SUMMARY
 ----------------------------------------------------------------------
-Games Evaluated:          621
-Correct Winner Picks:     418
-Incorrect Winner Picks:   203
-Winner Prediction %:      67.31%
-Mean Absolute Error:      13.44 points
+Games Evaluated:          687
+Correct Winner Picks:     469
+Incorrect Winner Picks:   218
+Winner Prediction %:      68.27%
+Mean Absolute Error:      13.22 points
 Average Prediction Error: +0.67 points
-Average Predicted Margin: 9.76 points
-Average Actual Margin:    9.10 points
+Average Predicted Margin: 9.97 points
+Average Actual Margin:    9.30 points
 
 
 WEEKLY PERFORMANCE
@@ -26,6 +26,7 @@ Week 8: 28/56 correct (50.00%) | MAE: 11.95
 Week 9: 38/56 correct (67.86%) | MAE: 14.29
 Week 10: 39/62 correct (62.90%) | MAE: 13.56
 Week 11: 48/67 correct (71.64%) | MAE: 14.37
+Week 12: 51/66 correct (77.27%) | MAE: 11.13
 
 
 COMPLETED GAME RESULTS
@@ -5619,4 +5620,598 @@ Actual Margin: -10.0
 Winner Prediction: INCORRECT
 Prediction Error: +28.0
 Absolute Error: 28.0
+----------------------------------------------------------------------
+Week 12: Air Force vs UTEP
+Projected Winner: Air Force
+Projected Line: 29.0
+Actual Winner: Air Force
+Actual Margin: +49.0
+Winner Prediction: CORRECT
+Prediction Error: -20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 12: App State vs UL Monroe
+Projected Winner: App State
+Projected Line: 14.0
+Actual Winner: App State
+Actual Margin: +1.0
+Winner Prediction: CORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 12: Arizona State vs Oklahoma State
+Projected Winner: Oklahoma State
+Projected Line: 0.0
+Actual Winner: Oklahoma State
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: -3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 12: Army vs East Carolina
+Projected Winner: East Carolina
+Projected Line: 0.5
+Actual Winner: East Carolina
+Actual Margin: +4.0
+Winner Prediction: CORRECT
+Prediction Error: -3.5
+Absolute Error: 3.5
+----------------------------------------------------------------------
+Week 12: Baylor vs Texas Tech
+Projected Winner: Texas Tech
+Projected Line: 8.0
+Actual Winner: Texas Tech
+Actual Margin: +10.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 12: Boise State vs San Diego State
+Projected Winner: Boise State
+Projected Line: 20.0
+Actual Winner: San Diego State
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 12: Boston College vs Syracuse
+Projected Winner: Syracuse
+Projected Line: 2.5
+Actual Winner: Boston College
+Actual Margin: -12.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 12: Buffalo vs Central Michigan
+Projected Winner: Buffalo
+Projected Line: 10.0
+Actual Winner: Buffalo
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 12: California vs Stanford
+Projected Winner: Stanford
+Projected Line: 1.5
+Actual Winner: Stanford
+Actual Margin: +16.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 12: Cincinnati vs Colorado
+Projected Winner: Cincinnati
+Projected Line: 5.0
+Actual Winner: Cincinnati
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 12: Duke vs Clemson
+Projected Winner: Duke
+Projected Line: 7.0
+Actual Winner: Clemson
+Actual Margin: -10.0
+Winner Prediction: INCORRECT
+Prediction Error: +17.0
+Absolute Error: 17.0
+----------------------------------------------------------------------
+Week 12: Florida vs Vanderbilt
+Projected Winner: Florida
+Projected Line: 15.0
+Actual Winner: Florida
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +8.0
+Absolute Error: 8.0
+----------------------------------------------------------------------
+Week 12: Florida Atlantic vs South Florida
+Projected Winner: Florida Atlantic
+Projected Line: 2.0
+Actual Winner: Florida Atlantic
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -19.0
+Absolute Error: 19.0
+----------------------------------------------------------------------
+Week 12: Florida State vs NC State
+Projected Winner: Florida State
+Projected Line: 8.5
+Actual Winner: NC State
+Actual Margin: -18.0
+Winner Prediction: INCORRECT
+Prediction Error: +26.5
+Absolute Error: 26.5
+----------------------------------------------------------------------
+Week 12: Fresno State vs Colorado State
+Projected Winner: Fresno State
+Projected Line: 15.5
+Actual Winner: Fresno State
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 12: Georgia Tech vs Wake Forest
+Projected Winner: Wake Forest
+Projected Line: 23.5
+Actual Winner: Wake Forest
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: +2.5
+Absolute Error: 2.5
+----------------------------------------------------------------------
+Week 12: Illinois vs Iowa
+Projected Winner: Iowa
+Projected Line: 6.0
+Actual Winner: Iowa
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 12: Jacksonville State vs Missouri State
+Projected Winner: Jacksonville State
+Projected Line: 16.0
+Actual Winner: Jacksonville State
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 12: Kansas vs BYU
+Projected Winner: BYU
+Projected Line: 11.0
+Actual Winner: BYU
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 12: Kansas State vs Arizona
+Projected Winner: Arizona
+Projected Line: 12.0
+Actual Winner: Arizona
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +5.0
+Absolute Error: 5.0
+----------------------------------------------------------------------
+Week 12: Kennesaw State vs Florida International
+Projected Winner: Kennesaw State
+Projected Line: 4.0
+Actual Winner: Kennesaw State
+Actual Margin: +11.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 12: Kent State vs Miami (OH)
+Projected Winner: Miami (OH)
+Projected Line: 12.5
+Actual Winner: Miami (OH)
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 12: Liberty vs Western Kentucky
+Projected Winner: Liberty
+Projected Line: 26.5
+Actual Winner: Liberty
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 12: Louisiana vs Coastal Carolina
+Projected Winner: Louisiana
+Projected Line: 12.5
+Actual Winner: Louisiana
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -1.5
+Absolute Error: 1.5
+----------------------------------------------------------------------
+Week 12: Louisiana Tech vs Arkansas State
+Projected Winner: Louisiana Tech
+Projected Line: 21.5
+Actual Winner: Louisiana Tech
+Actual Margin: +45.0
+Winner Prediction: CORRECT
+Prediction Error: -23.5
+Absolute Error: 23.5
+----------------------------------------------------------------------
+Week 12: Louisville vs Pittsburgh
+Projected Winner: Louisville
+Projected Line: 10.5
+Actual Winner: Louisville
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 12: Marshall vs Georgia State
+Projected Winner: Georgia State
+Projected Line: 0.0
+Actual Winner: Marshall
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 12: Massachusetts vs Akron
+Projected Winner: Massachusetts
+Projected Line: 17.5
+Actual Winner: Akron
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +18.5
+Absolute Error: 18.5
+----------------------------------------------------------------------
+Week 12: Miami vs Virginia Tech
+Projected Winner: Miami
+Projected Line: 19.5
+Actual Winner: Miami
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +11.5
+Absolute Error: 11.5
+----------------------------------------------------------------------
+Week 12: Michigan vs UCLA
+Projected Winner: UCLA
+Projected Line: 22.0
+Actual Winner: Michigan
+Actual Margin: -2.0
+Winner Prediction: INCORRECT
+Prediction Error: +24.0
+Absolute Error: 24.0
+----------------------------------------------------------------------
+Week 12: Michigan State vs Oregon
+Projected Winner: Oregon
+Projected Line: 16.5
+Actual Winner: Oregon
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -21.5
+Absolute Error: 21.5
+----------------------------------------------------------------------
+Week 12: Minnesota vs Northwestern
+Projected Winner: Northwestern
+Projected Line: 2.5
+Actual Winner: Minnesota
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +5.5
+Absolute Error: 5.5
+----------------------------------------------------------------------
+Week 12: Missouri vs Kentucky
+Projected Winner: Kentucky
+Projected Line: 1.0
+Actual Winner: Missouri
+Actual Margin: -14.0
+Winner Prediction: INCORRECT
+Prediction Error: +15.0
+Absolute Error: 15.0
+----------------------------------------------------------------------
+Week 12: Navy vs Memphis
+Projected Winner: Memphis
+Projected Line: 21.0
+Actual Winner: Navy
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +25.0
+Absolute Error: 25.0
+----------------------------------------------------------------------
+Week 12: Nebraska vs Ohio State
+Projected Winner: Ohio State
+Projected Line: 5.5
+Actual Winner: Nebraska
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +8.5
+Absolute Error: 8.5
+----------------------------------------------------------------------
+Week 12: Nevada vs Hawai'i
+Projected Winner: Nevada
+Projected Line: 9.0
+Actual Winner: Nevada
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 12: New Mexico State vs Delaware
+Projected Winner: Delaware
+Projected Line: 5.5
+Actual Winner: Delaware
+Actual Margin: +12.0
+Winner Prediction: CORRECT
+Prediction Error: -6.5
+Absolute Error: 6.5
+----------------------------------------------------------------------
+Week 12: North Dakota State vs Northern Illinois
+Projected Winner: North Dakota State
+Projected Line: 33.0
+Actual Winner: North Dakota State
+Actual Margin: +6.0
+Winner Prediction: CORRECT
+Prediction Error: +27.0
+Absolute Error: 27.0
+----------------------------------------------------------------------
+Week 12: Notre Dame vs SMU
+Projected Winner: Notre Dame
+Projected Line: 19.0
+Actual Winner: Notre Dame
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 12: Ohio vs Ball State
+Projected Winner: Ohio
+Projected Line: 21.0
+Actual Winner: Ohio
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +14.0
+Absolute Error: 14.0
+----------------------------------------------------------------------
+Week 12: Oklahoma vs Texas A&M
+Projected Winner: Oklahoma
+Projected Line: 12.0
+Actual Winner: Oklahoma
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -9.0
+Absolute Error: 9.0
+----------------------------------------------------------------------
+Week 12: Oregon State vs Utah State
+Projected Winner: Oregon State
+Projected Line: 6.0
+Actual Winner: Oregon State
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 12: Penn State vs Rutgers
+Projected Winner: Penn State
+Projected Line: 21.5
+Actual Winner: Rutgers
+Actual Margin: -1.0
+Winner Prediction: INCORRECT
+Prediction Error: +22.5
+Absolute Error: 22.5
+----------------------------------------------------------------------
+Week 12: Purdue vs Wisconsin
+Projected Winner: Wisconsin
+Projected Line: 10.0
+Actual Winner: Wisconsin
+Actual Margin: +32.0
+Winner Prediction: CORRECT
+Prediction Error: -22.0
+Absolute Error: 22.0
+----------------------------------------------------------------------
+Week 12: Sam Houston vs Middle Tennessee
+Projected Winner: Middle Tennessee
+Projected Line: 14.0
+Actual Winner: Middle Tennessee
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 12: San José State vs UNLV
+Projected Winner: UNLV
+Projected Line: 6.0
+Actual Winner: UNLV
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 12: South Carolina vs Georgia
+Projected Winner: Georgia
+Projected Line: 13.5
+Actual Winner: Georgia
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 12: Southern Miss vs South Alabama
+Projected Winner: South Alabama
+Projected Line: 7.0
+Actual Winner: South Alabama
+Actual Margin: +5.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 12: TCU vs Utah
+Projected Winner: Utah
+Projected Line: 16.5
+Actual Winner: Utah
+Actual Margin: +21.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 12: Temple vs Rice
+Projected Winner: Temple
+Projected Line: 9.0
+Actual Winner: Rice
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 12: Tennessee vs LSU
+Projected Winner: Tennessee
+Projected Line: 9.5
+Actual Winner: Tennessee
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: -4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 12: Texas vs Arkansas
+Projected Winner: Texas
+Projected Line: 22.0
+Actual Winner: Texas
+Actual Margin: +42.0
+Winner Prediction: CORRECT
+Prediction Error: -20.0
+Absolute Error: 20.0
+----------------------------------------------------------------------
+Week 12: Texas State vs Washington State
+Projected Winner: Texas State
+Projected Line: 18.0
+Actual Winner: Texas State
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -10.0
+Absolute Error: 10.0
+----------------------------------------------------------------------
+Week 12: Toledo vs Bowling Green
+Projected Winner: Toledo
+Projected Line: 18.0
+Actual Winner: Toledo
+Actual Margin: +19.0
+Winner Prediction: CORRECT
+Prediction Error: -1.0
+Absolute Error: 1.0
+----------------------------------------------------------------------
+Week 12: Troy vs Georgia Southern
+Projected Winner: Georgia Southern
+Projected Line: 11.5
+Actual Winner: Georgia Southern
+Actual Margin: +38.0
+Winner Prediction: CORRECT
+Prediction Error: -26.5
+Absolute Error: 26.5
+----------------------------------------------------------------------
+Week 12: Tulane vs North Texas
+Projected Winner: North Texas
+Projected Line: 8.0
+Actual Winner: Tulane
+Actual Margin: -4.0
+Winner Prediction: INCORRECT
+Prediction Error: +12.0
+Absolute Error: 12.0
+----------------------------------------------------------------------
+Week 12: Tulsa vs Charlotte
+Projected Winner: Tulsa
+Projected Line: 21.0
+Actual Winner: Tulsa
+Actual Margin: +28.0
+Winner Prediction: CORRECT
+Prediction Error: -7.0
+Absolute Error: 7.0
+----------------------------------------------------------------------
+Week 12: UAB vs UTSA
+Projected Winner: UTSA
+Projected Line: 4.0
+Actual Winner: UTSA
+Actual Margin: +2.0
+Winner Prediction: CORRECT
+Prediction Error: +2.0
+Absolute Error: 2.0
+----------------------------------------------------------------------
+Week 12: UCF vs Iowa State
+Projected Winner: UCF
+Projected Line: 1.5
+Actual Winner: UCF
+Actual Margin: +31.0
+Winner Prediction: CORRECT
+Prediction Error: -29.5
+Absolute Error: 29.5
+----------------------------------------------------------------------
+Week 12: UConn vs Old Dominion
+Projected Winner: UConn
+Projected Line: 12.5
+Actual Winner: UConn
+Actual Margin: +8.0
+Winner Prediction: CORRECT
+Prediction Error: +4.5
+Absolute Error: 4.5
+----------------------------------------------------------------------
+Week 12: USC vs Maryland
+Projected Winner: USC
+Projected Line: 17.0
+Actual Winner: USC
+Actual Margin: +14.0
+Winner Prediction: CORRECT
+Prediction Error: +3.0
+Absolute Error: 3.0
+----------------------------------------------------------------------
+Week 12: Virginia vs North Carolina
+Projected Winner: Virginia
+Projected Line: 4.0
+Actual Winner: Virginia
+Actual Margin: +17.0
+Winner Prediction: CORRECT
+Prediction Error: -13.0
+Absolute Error: 13.0
+----------------------------------------------------------------------
+Week 12: Washington vs Indiana
+Projected Winner: Indiana
+Projected Line: 11.5
+Actual Winner: Washington
+Actual Margin: -3.0
+Winner Prediction: INCORRECT
+Prediction Error: +14.5
+Absolute Error: 14.5
+----------------------------------------------------------------------
+Week 12: West Virginia vs Houston
+Projected Winner: Houston
+Projected Line: 7.0
+Actual Winner: Houston
+Actual Margin: +3.0
+Winner Prediction: CORRECT
+Prediction Error: +4.0
+Absolute Error: 4.0
+----------------------------------------------------------------------
+Week 12: Western Michigan vs Eastern Michigan
+Projected Winner: Western Michigan
+Projected Line: 18.0
+Actual Winner: Western Michigan
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: +11.0
+Absolute Error: 11.0
+----------------------------------------------------------------------
+Week 12: Wyoming vs New Mexico
+Projected Winner: New Mexico
+Projected Line: 3.0
+Actual Winner: New Mexico
+Actual Margin: +7.0
+Winner Prediction: CORRECT
+Prediction Error: -4.0
+Absolute Error: 4.0
 ----------------------------------------------------------------------

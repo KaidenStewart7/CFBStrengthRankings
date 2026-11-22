@@ -6,7 +6,7 @@ import os
 # Current Year
 YEAR = 2026
 # Week Number for the strength ratings
-WEEK = 11
+WEEK = 12
 # Regular or Posteason
 SEASON_TYPE = "regular"
 
